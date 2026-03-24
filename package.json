@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "kanji": "^0.19.3"
+    "kanji": "^0.19.3",
+    "kanji-data": "^1.1.0"
   }
 }

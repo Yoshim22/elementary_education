@@ -1,8 +1,8 @@
 const STORAGE_KEYS = {
-  missed: "grade4-kanji-missed",
-  correct: "grade4-kanji-correct",
-  open: "grade4-kanji-open",
-  settings: "grade4-kanji-settings",
+  missed: "grade-kanji-missed",
+  correct: "grade-kanji-correct",
+  open: "grade-kanji-open",
+  settings: "grade-kanji-settings",
 };
 
 const state = {
@@ -10,6 +10,7 @@ const state = {
   correct: new Set(loadArray(STORAGE_KEYS.correct)),
   open: new Set(loadArray(STORAGE_KEYS.open)),
   settings: {
+    grade: "4",
     term: "all",
     size: 50,
     mode: "all",
@@ -19,6 +20,7 @@ const state = {
   seed: Date.now(),
 };
 
+const gradeFilter = document.querySelector("#gradeFilter");
 const termFilter = document.querySelector("#termFilter");
 const pageSize = document.querySelector("#pageSize");
 const modeFilter = document.querySelector("#modeFilter");
@@ -32,10 +34,18 @@ const correctCount = document.querySelector("#correctCount");
 const contentNote = document.querySelector("#contentNote");
 const emptyState = document.querySelector("#emptyState");
 
+gradeFilter.value = state.settings.grade;
 termFilter.value = state.settings.term;
 pageSize.value = String(state.settings.size);
 modeFilter.value = state.settings.mode;
 sortOrder.value = state.settings.sort;
+
+gradeFilter.addEventListener("change", () => {
+  state.settings.grade = gradeFilter.value;
+  closeAllAnswers();
+  persistSettings();
+  render();
+});
 
 termFilter.addEventListener("change", () => {
   state.settings.term = termFilter.value;
@@ -105,97 +115,6 @@ function closeAllAnswers() {
   persistSet(STORAGE_KEYS.open, state.open);
 }
 
-function buildQuestions() {
-  const questions = [];
-
-  for (const item of window.GRADE4_KANJI) {
-    const term = item.order <= 67 ? 1 : item.order <= 134 ? 2 : 3;
-    const prefix = `${item.kanji}-${item.order}`;
-
-    questions.push({
-      id: `${prefix}-write`,
-      term,
-      order: item.order * 10 + 1,
-      type: "かき",
-      text: buildPrompt(item, "write"),
-      answer: item.writeAnswer,
-      meaning: item.writeMeaning || window.WORD_MEANINGS?.[item.writeAnswer] || "",
-    });
-
-    questions.push({
-      id: `${prefix}-read`,
-      term,
-      order: item.order * 10 + 2,
-      type: "よみ",
-      text: buildPrompt(item, "read"),
-      answer: item.readAnswer,
-      meaning: item.readMeaning || window.WORD_MEANINGS?.[item.readWord] || "",
-    });
-
-    if (item.okuriPrompt && item.okuriAnswer) {
-      questions.push({
-        id: `${prefix}-okuri`,
-        term,
-        order: item.order * 10 + 3,
-        type: "おくりがな",
-        text: buildPrompt(item, "okuri"),
-        answer: item.okuriAnswer,
-        meaning: item.okuriMeaning || "",
-      });
-    }
-  }
-
-  return questions;
-}
-
-function buildPrompt(item, mode) {
-  const directPrompt =
-    (mode === "write" && item.writePrompt) ||
-    (mode === "read" && item.readPrompt) ||
-    (mode === "okuri" && item.okuriPromptSentence);
-
-  if (directPrompt) {
-    return directPrompt;
-  }
-
-  const word = mode === "write" ? item.writeAnswer : mode === "read" ? item.readWord : item.okuriAnswer;
-  const display = mode === "write" ? item.writeKana : mode === "read" ? item.readWord : item.okuriPrompt;
-  const template = window.WORD_EXAMPLES?.[word];
-
-  if (template) {
-    return template.replace("{}", mode === "read" ? `「${display}」` : `（${display}）`);
-  }
-
-  const meaning = window.WORD_MEANINGS?.[word];
-  if (meaning) {
-    return buildMeaningPrompt(meaning, display, mode);
-  }
-
-  return defaultPrompt(display, mode);
-}
-
-function buildMeaningPrompt(meaning, display, mode) {
-  const cleaned = meaning.replace(/。$/, "").replace(/こと$/, "");
-
-  if (mode === "read") {
-    return `${cleaned}ものを「${display}」という。`;
-  }
-
-  if (mode === "okuri") {
-    return `${cleaned}とき、（${display}）。`;
-  }
-
-  return `${cleaned}ものを（${display}）という。`;
-}
-
-function defaultPrompt(display, mode) {
-  if (mode === "read") {
-    return `この 文の 中の「${display}」を 読む。`;
-  }
-
-  return `この 文の 中の（${display}）を たしかめる。`;
-}
-
 function seededShuffle(items, seed) {
   const list = [...items];
   let currentSeed = seed;
@@ -209,8 +128,12 @@ function seededShuffle(items, seed) {
   return list;
 }
 
+function getQuestionsForGrade() {
+  return window.GRADE_QUESTIONS?.[state.settings.grade] || [];
+}
+
 function getVisibleQuestions() {
-  const all = buildQuestions().filter((question) => {
+  const all = getQuestionsForGrade().filter((question) => {
     if (state.settings.term !== "all" && question.term !== Number(state.settings.term)) {
       return false;
     }
@@ -294,15 +217,10 @@ function renderCard(question, index) {
   const top = document.createElement("div");
   top.className = "questionTop";
 
-  const tag = document.createElement("span");
-  tag.className = "questionTag";
-  tag.textContent = `${question.term}がっき / ${question.type}`;
-
   const meta = document.createElement("span");
   meta.className = "questionMeta";
   meta.textContent = `No.${index + 1}`;
-
-  top.append(tag, meta);
+  top.append(meta);
 
   const text = document.createElement("p");
   text.className = "questionText";
@@ -343,7 +261,6 @@ function renderCard(question, index) {
     } else {
       state.missed.delete(question.id);
     }
-
     persistSet(STORAGE_KEYS.missed, state.missed);
     persistSet(STORAGE_KEYS.correct, state.correct);
     render();
@@ -364,7 +281,6 @@ function renderCard(question, index) {
     } else {
       state.correct.delete(question.id);
     }
-
     persistSet(STORAGE_KEYS.correct, state.correct);
     persistSet(STORAGE_KEYS.missed, state.missed);
     render();

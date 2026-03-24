@@ -3,21 +3,21 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>小4 かん字れんしゅう</title>
+    <title>小学生 かん字れんしゅう</title>
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
     <header class="hero">
       <div class="hero__inner">
-        <p class="eyebrow">小学4年生むけ</p>
-        <h1>小4 かん字れんしゅう</h1>
+        <p class="eyebrow">小学1年生から 6年生まで</p>
+        <h1>小学生 かん字れんしゅう</h1>
         <p class="lead">
-          文部科学省の「学年別かん字はいとうひょう」の第4学年のかん字をもとにした、
+          文部科学省の「学年別かん字はいとうひょう」をもとにした、
           かき・よみ・おくりがなの れんしゅうサイトです。
         </p>
         <p class="note">
-          学校ごとの ならう じゅんばんは かならずしも 全国で 同じでは ないため、このサイトでは 第4学年の はいとうじゅんを
-          もとに 3つの 学期に 分けた ひょうじを しています。
+          学校ごとの ならう じゅんばんは かならずしも 全国で 同じでは ないため、このサイトでは 学年ごとの かん字を
+          3つの 学期に 分けて ひょうじしています。
         </p>
       </div>
     </header>
@@ -25,6 +25,18 @@
     <main class="layout">
       <aside class="panel controls">
         <h2>せってい</h2>
+
+        <label class="field">
+          <span>がくねん</span>
+          <select id="gradeFilter">
+            <option value="1">1ねん</option>
+            <option value="2">2ねん</option>
+            <option value="3">3ねん</option>
+            <option value="4" selected>4ねん</option>
+            <option value="5">5ねん</option>
+            <option value="6">6ねん</option>
+          </select>
+        </label>
 
         <label class="field">
           <span>しゅつだいきかん</span>
@@ -106,7 +118,7 @@
       <p>きろくは この ききの なかだけに ほぞん されます。</p>
     </footer>
 
-    <script src="./data.js"></script>
+    <script src="./generated-data.js"></script>
     <script src="./app.js"></script>
   </body>
 </html>
