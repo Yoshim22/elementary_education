@@ -1532,6 +1532,85 @@ function allAnswerCharsAllowed(word, grade, target) {
   return [...word].every((char) => isKana(char) || char === target || allowed.has(char));
 }
 
+function promptAllowedKanji(grade) {
+  if (grade <= 1) return new Set();
+  return CUMULATIVE_KANJI[grade - 1];
+}
+
+const PROMPT_READING_OVERRIDES = {
+  読む: "よむ",
+  書く: "かく",
+  行く: "いく",
+  見る: "みる",
+  見上げる: "みあげる",
+  楽しむ: "たのしむ",
+  学ぶ: "まなぶ",
+  学校: "がっこう",
+  春: "はる",
+  本: "ほん",
+  下: "した",
+  中: "なか",
+  日: "ひ",
+  木: "き",
+  気: "き",
+  曜日: "ようび",
+  国々: "くにぐに",
+  青々: "あおあお",
+};
+
+const promptReadingCache = new Map();
+
+function readingForPromptChar(char) {
+  return preferredReading(char) || char;
+}
+
+function readingForPromptToken(token) {
+  if (PROMPT_READING_OVERRIDES[token]) return PROMPT_READING_OVERRIDES[token];
+  if (promptReadingCache.has(token)) return promptReadingCache.get(token);
+
+  const normalized = token.replace(/(.)々/g, "$1$1");
+  const firstKanji = [...normalized].find((char) => /[一-龯]/u.test(char));
+
+  if (firstKanji) {
+    const found = kanjiData.getWords(firstKanji)
+      .flatMap((entry) => entry.variants || [])
+      .find((variant) => variant.written === token || variant.written === normalized);
+
+    if (found?.pronounced) {
+      const value = toHiragana(found.pronounced);
+      promptReadingCache.set(token, value);
+      return value;
+    }
+  }
+
+  const fallback = [...token].map((char, index, chars) => {
+    if (char === "々") return chars[index - 1] ? readingForPromptChar(chars[index - 1]) : "";
+    if (/[一-龯]/u.test(char)) return readingForPromptChar(char);
+    return char;
+  }).join("");
+
+  promptReadingCache.set(token, fallback);
+  return fallback;
+}
+
+function normalizePromptText(grade, text) {
+  const allowed = promptAllowedKanji(grade);
+  const protectedSegments = [];
+  const masked = (text || "").replace(/「[^」]*」/g, (segment) => {
+    const token = `__PROTECTED_${protectedSegments.length}__`;
+    protectedSegments.push(segment);
+    return token;
+  });
+
+  const normalized = masked.replace(/[一-龯々]+[ぁ-ゖ]*/gu, (token) => {
+    const disallowed = [...token].some((char) => /[一-龯]/u.test(char) && !allowed.has(char));
+    if (!disallowed) return token;
+    return readingForPromptToken(token);
+  });
+
+  return normalized.replace(/__PROTECTED_(\d+)__/g, (_, index) => protectedSegments[Number(index)]);
+}
+
 function classifyFromText(text) {
   if (/(学校|校|教室|公園|駅|町|村|市|県|国|海べ|海|山|川|店|館|場|室|園)/.test(text)) return "place";
   if (/(本|書|図|絵|詩|歌|読書|図書|絵本|詩集)/.test(text)) return "book";
@@ -1847,7 +1926,7 @@ function buildGrade4Questions() {
       grade: 4,
       term,
       order: baseOrder + 1,
-      text: buildGrade4Prompt({ written: item.writeAnswer, pronounced: item.writeKana }, "write"),
+      text: normalizePromptText(4, buildGrade4Prompt({ written: item.writeAnswer, pronounced: item.writeKana }, "write")),
       answer: item.writeAnswer,
       meaning: japaneseMeanings[item.writeAnswer] || "",
     });
@@ -1857,7 +1936,7 @@ function buildGrade4Questions() {
       grade: 4,
       term,
       order: baseOrder + 2,
-      text: buildGrade4Prompt({ written: item.readWord, pronounced: item.readAnswer }, "read"),
+      text: normalizePromptText(4, buildGrade4Prompt({ written: item.readWord, pronounced: item.readAnswer }, "read")),
       answer: item.readAnswer,
       meaning: japaneseMeanings[item.readWord] || "",
     });
@@ -1868,7 +1947,7 @@ function buildGrade4Questions() {
         grade: 4,
         term,
         order: baseOrder + 3,
-        text: `${item.okuriPrompt} ように かく。`,
+        text: normalizePromptText(4, `${item.okuriPrompt} ように かく。`),
         answer: item.okuriAnswer,
         meaning: "",
       });
@@ -1913,7 +1992,7 @@ function buildQuestionsForGrade(grade) {
       grade,
       term,
       order: baseOrder + 1,
-      text: writeText,
+      text: normalizePromptText(grade, writeText),
       answer: writeWord.written,
       meaning: meaningFor(target, writeWord),
     });
@@ -1924,7 +2003,7 @@ function buildQuestionsForGrade(grade) {
         grade,
         term,
         order: baseOrder + 2,
-        text: readText,
+        text: normalizePromptText(grade, readText),
         answer: readWord.pronounced,
         meaning: meaningFor(target, readWord),
       });
@@ -1940,7 +2019,7 @@ function buildQuestionsForGrade(grade) {
         grade,
         term,
         order: baseOrder + 3,
-        text: renderPrompt(grade, okuriWord, "okuri"),
+        text: normalizePromptText(grade, renderPrompt(grade, okuriWord, "okuri")),
         answer: okuriWord.written,
         meaning: meaningFor(target, okuriWord),
       });
