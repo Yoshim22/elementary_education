@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>小4 かん字れんしゅう</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__inner">
+        <p class="eyebrow">小学4年生むけ</p>
+        <h1>小4 かん字れんしゅう</h1>
+        <p class="lead">
+          文部科学省の「学年別かん字はいとうひょう」の第4学年のかん字をもとにした、
+          かき・よみ・おくりがなの れんしゅうサイトです。
+        </p>
+        <p class="note">
+          学校ごとの ならう じゅんばんは かならずしも 全国で 同じでは ないため、このサイトでは 第4学年の はいとうじゅんを
+          もとに 3つの 学期に 分けた ひょうじを しています。
+        </p>
+      </div>
+    </header>
+
+    <main class="layout">
+      <aside class="panel controls">
+        <h2>せってい</h2>
+
+        <label class="field">
+          <span>しゅつだいきかん</span>
+          <select id="termFilter">
+            <option value="all">ぜんぶ</option>
+            <option value="1">1がっき</option>
+            <option value="2">2がっき</option>
+            <option value="3">3がっき</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>ひょうじする もんだい</span>
+          <select id="pageSize">
+            <option value="10">10もん</option>
+            <option value="20">20もん</option>
+            <option value="30">30もん</option>
+            <option value="40">40もん</option>
+            <option value="50" selected>50もん</option>
+            <option value="60">60もん</option>
+            <option value="70">70もん</option>
+            <option value="80">80もん</option>
+            <option value="90">90もん</option>
+            <option value="100">100もん</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>しゅつだいの しゅるい</span>
+          <select id="modeFilter">
+            <option value="all">すべて</option>
+            <option value="missed">まちがえた もんだいだけ</option>
+            <option value="hideCorrect">せいかいした もんだいを のぞく</option>
+            <option value="correct">せいかいした もんだいだけ</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>ならびかた</span>
+          <select id="sortOrder">
+            <option value="random">ランダム</option>
+            <option value="ordered">じゅんばん</option>
+          </select>
+        </label>
+
+        <div class="actions">
+          <button id="shuffleButton" class="button button--primary" type="button">もんだいを ならべかえる</button>
+          <button id="resetMissedButton" class="button button--ghost" type="button">チェックを けす</button>
+        </div>
+
+        <section class="stats">
+          <h3>きろく</h3>
+          <p><strong id="visibleCount">0</strong> もん ひょうじ中</p>
+          <p><strong id="missedCount">0</strong> もん まちがい</p>
+          <p><strong id="correctCount">0</strong> もん せいかい</p>
+        </section>
+      </aside>
+
+      <section class="panel content">
+        <div class="content__head">
+          <h2>もんだい</h2>
+          <p id="contentNote"></p>
+        </div>
+        <div id="questionList" class="questionList"></div>
+        <template id="emptyState">
+          <div class="empty">
+            <h3>もんだいが ありません</h3>
+            <p>しぼりこみを かえるか、まちがいを きろくしてから ためしてください。</p>
+          </div>
+        </template>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        しりょう:
+        <a href="https://www.mext.go.jp/a_menu/shotou/new-cs/youryou/syo/koku/001.htm" target="_blank" rel="noreferrer">文部科学省 学年別漢字配当表</a>
+      </p>
+      <p>きろくは この ききの なかだけに ほぞん されます。</p>
+    </footer>
+
+    <script src="./data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
