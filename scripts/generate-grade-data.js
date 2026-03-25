@@ -10,6 +10,22 @@ const grade4Source = sandbox.window.GRADE4_KANJI || [];
 const japaneseMeanings = sandbox.window.WORD_MEANINGS || {};
 const wordExamples = sandbox.window.WORD_EXAMPLES || {};
 
+function loadManualPromptGrade(grade) {
+  try {
+    const loaded = require(path.join(__dirname, "manual-prompts", `grade${grade}.js`));
+    return loaded?.entries || {};
+  } catch {
+    return {};
+  }
+}
+
+const MANUAL_PROMPTS = Object.fromEntries(
+  Array.from({ length: 6 }, (_, index) => {
+    const grade = index + 1;
+    return [grade, loadManualPromptGrade(grade)];
+  }),
+);
+
 const OFFICIAL_GRADE_STRINGS = {
   1: "一右雨円王音下火花貝学気九休玉金空月犬見五口校左三山子四糸字耳七車手十出女小上森人水正生青夕石赤千川先早草足村大男竹中虫町天田土二日入年白八百文木本名目立力林六",
   2: "引羽雲園遠何科夏家歌画回会海絵外角楽活間丸岩顔汽記帰弓牛魚京強教近兄形計元言原戸古午後語工公広交光考行高黄合谷国黒今才細作算止市矢姉思紙寺自時室社弱首秋週春書少場色色食心新親図数西声音晴切雪船線前組走多太体台地池知茶昼長鳥朝直通弟店点電刀冬当東答頭同道読内南肉馬売買麦半番父風分聞米歩母方北毎妹万明鳴毛門夜野友用曜来里理話",
@@ -1546,6 +1562,22 @@ const PROMPT_READING_OVERRIDES = {
   楽しむ: "たのしむ",
   学ぶ: "まなぶ",
   学校: "がっこう",
+  日記: "にっき",
+  記す: "しるす",
+  京都: "きょうと",
+  強い: "つよい",
+  長さ: "ながさ",
+  戸: "と",
+  答える: "こたえる",
+  話す: "はなす",
+  明るく: "あかるく",
+  星: "ほし",
+  用事: "ようじ",
+  毎日: "まいにち",
+  聞く: "きく",
+  買い物: "かいもの",
+  見る: "みる",
+  見上げる: "みあげる",
   春: "はる",
   本: "ほん",
   下: "した",
@@ -1901,6 +1933,61 @@ function meaningFor(target, word) {
   return /[A-Za-z]/.test(meaning) ? "" : meaning;
 }
 
+function manualEntryFor(grade, target, index) {
+  const entries = MANUAL_PROMPTS[grade] || {};
+  if (entries[target]) return entries[target];
+  if (!Number.isInteger(index)) return null;
+
+  const prefix = `g${grade}-${target}-${index + 1}-`;
+  const grouped = {};
+
+  for (const kind of ["write", "read", "okuri"]) {
+    const candidate = entries[`${prefix}${kind}`];
+    if (candidate?.[kind]) grouped[kind] = candidate[kind];
+  }
+
+  return Object.keys(grouped).length ? grouped : null;
+}
+
+function manualWord(entry, key) {
+  if (!entry?.[key]) return null;
+  const word = entry[key];
+  return {
+    written: word.written,
+    pronounced: word.pronounced,
+    category: word.category,
+    gloss: "",
+    example: word.example,
+  };
+}
+
+function ensureExamplePlaceholder(example, word, mode) {
+  if (!example) return "{}";
+  if (example.includes("{}")) return example;
+
+  const candidates = [];
+  if (mode === "read") {
+    candidates.push(word.written);
+  } else {
+    candidates.push(word.written, word.pronounced);
+  }
+
+  for (const candidate of candidates.filter(Boolean)) {
+    if (example.includes(candidate)) {
+      return example.replace(candidate, "{}");
+    }
+  }
+
+  return `{} ${example}`;
+}
+
+function manualPromptText(grade, word, mode) {
+  if (!word?.example) return null;
+  const display = mode === "read" ? `「${word.written}」` : `（${word.pronounced}）`;
+  const example = ensureExamplePlaceholder(word.example, word, mode);
+  return normalizePromptText(grade, example.replace("{}", display));
+}
+
 function shouldIncludeReadQuestion(grade, readWord) {
   if (!readWord) return false;
   if (grade === 4) return true;
@@ -1920,15 +2007,20 @@ function buildGrade4Questions() {
   grade4Source.forEach((item, index) => {
     const term = termFor(index, grade4Source.length);
     const baseOrder = (index + 1) * 10;
+    const manual = manualEntryFor(4, item.kanji, index);
+    const manualWrite = manualWord(manual, "write");
+    const manualRead = manualWord(manual, "read");
+    const manualOkuri = manualWord(manual, "okuri");
 
     questions.push({
       id: `g4-${item.kanji}-${index + 1}-write`,
       grade: 4,
       term,
       order: baseOrder + 1,
-      text: normalizePromptText(4, buildGrade4Prompt({ written: item.writeAnswer, pronounced: item.writeKana }, "write")),
-      answer: item.writeAnswer,
-      meaning: japaneseMeanings[item.writeAnswer] || "",
+      text: manualPromptText(4, manualWrite, "write")
+        || normalizePromptText(4, buildGrade4Prompt({ written: item.writeAnswer, pronounced: item.writeKana }, "write")),
+      answer: manualWrite?.written || item.writeAnswer,
+      meaning: meaningFor(item.kanji, manualWrite || { written: item.writeAnswer }),
     });
 
     questions.push({
@@ -1936,20 +2028,22 @@ function buildGrade4Questions() {
       grade: 4,
       term,
       order: baseOrder + 2,
-      text: normalizePromptText(4, buildGrade4Prompt({ written: item.readWord, pronounced: item.readAnswer }, "read")),
-      answer: item.readAnswer,
-      meaning: japaneseMeanings[item.readWord] || "",
+      text: manualPromptText(4, manualRead, "read")
+        || normalizePromptText(4, buildGrade4Prompt({ written: item.readWord, pronounced: item.readAnswer }, "read")),
+      answer: manualRead?.pronounced || item.readAnswer,
+      meaning: meaningFor(item.kanji, manualRead || { written: item.readWord }),
     });
 
-    if (item.okuriAnswer) {
+    if (manualOkuri || item.okuriAnswer) {
       questions.push({
         id: `g4-${item.kanji}-${index + 1}-okuri`,
         grade: 4,
         term,
         order: baseOrder + 3,
-        text: normalizePromptText(4, `${item.okuriPrompt} ように かく。`),
-        answer: item.okuriAnswer,
-        meaning: "",
+        text: manualPromptText(4, manualOkuri, "okuri")
+          || normalizePromptText(4, `（${item.okuriPrompt}） ように かく。`),
+        answer: manualOkuri?.written || item.okuriAnswer,
+        meaning: meaningFor(item.kanji, manualOkuri),
       });
     }
   });
@@ -1964,12 +2058,16 @@ function buildQuestionsForGrade(grade) {
   chars.forEach((target, index) => {
     const term = termFor(index, chars.length);
     const baseOrder = (index + 1) * 10;
+    const manual = manualEntryFor(grade, target, index);
+    const manualWrite = manualWord(manual, "write");
+    const manualRead = manualWord(manual, "read");
+    const manualOkuri = manualWord(manual, "okuri");
 
-    let writeWord = chooseWord(target, grade, "write") || fallbackWriteWord(target);
-    let readWord = chooseWord(target, grade, "read") || writeWord || fallbackReadWord(target);
-    const okuriWord = chooseOkuriWord(target);
+    let writeWord = manualWrite || chooseWord(target, grade, "write") || fallbackWriteWord(target);
+    let readWord = manualRead || chooseWord(target, grade, "read") || writeWord || fallbackReadWord(target);
+    const okuriWord = manualOkuri || chooseOkuriWord(target);
 
-    let writeText = renderPrompt(grade, writeWord, "write");
+    let writeText = manualPromptText(grade, writeWord, "write") || renderPrompt(grade, writeWord, "write");
     if (!writeText) {
       writeText = buildDefinitionPrompt(target, writeWord.pronounced, "write");
     }
@@ -1978,7 +2076,7 @@ function buildQuestionsForGrade(grade) {
       writeText = buildDefinitionPrompt(target, writeWord.pronounced, "write");
     }
 
-    let readText = renderPrompt(grade, readWord, "read");
+    let readText = manualPromptText(grade, readWord, "read") || renderPrompt(grade, readWord, "read");
     if (!readText) {
       readText = buildDefinitionPrompt(target, readWord.pronounced, "read");
     }
@@ -2019,7 +2117,8 @@ function buildQuestionsForGrade(grade) {
         grade,
         term,
         order: baseOrder + 3,
-        text: normalizePromptText(grade, renderPrompt(grade, okuriWord, "okuri")),
+        text: manualPromptText(grade, okuriWord, "okuri")
+          || normalizePromptText(grade, renderPrompt(grade, okuriWord, "okuri")),
         answer: okuriWord.written,
         meaning: meaningFor(target, okuriWord),
       });

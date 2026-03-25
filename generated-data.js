@@ -14,7 +14,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 1,
       "order": 21,
-      "text": "みぎの （みぎ） を みる。",
+      "text": "（みぎ） の てを あげる。",
       "answer": "右",
       "meaning": ""
     },
@@ -23,7 +23,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 1,
       "order": 31,
-      "text": "そらから （あめ）が ふる。",
+      "text": "（あめ） が ふる。",
       "answer": "雨",
       "meaning": ""
     },
@@ -32,7 +32,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 1,
       "order": 41,
-      "text": "（まるい）を かく。",
+      "text": "100（えん） を もって いく。",
       "answer": "円",
       "meaning": ""
     },
@@ -41,8 +41,8 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 1,
       "order": 51,
-      "text": "（おう）の はなしを よむ。",
-      "answer": "王",
+      "text": "（おうさま） の はなしを よむ。",
+      "answer": "王さま",
       "meaning": ""
     },
     {
@@ -68,8 +68,8 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 1,
       "order": 81,
-      "text": "（はなび） が みえる。",
-      "answer": "花火",
+      "text": "（ひ） を けす。",
+      "answer": "火",
       "meaning": ""
     },
     {
@@ -77,8 +77,8 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 1,
       "order": 91,
-      "text": "しゅんに （はなみ） を たのしむ。",
-      "answer": "花見",
+      "text": "（はな） が さく。",
+      "answer": "花",
       "meaning": ""
     },
     {
@@ -86,7 +86,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 1,
       "order": 101,
-      "text": "（かい） を ひろう。",
+      "text": "うみで （かい） を ひろう。",
       "answer": "貝",
       "meaning": ""
     },
@@ -113,7 +113,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 1,
       "order": 121,
-      "text": "きょうも （げんき） に あそぶ。",
+      "text": "（げんき） に あいさつする。",
       "answer": "元気",
       "meaning": ""
     },
@@ -122,7 +122,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 1,
       "order": 131,
-      "text": "はなを （ここのつ） かざる。",
+      "text": "どんぐりが （ここのつ） ある。",
       "answer": "九つ",
       "meaning": ""
     },
@@ -131,7 +131,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 1,
       "order": 141,
-      "text": "きょうは （やすみ） だ。",
+      "text": "あしたは （やすみ） だ。",
       "answer": "休み",
       "meaning": ""
     },
@@ -158,8 +158,8 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 1,
       "order": 161,
-      "text": "きれいな （きんいろ） の かみを おる。",
-      "answer": "金いろ",
+      "text": "（かね） を たいせつに しまう。",
+      "answer": "金",
       "meaning": ""
     },
     {
@@ -176,8 +176,8 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 1,
       "order": 181,
-      "text": "（げつようび） に かえる。",
-      "answer": "月よう日",
+      "text": "よるの そらに （つき） が でる。",
+      "answer": "月",
       "meaning": ""
     },
     {
@@ -185,7 +185,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 1,
       "order": 191,
-      "text": "（いぬ） が なく。",
+      "text": "（いぬ） が はしる。",
       "answer": "犬",
       "meaning": ""
     },
@@ -194,16 +194,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 1,
       "order": 201,
-      "text": "しゅんに （はなみ） を たのしむ。",
-      "answer": "花見",
-      "meaning": ""
-    },
-    {
-      "id": "g1-見-20-okuri",
-      "grade": 1,
-      "term": 1,
-      "order": 203,
-      "text": "そらを （みる）。",
+      "text": "えほんを （みる）。",
       "answer": "見る",
       "meaning": ""
     },
@@ -212,7 +203,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 1,
       "order": 211,
-      "text": "ほしを （いつつ） かぞえる。",
+      "text": "みかんを （いつつ） ならべる。",
       "answer": "五つ",
       "meaning": ""
     },
@@ -230,7 +221,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 1,
       "order": 231,
-      "text": "（がっこう） へ いく。",
+      "text": "（がっこう） で べんきょうする。",
       "answer": "学校",
       "meaning": ""
     },
@@ -239,7 +230,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 1,
       "order": 241,
-      "text": "ひだりの （ひだり） を みる。",
+      "text": "（ひだり） に まがる。",
       "answer": "左",
       "meaning": ""
     },
@@ -248,7 +239,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 1,
       "order": 251,
-      "text": "みかんが （みっつ） ならぶ。",
+      "text": "はこが （みっつ） ある。",
       "answer": "三つ",
       "meaning": ""
     },
@@ -257,7 +248,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 1,
       "order": 261,
-      "text": "（やま）に のぼる。",
+      "text": "（やま） に のぼる。",
       "answer": "山",
       "meaning": ""
     },
@@ -266,7 +257,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 1,
       "order": 271,
-      "text": "（こども） が ならぶ。",
+      "text": "（こども） が あそぶ。",
       "answer": "子ども",
       "meaning": ""
     },
@@ -275,7 +266,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 2,
       "order": 281,
-      "text": "はこが （よっつ） ある。",
+      "text": "おさらに （よっつ） のせる。",
       "answer": "四つ",
       "meaning": ""
     },
@@ -284,7 +275,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 2,
       "order": 291,
-      "text": "（いと） を つなげる。",
+      "text": "（いと） を むすぶ。",
       "answer": "糸",
       "meaning": ""
     },
@@ -311,7 +302,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 2,
       "order": 321,
-      "text": "ボールを （ななつ） あつめる。",
+      "text": "ほしを （ななつ） かぞえる。",
       "answer": "七つ",
       "meaning": ""
     },
@@ -338,7 +329,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 2,
       "order": 351,
-      "text": "どんぐりを （じゅっこ） ひろう。",
+      "text": "あめを （じゅっこ） もらう。",
       "answer": "十こ",
       "meaning": ""
     },
@@ -356,8 +347,8 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 2,
       "order": 371,
-      "text": "（おんな） の こが わらう。",
-      "answer": "女",
+      "text": "（おんなのこ） が わらう。",
+      "answer": "女の子",
       "meaning": ""
     },
     {
@@ -365,7 +356,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 2,
       "order": 381,
-      "text": "（ちいさい） こえで はなす。",
+      "text": "（ちいさい） いぬが いる。",
       "answer": "小さい",
       "meaning": ""
     },
@@ -374,7 +365,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 2,
       "order": 391,
-      "text": "つくえの （うえ） に もとを おく。",
+      "text": "たなの （うえ） に おく。",
       "answer": "上",
       "meaning": ""
     },
@@ -383,7 +374,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 2,
       "order": 401,
-      "text": "（もり） を あるく。",
+      "text": "（もり） の なかを あるく。",
       "answer": "森",
       "meaning": ""
     },
@@ -392,7 +383,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 2,
       "order": 411,
-      "text": "（じん）が あるく。",
+      "text": "（ひと） が あつまる。",
       "answer": "人",
       "meaning": ""
     },
@@ -401,8 +392,8 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 2,
       "order": 421,
-      "text": "（みずたまり） が みえる。",
-      "answer": "水たまり",
+      "text": "（みず） を のむ。",
+      "answer": "水",
       "meaning": ""
     },
     {
@@ -419,8 +410,8 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 2,
       "order": 441,
-      "text": "いきものが （いきる）。",
-      "answer": "生きる",
+      "text": "めが （はえる）。",
+      "answer": "生える",
       "meaning": ""
     },
     {
@@ -428,7 +419,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 2,
       "order": 451,
-      "text": "（あおい） そらを みあげる。",
+      "text": "そらが （あおい）。",
       "answer": "青い",
       "meaning": ""
     },
@@ -437,8 +428,8 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 2,
       "order": 461,
-      "text": "（ゆうがた） に かえる。",
-      "answer": "夕がた",
+      "text": "（ゆうがた） に いえへ かえる。",
+      "answer": "夕方",
       "meaning": ""
     },
     {
@@ -455,7 +446,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 2,
       "order": 481,
-      "text": "（あかい） はなが さく。",
+      "text": "（あかい） はなが さいた。",
       "answer": "赤い",
       "meaning": ""
     },
@@ -473,7 +464,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 2,
       "order": 501,
-      "text": "（かわ）で あそぶ。",
+      "text": "（かわ） で さかなを みる。",
       "answer": "川",
       "meaning": ""
     },
@@ -482,7 +473,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 2,
       "order": 511,
-      "text": "（さき） に あいさつを する。",
+      "text": "れつの （さき） に ならぶ。",
       "answer": "先",
       "meaning": ""
     },
@@ -491,7 +482,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 2,
       "order": 521,
-      "text": "（はやい） じかんに がくこうへ いく。",
+      "text": "（はやい） じかんに おきる。",
       "answer": "早い",
       "meaning": ""
     },
@@ -518,7 +509,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 3,
       "order": 551,
-      "text": "（むら）に すむ。",
+      "text": "（むら） に すむ。",
       "answer": "村",
       "meaning": ""
     },
@@ -527,7 +518,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 3,
       "order": 561,
-      "text": "（おおきい） きの したで あそぶ。",
+      "text": "（おおきい） こえで よむ。",
       "answer": "大きい",
       "meaning": ""
     },
@@ -536,8 +527,8 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 3,
       "order": 571,
-      "text": "（おっこ） の こが はしる。",
-      "answer": "男",
+      "text": "（おとこのこ） が はしる。",
+      "answer": "男の子",
       "meaning": ""
     },
     {
@@ -545,7 +536,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 3,
       "order": 581,
-      "text": "（たけ） で できた かごを みる。",
+      "text": "（たけ） で できた かごを もつ。",
       "answer": "竹",
       "meaning": ""
     },
@@ -563,7 +554,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 3,
       "order": 601,
-      "text": "（むし） が みえる。",
+      "text": "はっぱに （むし） が いる。",
       "answer": "虫",
       "meaning": ""
     },
@@ -581,8 +572,8 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 3,
       "order": 621,
-      "text": "（てん） きの よい ひだ。",
-      "answer": "天",
+      "text": "（てんき） の よい ひだ。",
+      "answer": "天気",
       "meaning": ""
     },
     {
@@ -590,7 +581,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 3,
       "order": 631,
-      "text": "（た） んぼに みずが はいる。",
+      "text": "（た） に みずが はいる。",
       "answer": "田",
       "meaning": ""
     },
@@ -599,8 +590,8 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 3,
       "order": 641,
-      "text": "（つちやま） が みえる。",
-      "answer": "土山",
+      "text": "（つち） で だんごを つくる。",
+      "answer": "土",
       "meaning": ""
     },
     {
@@ -608,7 +599,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 3,
       "order": 651,
-      "text": "あめを （ふたつ） もらう。",
+      "text": "りんごを （ふたつ） もらう。",
       "answer": "二つ",
       "meaning": ""
     },
@@ -617,8 +608,8 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 3,
       "order": 661,
-      "text": "（にほん） で あそぶ。",
-      "answer": "日本",
+      "text": "きょうは よい （ひ） だ。",
+      "answer": "日",
       "meaning": ""
     },
     {
@@ -635,7 +626,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 3,
       "order": 681,
-      "text": "ことしは ある〇にじゅうろく（とし） だ。",
+      "text": "ことしは よい （とし） に したい。",
       "answer": "年",
       "meaning": ""
     },
@@ -644,7 +635,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 3,
       "order": 691,
-      "text": "（しろい） くもが うかぶ。",
+      "text": "ゆきは （しろい）。",
       "answer": "白い",
       "meaning": ""
     },
@@ -653,7 +644,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 3,
       "order": 701,
-      "text": "おさらが （やっつ） ならぶ。",
+      "text": "おさらを （やっつ） ならべる。",
       "answer": "八つ",
       "meaning": ""
     },
@@ -671,7 +662,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 3,
       "order": 721,
-      "text": "（ぶん） を よむ。",
+      "text": "みじかい （ぶん） を よむ。",
       "answer": "文",
       "meaning": ""
     },
@@ -680,8 +671,8 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 3,
       "order": 731,
-      "text": "（こかげ） が みえる。",
-      "answer": "木かげ",
+      "text": "（き） に のぼる。",
+      "answer": "木",
       "meaning": ""
     },
     {
@@ -689,8 +680,8 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 3,
       "order": 741,
-      "text": "（ほんだな） を ひらく。",
-      "answer": "本だな",
+      "text": "（ほん） を よむ。",
+      "answer": "本",
       "meaning": ""
     },
     {
@@ -707,7 +698,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 3,
       "order": 761,
-      "text": "（め） で よく みる。",
+      "text": "（め） を とじる。",
       "answer": "目",
       "meaning": ""
     },
@@ -716,7 +707,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 3,
       "order": 771,
-      "text": "まっすぐ （たつ）。",
+      "text": "いすから （たつ）。",
       "answer": "立つ",
       "meaning": ""
     },
@@ -725,7 +716,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 3,
       "order": 781,
-      "text": "（りょく） を あわせる。",
+      "text": "（ちから） を あわせる。",
       "answer": "力",
       "meaning": ""
     },
@@ -734,7 +725,7 @@ window.GRADE_QUESTIONS = {
       "grade": 1,
       "term": 3,
       "order": 791,
-      "text": "（はやし） の なかを あるく。",
+      "text": "（はやし） を ぬける。",
       "answer": "林",
       "meaning": ""
     },
@@ -853,7 +844,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 1,
       "order": 121,
-      "text": "うんどうじょうを 一（かい） はしる。",
+      "text": "うんどうじょうを 一（かい） まわる。",
       "answer": "回",
       "meaning": ""
     },
@@ -907,7 +898,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 1,
       "order": 181,
-      "text": "（たのしい） じゅぎょうだった。",
+      "text": "じゅぎょうが （たのしい）。",
       "answer": "楽しい",
       "meaning": ""
     },
@@ -943,7 +934,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 1,
       "order": 221,
-      "text": "（いわ） の ちかいくで 水が ながれる。",
+      "text": "（いわ）の ちかくで 水が ながれる。",
       "answer": "岩",
       "meaning": ""
     },
@@ -970,8 +961,8 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 1,
       "order": 251,
-      "text": "おおきいじな ことを （き） に のこす。",
-      "answer": "記",
+      "text": "にっきに できごとを （しるす）。",
+      "answer": "記す",
       "meaning": ""
     },
     {
@@ -1015,7 +1006,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 1,
       "order": 301,
-      "text": "しゅう学りょこうで （きょう） とへ いく。",
+      "text": "しゅう学りょこうで （きょう）とへ いく。",
       "answer": "京",
       "meaning": ""
     },
@@ -1024,7 +1015,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 1,
       "order": 311,
-      "text": "（きょう）力で おす。",
+      "text": "（つよい）い 力で おす。",
       "answer": "強",
       "meaning": ""
     },
@@ -1033,7 +1024,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 1,
       "order": 321,
-      "text": "ともだちに やりほうを （おしえる）。",
+      "text": "ともだちに やりかたを （おしえる）。",
       "answer": "教える",
       "meaning": ""
     },
@@ -1096,7 +1087,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 1,
       "order": 391,
-      "text": "草（はら） を はしる。",
+      "text": "草（そうげん）を はしる。",
       "answer": "原",
       "meaning": ""
     },
@@ -1105,7 +1096,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 1,
       "order": 401,
-      "text": "（こ） へ いく。",
+      "text": "（と）を あける。",
       "answer": "戸",
       "meaning": ""
     },
@@ -1114,7 +1105,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 1,
       "order": 411,
-      "text": "（こ） い どうぐを たいせつに のこす。",
+      "text": "（ふるい）い どうぐを たいせつに する。",
       "answer": "古",
       "meaning": ""
     },
@@ -1123,7 +1114,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 1,
       "order": 421,
-      "text": "（ご） ごはんを たべる。",
+      "text": "（ごぜん）まえに ごはんを たべる。",
       "answer": "午",
       "meaning": ""
     },
@@ -1132,7 +1123,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 1,
       "order": 431,
-      "text": "（のち） で ならぶ。",
+      "text": "（あと）で ならぶ。",
       "answer": "後",
       "meaning": ""
     },
@@ -1141,7 +1132,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 1,
       "order": 441,
-      "text": "あたらしい （ことば） を おぼえる。",
+      "text": "くに（ご）を べんきょうする。",
       "answer": "語",
       "meaning": ""
     },
@@ -1177,7 +1168,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 1,
       "order": 481,
-      "text": "ともだちと （こう） りゅうする。",
+      "text": "（こう）さてんを わたる。",
       "answer": "交",
       "meaning": ""
     },
@@ -1213,7 +1204,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 1,
       "order": 521,
-      "text": "（たかい） 山が 見える。",
+      "text": "山が （たかい）。",
       "answer": "高い",
       "meaning": ""
     },
@@ -1240,7 +1231,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 2,
       "order": 551,
-      "text": "山の あいだに （こく） が ある。",
+      "text": "山の あいだに （たに）が ある。",
       "answer": "谷",
       "meaning": ""
     },
@@ -1276,7 +1267,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 2,
       "order": 591,
-      "text": "うたの （さい） のうを のばす。",
+      "text": "うたの （さいのう）のうを のばす。",
       "answer": "才",
       "meaning": ""
     },
@@ -1321,7 +1312,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 2,
       "order": 641,
-      "text": "学校の あとで （しない） へ いく。",
+      "text": "（しない）へ でかける。",
       "answer": "市内",
       "meaning": ""
     },
@@ -1330,7 +1321,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 2,
       "order": 651,
-      "text": "（し） が とぶ ようすを えがく。",
+      "text": "（や）が とぶ。",
       "answer": "矢",
       "meaning": ""
     },
@@ -1438,7 +1429,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 2,
       "order": 771,
-      "text": "らい（しゅう） に えんそくが ある。",
+      "text": "らい（しゅう）に えんそくが ある。",
       "answer": "週",
       "meaning": ""
     },
@@ -1456,7 +1447,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 2,
       "order": 791,
-      "text": "としょしつで （としょ） を さがす。",
+      "text": "（としょ）きょうしつで 本を さがす。",
       "answer": "図書",
       "meaning": ""
     },
@@ -1465,7 +1456,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 2,
       "order": 793,
-      "text": "みんなで （かく）。",
+      "text": "ノートに 字を （かく）。",
       "answer": "書く",
       "meaning": ""
     },
@@ -1492,7 +1483,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 2,
       "order": 821,
-      "text": "（おうしょく） 花が さく。",
+      "text": "（きいろ）い 花が さく。",
       "answer": "黄色",
       "meaning": ""
     },
@@ -1501,7 +1492,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 2,
       "order": 831,
-      "text": "（おうしょく） 花が さく。",
+      "text": "（きいろ）い 花が さく。",
       "answer": "黄色",
       "meaning": ""
     },
@@ -1510,7 +1501,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 2,
       "order": 841,
-      "text": "いえぞくで （しょくじ） を する。",
+      "text": "いえぞくで （しょくじ）を する。",
       "answer": "食事",
       "meaning": ""
     },
@@ -1519,7 +1510,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 2,
       "order": 843,
-      "text": "みんなで （たべる）。",
+      "text": "みんなで ごはんを （たべる）。",
       "answer": "食べる",
       "meaning": ""
     },
@@ -1555,7 +1546,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 2,
       "order": 881,
-      "text": "としょしつで （ずしょ） を さがす。",
+      "text": "（としょ）きょうしつで 本を さがす。",
       "answer": "図書",
       "meaning": ""
     },
@@ -1564,7 +1555,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 2,
       "order": 891,
-      "text": "せいの （かず） を かぞえる。",
+      "text": "人（かず）を かぞえる。",
       "answer": "数",
       "meaning": ""
     },
@@ -1600,7 +1591,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 2,
       "order": 931,
-      "text": "めいひは （はれる） かな。",
+      "text": "めいひは （はれる）かな。",
       "answer": "晴れる",
       "meaning": ""
     },
@@ -1654,7 +1645,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 2,
       "order": 991,
-      "text": "三人 （そ） を つくる。",
+      "text": "三人（くみ）を つくる。",
       "answer": "組",
       "meaning": ""
     },
@@ -1681,7 +1672,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 2,
       "order": 1021,
-      "text": "空が （ふとい）。",
+      "text": "（ふとい） えんぴつを つかう。",
       "answer": "太い",
       "meaning": ""
     },
@@ -1708,7 +1699,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 2,
       "order": 1051,
-      "text": "（ちず） を 見て じょうところを たしかめる。",
+      "text": "（ちず）を 見て ばしょを たしかめる。",
       "answer": "地図",
       "meaning": ""
     },
@@ -1726,7 +1717,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 2,
       "order": 1071,
-      "text": "しらない ことを （しる）。",
+      "text": "あたらしい ことを （しる）る。",
       "answer": "知",
       "meaning": ""
     },
@@ -1744,7 +1735,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 3,
       "order": 1091,
-      "text": "（ひる） ごはんを たべる。",
+      "text": "（ひる）ごはんを たべる。",
       "answer": "昼",
       "meaning": ""
     },
@@ -1789,7 +1780,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 3,
       "order": 1141,
-      "text": "この みちを （とおる）。",
+      "text": "この みちを （とおる）る。",
       "answer": "通",
       "meaning": ""
     },
@@ -1807,7 +1798,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 3,
       "order": 1161,
-      "text": "（みせ） で かいぶつを する。",
+      "text": "（みせ）で パンを かう。",
       "answer": "店",
       "meaning": ""
     },
@@ -1861,7 +1852,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 3,
       "order": 1221,
-      "text": "（ひがし） の 空が めいるく なる。",
+      "text": "（ひがし）の 空が あかるく なる。",
       "answer": "東",
       "meaning": ""
     },
@@ -1870,8 +1861,8 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 3,
       "order": 1231,
-      "text": "先生の しつもんに （こたえ）。",
-      "answer": "答",
+      "text": "先生の しつもんに （こたえる）。",
+      "answer": "答える",
       "meaning": ""
     },
     {
@@ -1879,7 +1870,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 3,
       "order": 1241,
-      "text": "（あたま） を 見つける。",
+      "text": "（あたま）を さげる。",
       "answer": "頭",
       "meaning": ""
     },
@@ -1888,7 +1879,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 3,
       "order": 1251,
-      "text": "（おなじ） じ いろを えらぶ。",
+      "text": "（おなじ）じ しょくを えらぶ。",
       "answer": "同",
       "meaning": ""
     },
@@ -1906,7 +1897,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 3,
       "order": 1271,
-      "text": "しずかな へやで （どくしょ） を する。",
+      "text": "しずかな へやで （どくしょ）を する。",
       "answer": "読書",
       "meaning": ""
     },
@@ -1915,7 +1906,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 3,
       "order": 1273,
-      "text": "みんなで （よむ）。",
+      "text": "本を （よむ）。",
       "answer": "読む",
       "meaning": ""
     },
@@ -1924,7 +1915,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 3,
       "order": 1281,
-      "text": "はこの （うち） を 見る。",
+      "text": "（うち） そうの 中を見る。",
       "answer": "内",
       "meaning": ""
     },
@@ -1933,7 +1924,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 3,
       "order": 1291,
-      "text": "（みなみ） の まどを あける。",
+      "text": "（みなみ）の まどを あける。",
       "answer": "南",
       "meaning": ""
     },
@@ -1960,7 +1951,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 3,
       "order": 1321,
-      "text": "てんで パンを （うる）。",
+      "text": "てんで パンを （うる）る。",
       "answer": "売",
       "meaning": ""
     },
@@ -1978,7 +1969,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 3,
       "order": 1341,
-      "text": "（むぎ） ちゃを のむ。",
+      "text": "（むぎ）ちゃを のむ。",
       "answer": "麦",
       "meaning": ""
     },
@@ -1996,7 +1987,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 3,
       "order": 1361,
-      "text": "つぎの （ばん） が きたる。",
+      "text": "じゅん（ばん）を まもる。",
       "answer": "番",
       "meaning": ""
     },
@@ -2032,7 +2023,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 3,
       "order": 1401,
-      "text": "先生の はなすを （きく）。",
+      "text": "先生の はなしを （きく）く。",
       "answer": "聞",
       "meaning": ""
     },
@@ -2086,7 +2077,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 3,
       "order": 1461,
-      "text": "（まいにち） おとどくする。",
+      "text": "（まいにち） わすれずに する。",
       "answer": "毎日",
       "meaning": ""
     },
@@ -2149,7 +2140,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 3,
       "order": 1531,
-      "text": "（よる） に せいを 見る。",
+      "text": "（よる）に ほしを みる。",
       "answer": "夜",
       "meaning": ""
     },
@@ -2158,7 +2149,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 3,
       "order": 1541,
-      "text": "（の） はらを はしる。",
+      "text": "（の）はらを はしる。",
       "answer": "野",
       "meaning": ""
     },
@@ -2176,7 +2167,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 3,
       "order": 1561,
-      "text": "おおきいせつな （ようじ） を すませる。",
+      "text": "（ようじ）を すませる。",
       "answer": "用事",
       "meaning": ""
     },
@@ -2185,7 +2176,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 3,
       "order": 1571,
-      "text": "こんどの （どようび） に あそぶ。",
+      "text": "こんどの （どようび）に あそぶ。",
       "answer": "土曜日",
       "meaning": ""
     },
@@ -2203,7 +2194,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 3,
       "order": 1591,
-      "text": "ふる（さと） に かえる。",
+      "text": "ふる（さと）に かえる。",
       "answer": "里",
       "meaning": ""
     },
@@ -2221,7 +2212,7 @@ window.GRADE_QUESTIONS = {
       "grade": 2,
       "term": 3,
       "order": 1611,
-      "text": "ともだちと （はなす） す。",
+      "text": "ともだちと （はなす）す。",
       "answer": "話",
       "meaning": ""
     }
@@ -2232,8 +2223,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 11,
-      "text": "雨の あとの （あくろ） に 気をつける。",
-      "answer": "悪路",
+      "text": "あめの あとの （あくろ） に きをつける。",
+      "answer": "あくろ",
       "meaning": ""
     },
     {
@@ -2241,8 +2232,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 21,
-      "text": "あんぜんな くらしの ために （あんせん） を まもる。",
-      "answer": "安全",
+      "text": "（あんしん） して ねむる。",
+      "answer": "あんしん",
       "meaning": ""
     },
     {
@@ -2250,8 +2241,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 31,
-      "text": "（あんや） に 月が ひかる。",
-      "answer": "暗夜",
+      "text": "（くらやみ） の なかを あるく。",
+      "answer": "くらやみ",
       "meaning": ""
     },
     {
@@ -2259,8 +2250,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 41,
-      "text": "（いしゃ） に みてもらう。",
-      "answer": "医者",
+      "text": "（いりょう） の しごとを 学ぶ。",
+      "answer": "いりょう",
       "meaning": ""
     },
     {
@@ -2268,8 +2259,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 51,
-      "text": "がっきゅう（いいん） を みんなで きめる。",
-      "answer": "委員",
+      "text": "そうじ （いいん） の しごとを する。",
+      "answer": "いいん",
       "meaning": ""
     },
     {
@@ -2277,8 +2268,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 61,
-      "text": "グループで （いけん） を 出し合う。",
-      "answer": "意見",
+      "text": "じぶんの （いけん） を いう。",
+      "answer": "いけん",
       "meaning": ""
     },
     {
@@ -2286,8 +2277,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 71,
-      "text": "子どもの （はついく） を 見まもる。",
-      "answer": "発育",
+      "text": "はなの （そだてかた） を しらべる。",
+      "answer": "そだてかた",
       "meaning": ""
     },
     {
@@ -2295,8 +2286,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 81,
-      "text": "（かかりいん） が みんなに 合図する。",
-      "answer": "係員",
+      "text": "クラスの （いいん） を えらぶ。",
+      "answer": "いいん",
       "meaning": ""
     },
     {
@@ -2304,8 +2295,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 91,
-      "text": "けがをしたので （びょういん） へ 行く。",
-      "answer": "病院",
+      "text": "けがをしたので （びょういん） へ いく。",
+      "answer": "びょういん",
       "meaning": ""
     },
     {
@@ -2313,8 +2304,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 101,
-      "text": "うんどうの あとで （のみもの） を のむ。",
-      "answer": "飲み物",
+      "text": "（のみもの） を じゅんびする。",
+      "answer": "のみもの",
       "meaning": ""
     },
     {
@@ -2322,8 +2313,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 111,
-      "text": "休み時間に こうていで （うんどう） する。",
-      "answer": "運動",
+      "text": "あんぜんに （うんてん） する。",
+      "answer": "うんてん",
       "meaning": ""
     },
     {
@@ -2331,8 +2322,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 121,
-      "text": "夏の たいいくで （すいえい） を する。",
-      "answer": "水泳",
+      "text": "（すいえい） を れんしゅうする。",
+      "answer": "すいえい",
       "meaning": ""
     },
     {
@@ -2340,8 +2331,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 131,
-      "text": "（えきまえ） で 友だちと まち合わせる。",
-      "answer": "駅前",
+      "text": "（えきまえ） で まちあわせする。",
+      "answer": "えきまえ",
       "meaning": ""
     },
     {
@@ -2350,7 +2341,7 @@ window.GRADE_QUESTIONS = {
       "term": 1,
       "order": 141,
       "text": "ちずの （ちゅうおう） に しるしを つける。",
-      "answer": "中央",
+      "answer": "ちゅうおう",
       "meaning": ""
     },
     {
@@ -2358,8 +2349,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 151,
-      "text": "（おうだんほどう） を わたる ときは 右左を 見る。",
-      "answer": "横断歩道",
+      "text": "（おうだんほどう） を わたる。",
+      "answer": "おうだんほどう",
       "meaning": ""
     },
     {
@@ -2367,6 +2358,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 161,
+      "text": "（ほんや） で 本を さがす。",
+      "answer": "ほんや",
+      "meaning": ""
+    },
+    {
+      "id": "g3-屋-16-okuri",
+      "grade": 3,
+      "term": 1,
+      "order": 163,
       "text": "（ほんや） で 本を さがす。",
       "answer": "本屋",
       "meaning": ""
@@ -2376,6 +2376,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 171,
+      "text": "みずの （おんど） を はかる。",
+      "answer": "おんど",
+      "meaning": ""
+    },
+    {
+      "id": "g3-温-17-okuri",
+      "grade": 3,
+      "term": 1,
+      "order": 173,
       "text": "水の （おんど） を はかる。",
       "answer": "温度",
       "meaning": ""
@@ -2386,7 +2395,7 @@ window.GRADE_QUESTIONS = {
       "term": 1,
       "order": 181,
       "text": "しょくぶつの （へんか） を かんさつする。",
-      "answer": "変化",
+      "answer": "へんか",
       "meaning": ""
     },
     {
@@ -2394,8 +2403,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 191,
-      "text": "（にもつ） を もって いどうする。",
-      "answer": "荷物",
+      "text": "（にもつ） を はこぶ。",
+      "answer": "にもつ",
       "meaning": ""
     },
     {
@@ -2403,8 +2412,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 201,
-      "text": "（せかい） の 国々を しゃかいで 学ぶ。",
-      "answer": "世界",
+      "text": "（せかい） の くにぐにを 学ぶ。",
+      "answer": "せかい",
       "meaning": ""
     },
     {
@@ -2412,6 +2421,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 211,
+      "text": "うんどうかいの （かいかいしき） が はじまる。",
+      "answer": "かいかいしき",
+      "meaning": ""
+    },
+    {
+      "id": "g3-開-21-okuri",
+      "grade": 3,
+      "term": 1,
+      "order": 213,
       "text": "まどを （あける）。",
       "answer": "開ける",
       "meaning": ""
@@ -2421,8 +2439,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 221,
-      "text": "二（かい） へ 上がる。",
-      "answer": "階",
+      "text": "（かいだん） を のぼる。",
+      "answer": "かいだん",
       "meaning": ""
     },
     {
@@ -2430,6 +2448,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 231,
+      "text": "ふゆの （さむさ） に そなえる。",
+      "answer": "さむさ",
+      "meaning": ""
+    },
+    {
+      "id": "g3-寒-23-okuri",
+      "grade": 3,
+      "term": 1,
+      "order": 233,
       "text": "（さむい） 日は コートを きる。",
       "answer": "寒い",
       "meaning": ""
@@ -2439,8 +2466,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 241,
-      "text": "（あんしんかん） を もって はっぴょうする。",
-      "answer": "安心感",
+      "text": "ほんを よんだ （かんそう） を かく。",
+      "answer": "かんそう",
       "meaning": ""
     },
     {
@@ -2448,8 +2475,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 251,
-      "text": "新しい （かんじ） の れんしゅうを する。",
-      "answer": "漢字",
+      "text": "新しい （かんじ） を おぼえる。",
+      "answer": "かんじ",
       "meaning": ""
     },
     {
@@ -2457,8 +2484,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 261,
-      "text": "ほうかごに （としょかん） で 本を かりる。",
-      "answer": "図書館",
+      "text": "（としょかん） で 本を かりる。",
+      "answer": "としょかん",
       "meaning": ""
     },
     {
@@ -2466,8 +2493,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 271,
-      "text": "川の （きし） を あるく。",
-      "answer": "岸",
+      "text": "（かわぎし） を あるく。",
+      "answer": "かわぎし",
       "meaning": ""
     },
     {
@@ -2475,6 +2502,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 281,
+      "text": "あさ はやく （おきる）。",
+      "answer": "おきる",
+      "meaning": ""
+    },
+    {
+      "id": "g3-起-28-okuri",
+      "grade": 3,
+      "term": 1,
+      "order": 283,
       "text": "朝 早く （おきる）。",
       "answer": "起きる",
       "meaning": ""
@@ -2484,6 +2520,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 291,
+      "text": "二（がっき） が はじまる。",
+      "answer": "がっき",
+      "meaning": ""
+    },
+    {
+      "id": "g3-期-29-okuri",
+      "grade": 3,
+      "term": 1,
+      "order": 293,
       "text": "（にがっき） が はじまる。",
       "answer": "二学期",
       "meaning": ""
@@ -2493,8 +2538,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 301,
-      "text": "えきで （じょうきゃく） が 電車を まつ。",
-      "answer": "乗客",
+      "text": "（おきゃくさん） が みせに 来る。",
+      "answer": "おきゃくさん",
       "meaning": ""
     },
     {
@@ -2502,8 +2547,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 311,
-      "text": "理科で そだて方を （けんきゅう） する。",
-      "answer": "研究",
+      "text": "（けんきゅう） を つづける。",
+      "answer": "けんきゅう",
       "meaning": ""
     },
     {
@@ -2511,6 +2556,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 321,
+      "text": "（きゅうこう） れっしゃが とまる。",
+      "answer": "きゅうこう",
+      "meaning": ""
+    },
+    {
+      "id": "g3-急-32-okuri",
+      "grade": 3,
+      "term": 1,
+      "order": 323,
       "text": "あわてずに （いそぐ）。",
       "answer": "急ぐ",
       "meaning": ""
@@ -2520,6 +2574,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 331,
+      "text": "（がっきゅう） の みんなで はなしあう。",
+      "answer": "がっきゅう",
+      "meaning": ""
+    },
+    {
+      "id": "g3-級-33-okuri",
+      "grade": 3,
+      "term": 1,
+      "order": 333,
       "text": "（がっきゅう） の 友だちと 話す。",
       "answer": "学級",
       "meaning": ""
@@ -2529,8 +2592,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 341,
-      "text": "しんじんじゃの （みや） で おまいりする。",
-      "answer": "宮",
+      "text": "むかしの （みや） の くらしを 学ぶ。",
+      "answer": "みや",
       "meaning": ""
     },
     {
@@ -2538,6 +2601,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 351,
+      "text": "（やきゅう） を する。",
+      "answer": "やきゅう",
+      "meaning": ""
+    },
+    {
+      "id": "g3-球-35-okuri",
+      "grade": 3,
+      "term": 1,
+      "order": 353,
       "text": "（やきゅう） を する。",
       "answer": "野球",
       "meaning": ""
@@ -2547,6 +2619,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 361,
+      "text": "（きょねん） の おもいでを はなす。",
+      "answer": "きょねん",
+      "meaning": ""
+    },
+    {
+      "id": "g3-去-36-okuri",
+      "grade": 3,
+      "term": 1,
+      "order": 363,
       "text": "（きょねん） の 思い出を 話す。",
       "answer": "去年",
       "meaning": ""
@@ -2557,7 +2638,7 @@ window.GRADE_QUESTIONS = {
       "term": 1,
       "order": 371,
       "text": "大きな （はし） を わたる。",
-      "answer": "橋",
+      "answer": "はし",
       "meaning": ""
     },
     {
@@ -2565,8 +2646,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 381,
-      "text": "算数の （じゅぎょう） で めんせきを 学ぶ。",
-      "answer": "授業",
+      "text": "さんすうの （じゅぎょう） が はじまる。",
+      "answer": "じゅぎょう",
       "meaning": ""
     },
     {
@@ -2574,8 +2655,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 391,
-      "text": "音楽の （きょく） を 聞く。",
-      "answer": "曲",
+      "text": "（がっきょく） を きく。",
+      "answer": "がっきょく",
       "meaning": ""
     },
     {
@@ -2584,7 +2665,7 @@ window.GRADE_QUESTIONS = {
       "term": 1,
       "order": 401,
       "text": "（ゆうびんきょく） で はがきを 出す。",
-      "answer": "郵便局",
+      "answer": "ゆうびんきょく",
       "meaning": ""
     },
     {
@@ -2592,8 +2673,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 411,
-      "text": "（ぎん） 色の かみを おる。",
-      "answer": "銀",
+      "text": "（ぎんいろ） の かみを おる。",
+      "answer": "ぎんいろ",
       "meaning": ""
     },
     {
@@ -2601,8 +2682,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 421,
-      "text": "この 地図は 二つの （く） に 分かれる。",
-      "answer": "区",
+      "text": "この （くいき） を せんで くぎる。",
+      "answer": "くいき",
       "meaning": ""
     },
     {
@@ -2610,8 +2691,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 431,
-      "text": "（くるしい） い くすりを のむ。",
-      "answer": "苦",
+      "text": "（くろう） して おぼえた。",
+      "answer": "くろう",
       "meaning": ""
     },
     {
@@ -2619,6 +2700,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 441,
+      "text": "べんりな （どうぐ） を つかう。",
+      "answer": "どうぐ",
+      "meaning": ""
+    },
+    {
+      "id": "g3-具-44-okuri",
+      "grade": 3,
+      "term": 1,
+      "order": 443,
       "text": "べんりな （どうぐ） を つかう。",
       "answer": "道具",
       "meaning": ""
@@ -2628,8 +2718,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 451,
-      "text": "（きみ） と いっしょに かえる。",
-      "answer": "君",
+      "text": "（きみ） は どう 思う。",
+      "answer": "きみ",
       "meaning": ""
     },
     {
@@ -2637,8 +2727,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 461,
-      "text": "（かかりいん） が みんなに 合図する。",
-      "answer": "係員",
+      "text": "きょうの （かかり） の しごとを する。",
+      "answer": "かかり",
       "meaning": ""
     },
     {
@@ -2646,8 +2736,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 471,
-      "text": "（かるい） い かばんを もつ。",
-      "answer": "軽",
+      "text": "にもつの （かるさ） を くらべる。",
+      "answer": "かるさ",
       "meaning": ""
     },
     {
@@ -2655,8 +2745,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 481,
-      "text": "（けつえき） の はたらきを 理科で 学ぶ。",
-      "answer": "血液",
+      "text": "（けつえき） の はたらきを 学ぶ。",
+      "answer": "けつえき",
       "meaning": ""
     },
     {
@@ -2664,8 +2754,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 491,
-      "text": "クラスの もくひょうを （けってい） する。",
-      "answer": "決定",
+      "text": "みんなで ルールを （けってい） する。",
+      "answer": "けってい",
       "meaning": ""
     },
     {
@@ -2673,8 +2763,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 501,
-      "text": "理科で そだて方を （けんきゅう） する。",
-      "answer": "研究",
+      "text": "しょくぶつの そだちかたを （けんきゅう） する。",
+      "answer": "けんきゅう",
       "meaning": ""
     },
     {
@@ -2682,8 +2772,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 511,
-      "text": "（けん） へ 行く。",
-      "answer": "県",
+      "text": "すんでいる （けん） を ちずで みる。",
+      "answer": "けん",
       "meaning": ""
     },
     {
@@ -2691,8 +2781,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 521,
-      "text": "（こ） へ 行く。",
-      "answer": "庫",
+      "text": "（そうこ） から にもつを 出す。",
+      "answer": "そうこ",
       "meaning": ""
     },
     {
@@ -2700,8 +2790,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 531,
-      "text": "（みずうみ） に 鳥が うかぶ。",
-      "answer": "湖",
+      "text": "（みずうみ） に ふねが うかぶ。",
+      "answer": "みずうみ",
       "meaning": ""
     },
     {
@@ -2709,6 +2799,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 541,
+      "text": "すすむ （ほうこう） を たしかめる。",
+      "answer": "ほうこう",
+      "meaning": ""
+    },
+    {
+      "id": "g3-向-54-okuri",
+      "grade": 3,
+      "term": 1,
+      "order": 543,
       "text": "たいようの ほうを （むく）。",
       "answer": "向く",
       "meaning": ""
@@ -2718,6 +2817,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 551,
+      "text": "（しあわせ） な きもちに なる。",
+      "answer": "しあわせ",
+      "meaning": ""
+    },
+    {
+      "id": "g3-幸-55-okuri",
+      "grade": 3,
+      "term": 1,
+      "order": 553,
       "text": "みんなの （しあわせ） を ねがう。",
       "answer": "幸せ",
       "meaning": ""
@@ -2727,8 +2835,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 561,
-      "text": "（みなと） に 船が とまる。",
-      "answer": "港",
+      "text": "（みなと） に ふねが とまる。",
+      "answer": "みなと",
       "meaning": ""
     },
     {
@@ -2736,6 +2844,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 571,
+      "text": "（ごうれい） で うごく。",
+      "answer": "ごうれい",
+      "meaning": ""
+    },
+    {
+      "id": "g3-号-57-okuri",
+      "grade": 3,
+      "term": 1,
+      "order": 573,
       "text": "自分の （ばんごう） を 書く。",
       "answer": "番号",
       "meaning": ""
@@ -2745,8 +2862,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 581,
-      "text": "木の （ね） が はる。",
-      "answer": "根",
+      "text": "木の （ねっこ） を 見る。",
+      "answer": "ねっこ",
       "meaning": ""
     },
     {
@@ -2754,8 +2871,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 591,
-      "text": "まちの （まつり） に さんかする。",
-      "answer": "祭",
+      "text": "まちの （まつり） に いく。",
+      "answer": "まつり",
       "meaning": ""
     },
     {
@@ -2763,8 +2880,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 601,
-      "text": "白い （さら） に りんごを のせる。",
-      "answer": "皿",
+      "text": "白い （さら） に くだものを のせる。",
+      "answer": "さら",
       "meaning": ""
     },
     {
@@ -2772,6 +2889,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 611,
+      "text": "まいにちの （しごと） を がんばる。",
+      "answer": "しごと",
+      "meaning": ""
+    },
+    {
+      "id": "g3-仕-61-okuri",
+      "grade": 3,
+      "term": 1,
+      "order": 613,
       "text": "父の （しごと） を 聞く。",
       "answer": "仕事",
       "meaning": ""
@@ -2781,6 +2907,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 621,
+      "text": "いきものの （し） について 学ぶ。",
+      "answer": "し",
+      "meaning": ""
+    },
+    {
+      "id": "g3-死-62-okuri",
+      "grade": 3,
+      "term": 1,
+      "order": 623,
       "text": "虫が （しぬ）。",
       "answer": "死ぬ",
       "meaning": ""
@@ -2790,8 +2925,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 631,
-      "text": "大切に えんぴつを （つかう）。",
-      "answer": "使",
+      "text": "どうぐの （つかいかた） を おぼえる。",
+      "answer": "つかいかた",
       "meaning": ""
     },
     {
@@ -2799,8 +2934,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 641,
-      "text": "しゅくだいを （はじめる）。",
-      "answer": "始",
+      "text": "（はじめ） に あいさつを する。",
+      "answer": "はじめ",
       "meaning": ""
     },
     {
@@ -2808,8 +2943,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 651,
-      "text": "（ゆび） で さす。",
-      "answer": "指",
+      "text": "（ゆびさき） で ちいさな ものを つまむ。",
+      "answer": "ゆびさき",
       "meaning": ""
     },
     {
@@ -2817,8 +2952,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 661,
-      "text": "（は） を みがく。",
-      "answer": "歯",
+      "text": "（はみがき） を ていねいに する。",
+      "answer": "はみがき",
       "meaning": ""
     },
     {
@@ -2826,8 +2961,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 1,
       "order": 671,
-      "text": "（ししゅう） を ひらく。",
-      "answer": "詩集",
+      "text": "（ししゅう） を よむ。",
+      "answer": "ししゅう",
       "meaning": ""
     },
     {
@@ -2835,8 +2970,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 681,
-      "text": "（つぎ） の 人が 入る。",
-      "answer": "次",
+      "text": "（つぎ） の ひとが はいる。",
+      "answer": "つぎ",
       "meaning": ""
     },
     {
@@ -2844,8 +2979,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 691,
-      "text": "大切な （ようじ） を すませる。",
-      "answer": "用事",
+      "text": "おうちの （しごと） を てつだう。",
+      "answer": "しごと",
       "meaning": ""
     },
     {
@@ -2853,6 +2988,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 701,
+      "text": "あしたの （もちもの） を そろえる。",
+      "answer": "もちもの",
+      "meaning": ""
+    },
+    {
+      "id": "g3-持-70-okuri",
+      "grade": 3,
+      "term": 2,
+      "order": 703,
       "text": "かばんを （もつ）。",
       "answer": "持つ",
       "meaning": ""
@@ -2862,6 +3006,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 711,
+      "text": "そつぎょう（しき） で うたう。",
+      "answer": "しき",
+      "meaning": ""
+    },
+    {
+      "id": "g3-式-71-okuri",
+      "grade": 3,
+      "term": 2,
+      "order": 713,
       "text": "たいいくかんで （にゅうがくしき） が はじまる。",
       "answer": "入学式",
       "meaning": ""
@@ -2871,6 +3024,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 721,
+      "text": "れんしゅうして （じつりょく） を のばす。",
+      "answer": "じつりょく",
+      "meaning": ""
+    },
+    {
+      "id": "g3-実-72-okuri",
+      "grade": 3,
+      "term": 2,
+      "order": 723,
       "text": "木のじつが （みのる）。",
       "answer": "実る",
       "meaning": ""
@@ -2880,6 +3042,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 731,
+      "text": "（しゃしん） を とる。",
+      "answer": "しゃしん",
+      "meaning": ""
+    },
+    {
+      "id": "g3-写-73-okuri",
+      "grade": 3,
+      "term": 2,
+      "order": 733,
       "text": "ノートに ていねいに （うつす）。",
       "answer": "写す",
       "meaning": ""
@@ -2889,8 +3060,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 741,
-      "text": "（いしゃ） に みてもらう。",
-      "answer": "医者",
+      "text": "びょうきの ときは （いしゃ） に みてもらう。",
+      "answer": "いしゃ",
       "meaning": ""
     },
     {
@@ -2898,6 +3069,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 751,
+      "text": "ものがたりの （しゅじんこう） を たしかめる。",
+      "answer": "しゅじんこう",
+      "meaning": ""
+    },
+    {
+      "id": "g3-主-75-okuri",
+      "grade": 3,
+      "term": 2,
+      "order": 753,
       "text": "（おもな） いけんを まとめる。",
       "answer": "主な",
       "meaning": ""
@@ -2907,8 +3087,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 761,
-      "text": "きまりを （まもる）。",
-      "answer": "守",
+      "text": "（やくそく） を まもる。",
+      "answer": "やくそく",
       "meaning": ""
     },
     {
@@ -2916,8 +3096,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 771,
-      "text": "ボールを （とる）。",
-      "answer": "取",
+      "text": "しゃしんを （とる）。",
+      "answer": "とる",
       "meaning": ""
     },
     {
@@ -2925,8 +3105,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 781,
-      "text": "大人が （さけ） を のむ。",
-      "answer": "酒",
+      "text": "あたたかい （あまざけ） を のむ。",
+      "answer": "あまざけ",
       "meaning": ""
     },
     {
@@ -2934,8 +3114,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 791,
-      "text": "テストを （うける）。",
-      "answer": "受",
+      "text": "かいじょうで （うけつけ） を すませる。",
+      "answer": "うけつけ",
       "meaning": ""
     },
     {
@@ -2943,6 +3123,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 801,
+      "text": "アメリカの （しゅう） を ちずで 見る。",
+      "answer": "しゅう",
+      "meaning": ""
+    },
+    {
+      "id": "g3-州-80-okuri",
+      "grade": 3,
+      "term": 2,
+      "order": 803,
       "text": "（きゅうしゅう） の 地図を 見る。",
       "answer": "九州",
       "meaning": ""
@@ -2952,6 +3141,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 811,
+      "text": "おちていた ごみを （ひろう）。",
+      "answer": "ひろう",
+      "meaning": ""
+    },
+    {
+      "id": "g3-拾-81-okuri",
+      "grade": 3,
+      "term": 2,
+      "order": 813,
       "text": "お金を （ひろう）。",
       "answer": "拾う",
       "meaning": ""
@@ -2961,6 +3159,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 821,
+      "text": "（おわり） まで がんばる。",
+      "answer": "おわり",
+      "meaning": ""
+    },
+    {
+      "id": "g3-終-82-okuri",
+      "grade": 3,
+      "term": 2,
+      "order": 823,
       "text": "会が （おわる）。",
       "answer": "終わる",
       "meaning": ""
@@ -2970,8 +3177,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 831,
-      "text": "家で （れんしゅう） する。",
-      "answer": "練習",
+      "text": "（ならいごと） に 行く。",
+      "answer": "ならいごと",
       "meaning": ""
     },
     {
@@ -2979,6 +3186,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 841,
+      "text": "こうていに （しゅうごう） する。",
+      "answer": "しゅうごう",
+      "meaning": ""
+    },
+    {
+      "id": "g3-集-84-okuri",
+      "grade": 3,
+      "term": 2,
+      "order": 843,
       "text": "こうていに みんなが （あつまる）。",
       "answer": "集まる",
       "meaning": ""
@@ -2988,6 +3204,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 851,
+      "text": "（じゅうしょ） を かく。",
+      "answer": "じゅうしょ",
+      "meaning": ""
+    },
+    {
+      "id": "g3-住-85-okuri",
+      "grade": 3,
+      "term": 2,
+      "order": 853,
       "text": "この 町に （すむ）。",
       "answer": "住む",
       "meaning": ""
@@ -2997,6 +3222,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 861,
+      "text": "（たいじゅう） を はかる。",
+      "answer": "たいじゅう",
+      "meaning": ""
+    },
+    {
+      "id": "g3-重-86-okuri",
+      "grade": 3,
+      "term": 2,
+      "order": 863,
       "text": "（おもい） にもつを はこぶ。",
       "answer": "重い",
       "meaning": ""
@@ -3006,6 +3240,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 871,
+      "text": "（しゅくだい） を わすれずに する。",
+      "answer": "しゅくだい",
+      "meaning": ""
+    },
+    {
+      "id": "g3-宿-87-okuri",
+      "grade": 3,
+      "term": 2,
+      "order": 873,
       "text": "学校から 帰って （しゅくだい） を する。",
       "answer": "宿題",
       "meaning": ""
@@ -3015,8 +3258,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 881,
-      "text": "すきな （ところ） を えらぶ。",
-      "answer": "所",
+      "text": "（ばしょ） を きめて まつ。",
+      "answer": "ばしょ",
       "meaning": ""
     },
     {
@@ -3024,8 +3267,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 891,
-      "text": "（あぢぃ） 日が つづく。",
-      "answer": "暑い",
+      "text": "なつの （あつさ） に まけない。",
+      "answer": "あつさ",
       "meaning": ""
     },
     {
@@ -3033,8 +3276,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 901,
-      "text": "こまって いる 友だちを （たすける）。",
-      "answer": "助",
+      "text": "こまった ときの （たすけ） に なる。",
+      "answer": "たすけ",
       "meaning": ""
     },
     {
@@ -3042,6 +3285,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 911,
+      "text": "（しょうわ） の くらしを 学ぶ。",
+      "answer": "しょうわ",
+      "meaning": ""
+    },
+    {
+      "id": "g3-昭-91-okuri",
+      "grade": 3,
+      "term": 2,
+      "order": 913,
       "text": "（しょうわ） の くらしを 学ぶ。",
       "answer": "昭和",
       "meaning": ""
@@ -3051,6 +3303,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 921,
+      "text": "（しょうぼう） くんれんに さんかする。",
+      "answer": "しょうぼう",
+      "meaning": ""
+    },
+    {
+      "id": "g3-消-92-okuri",
+      "grade": 3,
+      "term": 2,
+      "order": 923,
       "text": "電気が （きえる）。",
       "answer": "消える",
       "meaning": ""
@@ -3060,6 +3321,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 931,
+      "text": "（しょうてん） が ならぶ みちを あるく。",
+      "answer": "しょうてん",
+      "meaning": ""
+    },
+    {
+      "id": "g3-商-93-okuri",
+      "grade": 3,
+      "term": 2,
+      "order": 933,
       "text": "町の （しょうてん） で 買いぶつを する。",
       "answer": "商店",
       "meaning": ""
@@ -3069,6 +3339,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 941,
+      "text": "（ぶんしょう） を ていねいに よむ。",
+      "answer": "ぶんしょう",
+      "meaning": ""
+    },
+    {
+      "id": "g3-章-94-okuri",
+      "grade": 3,
+      "term": 2,
+      "order": 943,
       "text": "みじかい （ぶんしょう） を 書く。",
       "answer": "文章",
       "meaning": ""
@@ -3078,6 +3357,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 951,
+      "text": "（しょうぶ） に かつ。",
+      "answer": "しょうぶ",
+      "meaning": ""
+    },
+    {
+      "id": "g3-勝-95-okuri",
+      "grade": 3,
+      "term": 2,
+      "order": 953,
       "text": "しあいに （かつ）。",
       "answer": "勝つ",
       "meaning": ""
@@ -3087,8 +3375,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 961,
-      "text": "えきで （じょうかく） が 電車を まつ。",
-      "answer": "乗客",
+      "text": "でんしゃに （じょうしゃ） する。",
+      "answer": "じょうしゃ",
       "meaning": ""
     },
     {
@@ -3096,6 +3384,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 971,
+      "text": "（うえき） に みずを やる。",
+      "answer": "うえき",
+      "meaning": ""
+    },
+    {
+      "id": "g3-植-97-okuri",
+      "grade": 3,
+      "term": 2,
+      "order": 973,
       "text": "花の なえを （うえる）。",
       "answer": "植える",
       "meaning": ""
@@ -3105,8 +3402,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 981,
-      "text": "はっきりと （もうす） す。",
-      "answer": "申",
+      "text": "（もうしこみ） を する。",
+      "answer": "もうしこみ",
       "meaning": ""
     },
     {
@@ -3114,8 +3411,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 991,
-      "text": "（しん） へ 行く。",
-      "answer": "身",
+      "text": "（みのまわり） を きれいに する。",
+      "answer": "みのまわり",
       "meaning": ""
     },
     {
@@ -3123,8 +3420,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 1001,
-      "text": "（じんしゃ） に おまいりする。",
-      "answer": "神社",
+      "text": "（じんじゃ） に おまいりする。",
+      "answer": "じんじゃ",
       "meaning": ""
     },
     {
@@ -3132,8 +3429,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 1011,
-      "text": "（ま） ん中に 立つ。",
-      "answer": "真",
+      "text": "（しゃしん） を とる。",
+      "answer": "しゃしん",
       "meaning": ""
     },
     {
@@ -3141,8 +3438,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 1021,
-      "text": "（ふかい） い 海を 見る。",
-      "answer": "深",
+      "text": "みずの （ふかさ） を はかる。",
+      "answer": "ふかさ",
       "meaning": ""
     },
     {
@@ -3150,8 +3447,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 1031,
-      "text": "前へ （すすむ） む。",
-      "answer": "進",
+      "text": "かいを じゅんちょうに （しんこう） させる。",
+      "answer": "しんこう",
       "meaning": ""
     },
     {
@@ -3159,8 +3456,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 1041,
-      "text": "（せかい） の 国々を しゃかいで 学ぶ。",
-      "answer": "世界",
+      "text": "（せかい） の くにを ちずで みる。",
+      "answer": "せかい",
       "meaning": ""
     },
     {
@@ -3168,8 +3465,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 1051,
-      "text": "えんぴつを きれいに （ととのえる）。",
-      "answer": "整",
+      "text": "つくえの うえを （せいり） する。",
+      "answer": "せいり",
       "meaning": ""
     },
     {
@@ -3177,8 +3474,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 1061,
-      "text": "（むかし） の 話を 聞く。",
-      "answer": "昔",
+      "text": "（むかしばなし） を きく。",
+      "answer": "むかしばなし",
       "meaning": ""
     },
     {
@@ -3186,8 +3483,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 1071,
-      "text": "あんぜんな くらしの ために （あんせん） を まもる。",
-      "answer": "安全",
+      "text": "（あんぜん） に きを つけて あるく。",
+      "answer": "あんぜん",
       "meaning": ""
     },
     {
@@ -3195,8 +3492,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 1081,
-      "text": "しあいの （あいて） に あいさつする。",
-      "answer": "相手",
+      "text": "こまった ことを せんせいに （そうだん） する。",
+      "answer": "そうだん",
       "meaning": ""
     },
     {
@@ -3209,12 +3506,21 @@ window.GRADE_QUESTIONS = {
       "meaning": ""
     },
     {
+      "id": "g3-相-108-okuri",
+      "grade": 3,
+      "term": 2,
+      "order": 1083,
+      "text": "しあいの （あいて） に あいさつする。",
+      "answer": "相手",
+      "meaning": ""
+    },
+    {
       "id": "g3-送-109-write",
       "grade": 3,
       "term": 2,
       "order": 1091,
-      "text": "友だちを えきまで （おくる）。",
-      "answer": "送",
+      "text": "えきまで （みおくり） に いく。",
+      "answer": "みおくり",
       "meaning": ""
     },
     {
@@ -3222,8 +3528,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 1101,
-      "text": "家ぞくを （おもう）。",
-      "answer": "想",
+      "text": "しょうらいを （そうぞう） する。",
+      "answer": "そうぞう",
       "meaning": ""
     },
     {
@@ -3232,7 +3538,7 @@ window.GRADE_QUESTIONS = {
       "term": 2,
       "order": 1111,
       "text": "大きく （いき） を すう。",
-      "answer": "息",
+      "answer": "いき",
       "meaning": ""
     },
     {
@@ -3240,8 +3546,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 1121,
-      "text": "（はやい） くるまが 走る。",
-      "answer": "速い",
+      "text": "くるまの （そくど） を はかる。",
+      "answer": "そくど",
       "meaning": ""
     },
     {
@@ -3249,6 +3555,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 1131,
+      "text": "（かぞく） で りょこうする。",
+      "answer": "かぞく",
+      "meaning": ""
+    },
+    {
+      "id": "g3-族-113-okuri",
+      "grade": 3,
+      "term": 2,
+      "order": 1133,
       "text": "（かぞく） みんなで 出かける。",
       "answer": "家族",
       "meaning": ""
@@ -3258,8 +3573,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 1141,
-      "text": "（ほか） の 人にも 聞いてみる。",
-      "answer": "他",
+      "text": "（ほか） の 人にも きいてみる。",
+      "answer": "ほか",
       "meaning": ""
     },
     {
@@ -3267,8 +3582,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 1151,
-      "text": "ボールを （うつ） つ。",
-      "answer": "打",
+      "text": "バットで （だきゅう） する。",
+      "answer": "だきゅう",
       "meaning": ""
     },
     {
@@ -3276,6 +3591,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 1161,
+      "text": "つぎの しあいで （たいせん） する。",
+      "answer": "たいせん",
+      "meaning": ""
+    },
+    {
+      "id": "g3-対-116-okuri",
+      "grade": 3,
+      "term": 2,
+      "order": 1163,
       "text": "みんなと （はんたい） の いみるを いう。",
       "answer": "反対",
       "meaning": ""
@@ -3285,8 +3609,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 1171,
-      "text": "友だちを （まつ） つ。",
-      "answer": "待",
+      "text": "（まちあわせ） の じかんを きめる。",
+      "answer": "まちあわせ",
       "meaning": ""
     },
     {
@@ -3294,6 +3618,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 1181,
+      "text": "かいものの （だいきん） を はらう。",
+      "answer": "だいきん",
+      "meaning": ""
+    },
+    {
+      "id": "g3-代-118-okuri",
+      "grade": 3,
+      "term": 2,
+      "order": 1183,
       "text": "人が （かわる）。",
       "answer": "代わる",
       "meaning": ""
@@ -3303,6 +3636,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 1191,
+      "text": "（だいいち） コースを はしる。",
+      "answer": "だいいち",
+      "meaning": ""
+    },
+    {
+      "id": "g3-第-119-okuri",
+      "grade": 3,
+      "term": 2,
+      "order": 1193,
       "text": "（だいいち） しょうを もらう。",
       "answer": "第一",
       "meaning": ""
@@ -3312,6 +3654,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 1201,
+      "text": "ほんの （だいめい） を よむ。",
+      "answer": "だいめい",
+      "meaning": ""
+    },
+    {
+      "id": "g3-題-120-okuri",
+      "grade": 3,
+      "term": 2,
+      "order": 1203,
       "text": "先生が 出した （もんだい） を とく。",
       "answer": "問題",
       "meaning": ""
@@ -3322,7 +3673,7 @@ window.GRADE_QUESTIONS = {
       "term": 2,
       "order": 1211,
       "text": "（すみ） で 火を おこす。",
-      "answer": "炭",
+      "answer": "すみ",
       "meaning": ""
     },
     {
@@ -3330,8 +3681,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 1221,
-      "text": "（みじかい） えんぴつを つかう。",
-      "answer": "短い",
+      "text": "ひもの （みじかさ） を はかる。",
+      "answer": "みじかさ",
       "meaning": ""
     },
     {
@@ -3339,8 +3690,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 1231,
-      "text": "友だちと いろいろ （はなす） す。",
-      "answer": "談",
+      "text": "なやみを （そうだん） する。",
+      "answer": "そうだん",
       "meaning": ""
     },
     {
@@ -3348,6 +3699,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 1241,
+      "text": "あさの （きがえ） を すませる。",
+      "answer": "きがえ",
+      "meaning": ""
+    },
+    {
+      "id": "g3-着-124-okuri",
+      "grade": 3,
+      "term": 2,
+      "order": 1243,
       "text": "うえちゃくを （きる）。",
       "answer": "着る",
       "meaning": ""
@@ -3357,6 +3717,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 1251,
+      "text": "（ちゅうい） して あるく。",
+      "answer": "ちゅうい",
+      "meaning": ""
+    },
+    {
+      "id": "g3-注-125-okuri",
+      "grade": 3,
+      "term": 2,
+      "order": 1253,
       "text": "コップに 水を （そそぐ）。",
       "answer": "注ぐ",
       "meaning": ""
@@ -3366,8 +3735,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 1261,
-      "text": "家の （はしら） を さわる。",
-      "answer": "柱",
+      "text": "いえの （はしら） を 見る。",
+      "answer": "はしら",
       "meaning": ""
     },
     {
@@ -3375,6 +3744,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 1271,
+      "text": "（ていねい） に せつめいする。",
+      "answer": "ていねい",
+      "meaning": ""
+    },
+    {
+      "id": "g3-丁-127-okuri",
+      "grade": 3,
+      "term": 2,
+      "order": 1273,
       "text": "えきまえ 一（いっちょうめ） を あるく。",
       "answer": "一丁目",
       "meaning": ""
@@ -3384,6 +3762,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 1281,
+      "text": "（てちょう） に よていを かく。",
+      "answer": "てちょう",
+      "meaning": ""
+    },
+    {
+      "id": "g3-帳-128-okuri",
+      "grade": 3,
+      "term": 2,
+      "order": 1283,
       "text": "（ちょうめん） に 名前を 書く。",
       "answer": "帳面",
       "meaning": ""
@@ -3393,6 +3780,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 1291,
+      "text": "まちの ようすを （ちょうさ） する。",
+      "answer": "ちょうさ",
+      "meaning": ""
+    },
+    {
+      "id": "g3-調-129-okuri",
+      "grade": 3,
+      "term": 2,
+      "order": 1293,
       "text": "図かんで （しらべる）。",
       "answer": "調べる",
       "meaning": ""
@@ -3402,6 +3798,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 1301,
+      "text": "あしあとを （ついせき） する。",
+      "answer": "ついせき",
+      "meaning": ""
+    },
+    {
+      "id": "g3-追-130-okuri",
+      "grade": 3,
+      "term": 2,
+      "order": 1303,
       "text": "ボールを （おう）。",
       "answer": "追う",
       "meaning": ""
@@ -3411,8 +3816,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 1311,
-      "text": "クラスの もくひょうを （けってい） する。",
-      "answer": "決定",
+      "text": "あしたの （よてい） を きめる。",
+      "answer": "よてい",
       "meaning": ""
     },
     {
@@ -3420,8 +3825,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 1321,
-      "text": "家の （にわ） で あそぶ。",
-      "answer": "庭",
+      "text": "（にわ） で あそぶ。",
+      "answer": "にわ",
       "meaning": ""
     },
     {
@@ -3429,8 +3834,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 1331,
-      "text": "音楽で （ふえ） を ふく。",
-      "answer": "笛",
+      "text": "（ふえ） を ふく。",
+      "answer": "ふえ",
       "meaning": ""
     },
     {
@@ -3438,6 +3843,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 2,
       "order": 1341,
+      "text": "（てつぼう） の れんしゅうを する。",
+      "answer": "てつぼう",
+      "meaning": ""
+    },
+    {
+      "id": "g3-鉄-134-okuri",
+      "grade": 3,
+      "term": 2,
+      "order": 1343,
       "text": "（てつどう） の しゃしんを 見る。",
       "answer": "鉄道",
       "meaning": ""
@@ -3447,6 +3861,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1351,
+      "text": "じてんしゃを あんぜんに （うんてん） する。",
+      "answer": "うんてん",
+      "meaning": ""
+    },
+    {
+      "id": "g3-転-135-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1353,
       "text": "石に つまずいて （ころぶ）。",
       "answer": "転ぶ",
       "meaning": ""
@@ -3456,6 +3879,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1361,
+      "text": "むかしの （みやこ） の ようすを 学ぶ。",
+      "answer": "みやこ",
+      "meaning": ""
+    },
+    {
+      "id": "g3-都-136-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1363,
       "text": "しゅう学りょこうで （きょうと） へ 行く。",
       "answer": "京都",
       "meaning": ""
@@ -3465,6 +3897,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1371,
+      "text": "みずの （おんど） を はかる。",
+      "answer": "おんど",
+      "meaning": ""
+    },
+    {
+      "id": "g3-度-137-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1373,
       "text": "水の （おんど） を はかる。",
       "answer": "温度",
       "meaning": ""
@@ -3474,6 +3915,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1381,
+      "text": "ボールを つよく （とうきゅう） する。",
+      "answer": "とうきゅう",
+      "meaning": ""
+    },
+    {
+      "id": "g3-投-138-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1383,
       "text": "ボールを （なげる）。",
       "answer": "投げる",
       "meaning": ""
@@ -3484,7 +3934,7 @@ window.GRADE_QUESTIONS = {
       "term": 3,
       "order": 1391,
       "text": "（まめ） を にる。",
-      "answer": "豆",
+      "answer": "まめ",
       "meaning": ""
     },
     {
@@ -3492,8 +3942,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1401,
-      "text": "海の むこうに （しま） が 見える。",
-      "answer": "島",
+      "text": "（しまぐに） の くらしを しらべる。",
+      "answer": "しまぐに",
       "meaning": ""
     },
     {
@@ -3501,6 +3951,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1411,
+      "text": "（おゆ） を わかす。",
+      "answer": "おゆ",
+      "meaning": ""
+    },
+    {
+      "id": "g3-湯-141-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1413,
       "text": "コップに （おゆ） を 入れる。",
       "answer": "お湯",
       "meaning": ""
@@ -3510,6 +3969,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1421,
+      "text": "あさ はやめに （とうこう） する。",
+      "answer": "とうこう",
+      "meaning": ""
+    },
+    {
+      "id": "g3-登-142-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1423,
       "text": "山に （のぼる）。",
       "answer": "登る",
       "meaning": ""
@@ -3519,6 +3987,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1431,
+      "text": "（とうばん） の しごとを する。",
+      "answer": "とうばん",
+      "meaning": ""
+    },
+    {
+      "id": "g3-等-143-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1433,
       "text": "（いっとう） しょうに えらばれる。",
       "answer": "一等",
       "meaning": ""
@@ -3528,8 +4005,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1441,
-      "text": "休み時間に こうていで （うんどう） する。",
-      "answer": "運動",
+      "text": "こうていで （うんどう） する。",
+      "answer": "うんどう",
       "meaning": ""
     },
     {
@@ -3537,6 +4014,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1451,
+      "text": "（どうわ） を よむ。",
+      "answer": "どうわ",
+      "meaning": ""
+    },
+    {
+      "id": "g3-童-145-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1453,
       "text": "（どうわ） を 読む。",
       "answer": "童話",
       "meaning": ""
@@ -3547,6 +4033,15 @@ window.GRADE_QUESTIONS = {
       "term": 3,
       "order": 1461,
       "text": "（のうか） の しごとを 学ぶ。",
+      "answer": "のうか",
+      "meaning": ""
+    },
+    {
+      "id": "g3-農-146-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1463,
+      "text": "（のうか） の しごとを 学ぶ。",
       "answer": "農家",
       "meaning": ""
     },
@@ -3555,8 +4050,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1471,
-      "text": "海に （なみ） が 立つ。",
-      "answer": "波",
+      "text": "（なみおと） を きく。",
+      "answer": "なみおと",
       "meaning": ""
     },
     {
@@ -3564,6 +4059,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1481,
+      "text": "しりょうの （くばりかた） を きめる。",
+      "answer": "くばりかた",
+      "meaning": ""
+    },
+    {
+      "id": "g3-配-148-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1483,
       "text": "プリントを （くばる）。",
       "answer": "配る",
       "meaning": ""
@@ -3573,6 +4077,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1491,
+      "text": "三の 二（ばい） は 六。",
+      "answer": "ばい",
+      "meaning": ""
+    },
+    {
+      "id": "g3-倍-149-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1493,
       "text": "長さが （にばい） に なる。",
       "answer": "二倍",
       "meaning": ""
@@ -3582,8 +4095,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1501,
-      "text": "大きな （はこ） を あける。",
-      "answer": "箱",
+      "text": "（はこ） に しまう。",
+      "answer": "はこ",
       "meaning": ""
     },
     {
@@ -3592,7 +4105,7 @@ window.GRADE_QUESTIONS = {
       "term": 3,
       "order": 1511,
       "text": "（はたけ） で やさいを そだてる。",
-      "answer": "畑",
+      "answer": "はたけ",
       "meaning": ""
     },
     {
@@ -3600,8 +4113,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1521,
-      "text": "子どもの （はついく） を 見まもる。",
-      "answer": "発育",
+      "text": "みんなの まえで （はっぴょう） を する。",
+      "answer": "はっぴょう",
       "meaning": ""
     },
     {
@@ -3609,6 +4122,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1531,
+      "text": "（はんたい） の いけんも きいてみる。",
+      "answer": "はんたい",
+      "meaning": ""
+    },
+    {
+      "id": "g3-反-153-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1533,
       "text": "みんなと （はんたい） の いみるを いう。",
       "answer": "反対",
       "meaning": ""
@@ -3618,8 +4140,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1541,
-      "text": "きゅうな （さか） を のぼる。",
-      "answer": "坂",
+      "text": "（さかみち） を のぼる。",
+      "answer": "さかみち",
       "meaning": ""
     },
     {
@@ -3627,8 +4149,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1551,
-      "text": "木の （いた） を はこぶ。",
-      "answer": "板",
+      "text": "（こくばん） に もじを かく。",
+      "answer": "こくばん",
       "meaning": ""
     },
     {
@@ -3637,7 +4159,7 @@ window.GRADE_QUESTIONS = {
       "term": 3,
       "order": 1561,
       "text": "みかんの （かわ） を むく。",
-      "answer": "皮",
+      "answer": "かわ",
       "meaning": ""
     },
     {
@@ -3645,6 +4167,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1571,
+      "text": "（かなしみ） を かんじる。",
+      "answer": "かなしみ",
+      "meaning": ""
+    },
+    {
+      "id": "g3-悲-157-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1573,
       "text": "（かなしい） ニュースを 聞く。",
       "answer": "悲しい",
       "meaning": ""
@@ -3654,6 +4185,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1581,
+      "text": "（びじゅつ） の じかんに えを かく。",
+      "answer": "びじゅつ",
+      "meaning": ""
+    },
+    {
+      "id": "g3-美-158-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1583,
       "text": "（うつくしい） 花が さく。",
       "answer": "美しい",
       "meaning": ""
@@ -3663,8 +4203,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1591,
-      "text": "（はな） が むずむずする。",
-      "answer": "鼻",
+      "text": "かぜで （はな） が つまる。",
+      "answer": "はな",
       "meaning": ""
     },
     {
@@ -3672,6 +4212,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1601,
+      "text": "（えんぴつ） を けずる。",
+      "answer": "えんぴつ",
+      "meaning": ""
+    },
+    {
+      "id": "g3-筆-160-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1603,
       "text": "しょうつすで （もうひつ） を つかう。",
       "answer": "毛筆",
       "meaning": ""
@@ -3681,8 +4230,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1611,
-      "text": "コップに （こおり） を 入れる。",
-      "answer": "氷",
+      "text": "（こおり） を コップに 入れる。",
+      "answer": "こおり",
       "meaning": ""
     },
     {
@@ -3690,6 +4239,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1621,
+      "text": "しらべた ことを （はっぴょう） する。",
+      "answer": "はっぴょう",
+      "meaning": ""
+    },
+    {
+      "id": "g3-表-162-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1623,
       "text": "みんなの 前で （はっぴょう） する。",
       "answer": "発表",
       "meaning": ""
@@ -3699,6 +4257,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1631,
+      "text": "十（びょう） は どれくらいか かぞえる。",
+      "answer": "びょう",
+      "meaning": ""
+    },
+    {
+      "id": "g3-秒-163-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1633,
       "text": "（いちびょう） だけ 目を とじる。",
       "answer": "一秒",
       "meaning": ""
@@ -3708,8 +4275,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1641,
-      "text": "けがをしたので （びょういん） へ 行く。",
-      "answer": "病院",
+      "text": "（びょうき） に ならないように きをつける。",
+      "answer": "びょうき",
       "meaning": ""
     },
     {
@@ -3717,6 +4284,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1651,
+      "text": "ほしい （しなもの） を えらぶ。",
+      "answer": "しなもの",
+      "meaning": ""
+    },
+    {
+      "id": "g3-品-165-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1653,
       "text": "店の （しなもの） を くらべる。",
       "answer": "品物",
       "meaning": ""
@@ -3726,6 +4302,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1661,
+      "text": "きょうの しあいは （まけ） だった。",
+      "answer": "まけ",
+      "meaning": ""
+    },
+    {
+      "id": "g3-負-166-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1663,
       "text": "しあいに （まける）。",
       "answer": "負ける",
       "meaning": ""
@@ -3735,6 +4320,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1671,
+      "text": "むずかしい （ぶぶん） を なおす。",
+      "answer": "ぶぶん",
+      "meaning": ""
+    },
+    {
+      "id": "g3-部-167-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1673,
       "text": "じぶんの （へや） を そうじする。",
       "answer": "部屋",
       "meaning": ""
@@ -3744,8 +4338,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1681,
-      "text": "新しい （ふく） を きる。",
-      "answer": "服",
+      "text": "（ようふく） を たたむ。",
+      "answer": "ようふく",
       "meaning": ""
     },
     {
@@ -3753,6 +4347,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1691,
+      "text": "（こうふく） を ねがう。",
+      "answer": "こうふく",
+      "meaning": ""
+    },
+    {
+      "id": "g3-福-169-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1693,
       "text": "みんなの （こうふく） を いのる。",
       "answer": "幸福",
       "meaning": ""
@@ -3762,8 +4365,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1701,
-      "text": "店の （しなもの） を くらべる。",
-      "answer": "品物",
+      "text": "（にもつ） を もって いく。",
+      "answer": "にもつ",
       "meaning": ""
     },
     {
@@ -3771,6 +4374,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1711,
+      "text": "三つの かずの （へいきん） を だす。",
+      "answer": "へいきん",
+      "meaning": ""
+    },
+    {
+      "id": "g3-平-171-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1713,
       "text": "（たいら） な みちを あるく。",
       "answer": "平ら",
       "meaning": ""
@@ -3780,6 +4392,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1721,
+      "text": "（へんじ） を わすれない。",
+      "answer": "へんじ",
+      "meaning": ""
+    },
+    {
+      "id": "g3-返-172-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1723,
       "text": "ずしょかんに 本を （かえす）。",
       "answer": "返す",
       "meaning": ""
@@ -3789,6 +4410,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1731,
+      "text": "（べんきょう） を がんばる。",
+      "answer": "べんきょう",
+      "meaning": ""
+    },
+    {
+      "id": "g3-勉-173-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1733,
       "text": "家で （べんきょう） する。",
       "answer": "勉強",
       "meaning": ""
@@ -3798,6 +4428,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1741,
+      "text": "よるの （ほうそう） を みる。",
+      "answer": "ほうそう",
+      "meaning": ""
+    },
+    {
+      "id": "g3-放-174-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1743,
       "text": "つないだ 手を （はなす）。",
       "answer": "放す",
       "meaning": ""
@@ -3807,8 +4446,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1751,
-      "text": "スープの （あじ） を たしかめる。",
-      "answer": "味",
+      "text": "スープを （あじみ） する。",
+      "answer": "あじみ",
       "meaning": ""
     },
     {
@@ -3816,8 +4455,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1761,
-      "text": "（いのち） を 大切に する。",
-      "answer": "命",
+      "text": "（いのち） を たいせつに する。",
+      "answer": "いのち",
       "meaning": ""
     },
     {
@@ -3825,6 +4464,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1771,
+      "text": "タブレットの （がめん） を みる。",
+      "answer": "がめん",
+      "meaning": ""
+    },
+    {
+      "id": "g3-面-177-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1773,
       "text": "テレビの （がめん） を 見る。",
       "answer": "画面",
       "meaning": ""
@@ -3834,6 +4482,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1781,
+      "text": "この （もんだい） を といてみよう。",
+      "answer": "もんだい",
+      "meaning": ""
+    },
+    {
+      "id": "g3-問-178-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1783,
       "text": "先生が 出した （もんだい） を とく。",
       "answer": "問題",
       "meaning": ""
@@ -3843,6 +4500,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1791,
+      "text": "それぞれの （やくわり） を はたす。",
+      "answer": "やくわり",
+      "meaning": ""
+    },
+    {
+      "id": "g3-役-179-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1793,
       "text": "けいの （やくめ） を はたす。",
       "answer": "役目",
       "meaning": ""
@@ -3852,8 +4518,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1801,
-      "text": "びょういんで もらった （くすり） を のむ。",
-      "answer": "薬",
+      "text": "（くすり） を のむ。",
+      "answer": "くすり",
       "meaning": ""
     },
     {
@@ -3861,8 +4527,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1811,
-      "text": "（ゆ） を 大切に する。",
-      "answer": "由",
+      "text": "（じゆう） に えらぶ。",
+      "answer": "じゆう",
       "meaning": ""
     },
     {
@@ -3870,8 +4536,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1821,
-      "text": "フライパンに （あぶら） を ひく。",
-      "answer": "油",
+      "text": "（あぶら） を つかって いためる。",
+      "answer": "あぶら",
       "meaning": ""
     },
     {
@@ -3879,6 +4545,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1831,
+      "text": "（ゆうめい） な ばしょへ いく。",
+      "answer": "ゆうめい",
+      "meaning": ""
+    },
+    {
+      "id": "g3-有-183-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1833,
       "text": "（ゆうめい） な じょうところへ 行く。",
       "answer": "有名",
       "meaning": ""
@@ -3888,6 +4563,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1841,
+      "text": "（ゆうえんち） へ 行く。",
+      "answer": "ゆうえんち",
+      "meaning": ""
+    },
+    {
+      "id": "g3-遊-184-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1843,
       "text": "公園で （あそぶ）。",
       "answer": "遊ぶ",
       "meaning": ""
@@ -3897,6 +4581,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1851,
+      "text": "あしたの ないようを （よしゅう） する。",
+      "answer": "よしゅう",
+      "meaning": ""
+    },
+    {
+      "id": "g3-予-185-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1853,
       "text": "あしたの （よてい） を 書く。",
       "answer": "予定",
       "meaning": ""
@@ -3906,8 +4599,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1861,
-      "text": "（ひつじ） が 草を 食べる。",
-      "answer": "羊",
+      "text": "まきばに （ひつじ） が いる。",
+      "answer": "ひつじ",
       "meaning": ""
     },
     {
@@ -3915,6 +4608,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1871,
+      "text": "（たいへいよう） の ひろさを 学ぶ。",
+      "answer": "たいへいよう",
+      "meaning": ""
+    },
+    {
+      "id": "g3-洋-187-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1873,
       "text": "新しい （ようふく） を 買う。",
       "answer": "洋服",
       "meaning": ""
@@ -3924,8 +4626,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1881,
-      "text": "木の （は） が ゆれる。",
-      "answer": "葉",
+      "text": "（おちば） を ひろう。",
+      "answer": "おちば",
       "meaning": ""
     },
     {
@@ -3933,6 +4635,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1891,
+      "text": "（たいよう） が のぼる。",
+      "answer": "たいよう",
+      "meaning": ""
+    },
+    {
+      "id": "g3-陽-189-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1893,
       "text": "空に （たいよう） が のぼる。",
       "answer": "太陽",
       "meaning": ""
@@ -3942,6 +4653,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1901,
+      "text": "はなの （ようす） を 見る。",
+      "answer": "ようす",
+      "meaning": ""
+    },
+    {
+      "id": "g3-様-190-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1903,
       "text": "教室の （ようす） を 見る。",
       "answer": "様子",
       "meaning": ""
@@ -3951,8 +4671,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1911,
-      "text": "はやく （らく）。",
-      "answer": "落",
+      "text": "きから はが （おちる）。",
+      "answer": "おちる",
       "meaning": ""
     },
     {
@@ -3960,6 +4680,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1921,
+      "text": "かわの （ながれ） を 見る。",
+      "answer": "ながれ",
+      "meaning": ""
+    },
+    {
+      "id": "g3-流-192-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1923,
       "text": "川が （ながれる）。",
       "answer": "流れる",
       "meaning": ""
@@ -3969,8 +4698,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1931,
-      "text": "みんなで （りょ） を する。",
-      "answer": "旅",
+      "text": "（たび） の じゅんびを する。",
+      "answer": "たび",
       "meaning": ""
     },
     {
@@ -3978,6 +4707,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1941,
+      "text": "（りょうほう） の いけんを きく。",
+      "answer": "りょうほう",
+      "meaning": ""
+    },
+    {
+      "id": "g3-両-194-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1943,
       "text": "（りょうて） を あげる。",
       "answer": "両手",
       "meaning": ""
@@ -3987,6 +4725,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1951,
+      "text": "（みどり） の 木を 見る。",
+      "answer": "みどり",
+      "meaning": ""
+    },
+    {
+      "id": "g3-緑-195-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1953,
       "text": "（みどりいろ） の 紙を えらぶ。",
       "answer": "緑色",
       "meaning": ""
@@ -3996,6 +4743,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1961,
+      "text": "（おれい） を いう。",
+      "answer": "おれい",
+      "meaning": ""
+    },
+    {
+      "id": "g3-礼-196-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1963,
       "text": "先生に （おれい） を いう。",
       "answer": "お礼",
       "meaning": ""
@@ -4005,6 +4761,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1971,
+      "text": "（れつ） に ならぶ。",
+      "answer": "れつ",
+      "meaning": ""
+    },
+    {
+      "id": "g3-列-197-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1973,
       "text": "長い （ぎょうれつ） が できる。",
       "answer": "行列",
       "meaning": ""
@@ -4014,6 +4779,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1981,
+      "text": "（れんしゅう） を つづける。",
+      "answer": "れんしゅう",
+      "meaning": ""
+    },
+    {
+      "id": "g3-練-198-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 1983,
       "text": "家で （れんしゅう） する。",
       "answer": "練習",
       "meaning": ""
@@ -4023,8 +4797,8 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 1991,
-      "text": "雨の あとの （あくろ） に 気をつける。",
-      "answer": "悪路",
+      "text": "（どうろ） を わたる ときは みぎひだりを 見る。",
+      "answer": "どうろ",
       "meaning": ""
     },
     {
@@ -4032,6 +4806,15 @@ window.GRADE_QUESTIONS = {
       "grade": 3,
       "term": 3,
       "order": 2001,
+      "text": "（へいわ） を たいせつに したい。",
+      "answer": "へいわ",
+      "meaning": ""
+    },
+    {
+      "id": "g3-和-200-okuri",
+      "grade": 3,
+      "term": 3,
+      "order": 2003,
       "text": "（へいわ） な くらしを ねがう。",
       "answer": "平和",
       "meaning": ""
@@ -4043,7 +4826,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 1,
       "order": 11,
-      "text": "かぞくの （あいじょう） を かんじる。",
+      "text": "かぞくへの （あいじょう） を たいせつに する。",
       "answer": "愛情",
       "meaning": ""
     },
@@ -4115,7 +4898,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 1,
       "order": 51,
-      "text": "走った あとの （じゅんい） を 見る。",
+      "text": "かけっこの （じゅんい） が はっぴょうされた。",
       "answer": "順位",
       "meaning": "じゅんばんの くらい。"
     },
@@ -4151,7 +4934,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 1,
       "order": 63,
-      "text": "かこむ ように かく。",
+      "text": "（かこむ） ように かく。",
       "answer": "囲む",
       "meaning": ""
     },
@@ -4196,7 +4979,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 1,
       "order": 83,
-      "text": "めじるし ように かく。",
+      "text": "（めじるし） ように かく。",
       "answer": "目印",
       "meaning": ""
     },
@@ -4241,7 +5024,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 1,
       "order": 103,
-      "text": "さかえる ように かく。",
+      "text": "（さかえる） ように かく。",
       "answer": "栄える",
       "meaning": ""
     },
@@ -4394,7 +5177,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 1,
       "order": 183,
-      "text": "あらためる ように かく。",
+      "text": "（あらためる） ように かく。",
       "answer": "改める",
       "meaning": ""
     },
@@ -4403,7 +5186,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 1,
       "order": 191,
-      "text": "工場で （きかい） が うごく。",
+      "text": "工場で （きかい） が 正しく うごく。",
       "answer": "機械",
       "meaning": "しごとを するための しかけや どうぐ。"
     },
@@ -4475,7 +5258,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 1,
       "order": 231,
-      "text": "手で さわって 形を たしかめる （かんかく） を 使う。",
+      "text": "手ざわりの ちがいを （かんかく） で たしかめる。",
       "answer": "感覚",
       "meaning": "見たり さわったりして わかる はたらき。"
     },
@@ -4493,7 +5276,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 1,
       "order": 233,
-      "text": "おぼえる ように かく。",
+      "text": "（おぼえる） ように かく。",
       "answer": "覚える",
       "meaning": ""
     },
@@ -4556,7 +5339,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 1,
       "order": 271,
-      "text": "二つの できごとの （かんけい） を 調べる。",
+      "text": "二つの できごとの （かんけい） を 考える。",
       "answer": "関係",
       "meaning": "たがいに つながりが あること。"
     },
@@ -4574,7 +5357,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 1,
       "order": 273,
-      "text": "せき ように かく。",
+      "text": "（せき） ように かく。",
       "answer": "関",
       "meaning": ""
     },
@@ -4619,7 +5402,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 1,
       "order": 293,
-      "text": "ねがう ように かく。",
+      "text": "（ねがう） ように かく。",
       "answer": "願う",
       "meaning": ""
     },
@@ -4700,7 +5483,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 1,
       "order": 333,
-      "text": "よろこぶ ように かく。",
+      "text": "（よろこぶ） ように かく。",
       "answer": "喜ぶ",
       "meaning": ""
     },
@@ -4799,7 +5582,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 1,
       "order": 383,
-      "text": "もとめる ように かく。",
+      "text": "（もとめる） ように かく。",
       "answer": "求める",
       "meaning": ""
     },
@@ -4826,7 +5609,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 1,
       "order": 393,
-      "text": "なく ように かく。",
+      "text": "（なく） ように かく。",
       "answer": "泣く",
       "meaning": ""
     },
@@ -4853,7 +5636,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 1,
       "order": 403,
-      "text": "すくう ように かく。",
+      "text": "（すくう） ように かく。",
       "answer": "救う",
       "meaning": ""
     },
@@ -4898,7 +5681,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 1,
       "order": 423,
-      "text": "あげる ように かく。",
+      "text": "（あげる） ように かく。",
       "answer": "挙げる",
       "meaning": ""
     },
@@ -4943,7 +5726,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 1,
       "order": 443,
-      "text": "ともに ように かく。",
+      "text": "（ともに） ように かく。",
       "answer": "共に",
       "meaning": ""
     },
@@ -5006,7 +5789,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 1,
       "order": 473,
-      "text": "きそう ように かく。",
+      "text": "（きそう） ように かく。",
       "answer": "競う",
       "meaning": ""
     },
@@ -5033,7 +5816,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 1,
       "order": 483,
-      "text": "きわめる ように かく。",
+      "text": "（きわめる） ように かく。",
       "answer": "極める",
       "meaning": ""
     },
@@ -5042,7 +5825,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 1,
       "order": 491,
-      "text": "ひなん （くんれん） を 行う。",
+      "text": "ひなんの （くんれん） を くり返す。",
       "answer": "訓練",
       "meaning": ""
     },
@@ -5078,7 +5861,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 1,
       "order": 511,
-      "text": "（ぐんぶ） の くらしを 調べる。",
+      "text": "その （ぐんぶ） の くらしを 社会で 学ぶ。",
       "answer": "郡部",
       "meaning": ""
     },
@@ -5186,7 +5969,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 1,
       "order": 563,
-      "text": "かける ように かく。",
+      "text": "（かける） ように かく。",
       "answer": "欠ける",
       "meaning": ""
     },
@@ -5213,7 +5996,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 1,
       "order": 573,
-      "text": "むすぶ ように かく。",
+      "text": "（むすぶ） ように かく。",
       "answer": "結ぶ",
       "meaning": ""
     },
@@ -5240,7 +6023,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 1,
       "order": 583,
-      "text": "たてる ように かく。",
+      "text": "（たてる） ように かく。",
       "answer": "建てる",
       "meaning": ""
     },
@@ -5249,7 +6032,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 1,
       "order": 591,
-      "text": "（けんこう） に 気を つける。",
+      "text": "（けんこう） に 気をつけて 生活する。",
       "answer": "健康",
       "meaning": "からだや 心の ぐあいが よいこと。"
     },
@@ -5303,7 +6086,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 1,
       "order": 613,
-      "text": "かためる ように かく。",
+      "text": "（かためる） ように かく。",
       "answer": "固める",
       "meaning": ""
     },
@@ -5348,7 +6131,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 1,
       "order": 633,
-      "text": "このむ ように かく。",
+      "text": "（このむ） ように かく。",
       "answer": "好む",
       "meaning": ""
     },
@@ -5393,7 +6176,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 1,
       "order": 661,
-      "text": "（けんこう） に 気を つける。",
+      "text": "（けんこう） に 気をつけて 生活する。",
       "answer": "健康",
       "meaning": "からだや 心の ぐあいが よいこと。"
     },
@@ -5447,7 +6230,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 683,
-      "text": "さす ように かく。",
+      "text": "（さす） ように かく。",
       "answer": "差す",
       "meaning": ""
     },
@@ -5564,7 +6347,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 743,
-      "text": "する ように かく。",
+      "text": "（する） ように かく。",
       "answer": "刷る",
       "meaning": ""
     },
@@ -5591,7 +6374,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 753,
-      "text": "ころす ように かく。",
+      "text": "（ころす） ように かく。",
       "answer": "殺す",
       "meaning": ""
     },
@@ -5636,7 +6419,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 773,
-      "text": "まいる ように かく。",
+      "text": "（まいる） ように かく。",
       "answer": "参る",
       "meaning": ""
     },
@@ -5663,7 +6446,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 783,
-      "text": "うむ ように かく。",
+      "text": "（うむ） ように かく。",
       "answer": "産む",
       "meaning": ""
     },
@@ -5690,7 +6473,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 793,
-      "text": "ちる ように かく。",
+      "text": "（ちる） ように かく。",
       "answer": "散る",
       "meaning": ""
     },
@@ -5717,7 +6500,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 803,
-      "text": "のこす ように かく。",
+      "text": "（のこす） ように かく。",
       "answer": "残す",
       "meaning": ""
     },
@@ -5762,7 +6545,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 831,
-      "text": "まちの （れきし） を 学ぶ。",
+      "text": "（れきし） の 本を 読む。",
       "answer": "歴史",
       "meaning": "むかしからの できごとの ながれ。"
     },
@@ -5816,7 +6599,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 853,
-      "text": "ためす ように かく。",
+      "text": "（ためす） ように かく。",
       "answer": "試す",
       "meaning": ""
     },
@@ -5861,7 +6644,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 873,
-      "text": "なおす ように かく。",
+      "text": "（なおす） ように かく。",
       "answer": "治す",
       "meaning": ""
     },
@@ -5888,7 +6671,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 883,
-      "text": "やめる ように かく。",
+      "text": "（やめる） ように かく。",
       "answer": "辞める",
       "meaning": ""
     },
@@ -5915,7 +6698,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 893,
-      "text": "うしなう ように かく。",
+      "text": "（うしなう） ように かく。",
       "answer": "失う",
       "meaning": ""
     },
@@ -5942,7 +6725,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 903,
-      "text": "かりる ように かく。",
+      "text": "（かりる） ように かく。",
       "answer": "借りる",
       "meaning": ""
     },
@@ -5969,7 +6752,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 913,
-      "text": "たね ように かく。",
+      "text": "（たね） ように かく。",
       "answer": "種",
       "meaning": ""
     },
@@ -5996,7 +6779,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 923,
-      "text": "まわり ように かく。",
+      "text": "（まわり） ように かく。",
       "answer": "周り",
       "meaning": ""
     },
@@ -6023,7 +6806,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 933,
-      "text": "いわう ように かく。",
+      "text": "（いわう） ように かく。",
       "answer": "祝う",
       "meaning": ""
     },
@@ -6050,7 +6833,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 951,
-      "text": "（さいしょ） に あいさつを する。",
+      "text": "（さいしょ） の 一歩を ふみ出す。",
       "answer": "最初",
       "meaning": "いちばん はじめ。"
     },
@@ -6068,7 +6851,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 953,
-      "text": "はじめ ように かく。",
+      "text": "（はじめ） ように かく。",
       "answer": "初め",
       "meaning": ""
     },
@@ -6113,7 +6896,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 973,
-      "text": "わらう ように かく。",
+      "text": "（わらう） ように かく。",
       "answer": "笑う",
       "meaning": ""
     },
@@ -6158,7 +6941,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 993,
-      "text": "やく ように かく。",
+      "text": "（やく） ように かく。",
       "answer": "焼く",
       "meaning": ""
     },
@@ -6185,7 +6968,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 1011,
-      "text": "（しょうめい） を つける。",
+      "text": "へやの （しょうめい） を つける。",
       "answer": "照明",
       "meaning": ""
     },
@@ -6203,7 +6986,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 1013,
-      "text": "てらす ように かく。",
+      "text": "（てらす） ように かく。",
       "answer": "照らす",
       "meaning": ""
     },
@@ -6284,7 +7067,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 1053,
-      "text": "なる ように かく。",
+      "text": "（なる） ように かく。",
       "answer": "成る",
       "meaning": ""
     },
@@ -6311,7 +7094,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 1063,
-      "text": "はぶく ように かく。",
+      "text": "（はぶく） ように かく。",
       "answer": "省く",
       "meaning": ""
     },
@@ -6338,7 +7121,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 1073,
-      "text": "きよい ように かく。",
+      "text": "（きよい） ように かく。",
       "answer": "清い",
       "meaning": ""
     },
@@ -6365,7 +7148,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 1083,
-      "text": "しずか ように かく。",
+      "text": "（しずか） ように かく。",
       "answer": "静か",
       "meaning": ""
     },
@@ -6410,7 +7193,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 1103,
-      "text": "つむ ように かく。",
+      "text": "（つむ） ように かく。",
       "answer": "積む",
       "meaning": ""
     },
@@ -6437,7 +7220,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 1113,
-      "text": "おる ように かく。",
+      "text": "（おる） ように かく。",
       "answer": "折る",
       "meaning": ""
     },
@@ -6464,7 +7247,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 1131,
-      "text": "使い方を （せつめい） する。",
+      "text": "図を 使って （せつめい） する。",
       "answer": "説明",
       "meaning": "わかるように くわしく つたえること。"
     },
@@ -6482,7 +7265,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 1133,
-      "text": "とく ように かく。",
+      "text": "（とく） ように かく。",
       "answer": "説く",
       "meaning": ""
     },
@@ -6509,7 +7292,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 1143,
-      "text": "あさい ように かく。",
+      "text": "（あさい） ように かく。",
       "answer": "浅い",
       "meaning": ""
     },
@@ -6536,7 +7319,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 1153,
-      "text": "たたかう ように かく。",
+      "text": "（たたかう） ように かく。",
       "answer": "戦う",
       "meaning": ""
     },
@@ -6563,7 +7346,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 1163,
-      "text": "えらぶ ように かく。",
+      "text": "（えらぶ） ように かく。",
       "answer": "選ぶ",
       "meaning": ""
     },
@@ -6608,7 +7391,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 1183,
-      "text": "あらそう ように かく。",
+      "text": "（あらそう） ように かく。",
       "answer": "争う",
       "meaning": ""
     },
@@ -6617,7 +7400,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 1191,
-      "text": "（そうこ） に にもつを 入れる。",
+      "text": "道具を （そうこ） に しまう。",
       "answer": "倉庫",
       "meaning": ""
     },
@@ -6653,7 +7436,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 1211,
-      "text": "友だちと （やくそく） を まもる。",
+      "text": "友だちと （やくそく） を する。",
       "answer": "約束",
       "meaning": "きめて まもると ちかうこと。"
     },
@@ -6671,7 +7454,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 1213,
-      "text": "たばねる ように かく。",
+      "text": "（たばねる） ように かく。",
       "answer": "束ねる",
       "meaning": ""
     },
@@ -6716,7 +7499,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 1233,
-      "text": "つづく ように かく。",
+      "text": "（つづく） ように かく。",
       "answer": "続く",
       "meaning": ""
     },
@@ -6779,7 +7562,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 1263,
-      "text": "おびる ように かく。",
+      "text": "（おびる） ように かく。",
       "answer": "帯びる",
       "meaning": ""
     },
@@ -6860,7 +7643,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 1303,
-      "text": "おく ように かく。",
+      "text": "（おく） ように かく。",
       "answer": "置く",
       "meaning": ""
     },
@@ -6905,7 +7688,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 1323,
-      "text": "ためる ように かく。",
+      "text": "（ためる） ように かく。",
       "answer": "貯める",
       "meaning": ""
     },
@@ -6932,7 +7715,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 2,
       "order": 1333,
-      "text": "きざす ように かく。",
+      "text": "（きざす） ように かく。",
       "answer": "兆す",
       "meaning": ""
     },
@@ -6977,7 +7760,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1353,
-      "text": "ひくい ように かく。",
+      "text": "（ひくい） ように かく。",
       "answer": "低い",
       "meaning": ""
     },
@@ -7004,7 +7787,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1371,
-      "text": "バスが バスていに （ていしゃ） する。",
+      "text": "えきで 電車が （ていしゃ） する。",
       "answer": "停車",
       "meaning": ""
     },
@@ -7076,7 +7859,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1403,
-      "text": "つたわる ように かく。",
+      "text": "（つたわる） ように かく。",
       "answer": "伝わる",
       "meaning": ""
     },
@@ -7121,7 +7904,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1423,
-      "text": "つとめる ように かく。",
+      "text": "（つとめる） ように かく。",
       "answer": "努める",
       "meaning": ""
     },
@@ -7148,7 +7931,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1433,
-      "text": "ともる ように かく。",
+      "text": "（ともる） ように かく。",
       "answer": "灯る",
       "meaning": ""
     },
@@ -7175,7 +7958,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1451,
-      "text": "（ろうどう） の たいせつさを 学ぶ。",
+      "text": "人びとの （ろうどう） で 社会が ささえられる。",
       "answer": "労働",
       "meaning": "はたらくこと。"
     },
@@ -7193,7 +7976,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1453,
-      "text": "はたらく ように かく。",
+      "text": "（はたらく） ように かく。",
       "answer": "働く",
       "meaning": ""
     },
@@ -7202,7 +7985,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1461,
-      "text": "入場の （とくてん） を もらう。",
+      "text": "さんかした 人に （とくてん） が つく。",
       "answer": "特典",
       "meaning": ""
     },
@@ -7238,7 +8021,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1473,
-      "text": "える ように かく。",
+      "text": "（える） ように かく。",
       "answer": "得る",
       "meaning": ""
     },
@@ -7283,7 +8066,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1493,
-      "text": "あつい ように かく。",
+      "text": "（あつい） ように かく。",
       "answer": "熱い",
       "meaning": ""
     },
@@ -7328,7 +8111,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1513,
-      "text": "やぶれる ように かく。",
+      "text": "（やぶれる） ように かく。",
       "answer": "敗れる",
       "meaning": ""
     },
@@ -7337,7 +8120,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1521,
-      "text": "おべんとうに （うめぼし） を 入れる。",
+      "text": "おにぎりに （うめぼし） を 入れる。",
       "answer": "梅干し",
       "meaning": ""
     },
@@ -7355,7 +8138,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1531,
-      "text": "（はくらんかい） で 新しい ぎじゅつに ふれる。",
+      "text": "（はくらんかい） で 新しい ぎじゅつを 見る。",
       "answer": "博覧会",
       "meaning": ""
     },
@@ -7373,7 +8156,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1541,
-      "text": "あたたかい （ごはん） を 食べる。",
+      "text": "あさの （ごはん） を しっかり 食べる。",
       "answer": "ご飯",
       "meaning": ""
     },
@@ -7391,7 +8174,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1543,
-      "text": "めし ように かく。",
+      "text": "（めし） ように かく。",
       "answer": "飯",
       "meaning": ""
     },
@@ -7418,7 +8201,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1553,
-      "text": "とばす ように かく。",
+      "text": "（とばす） ように かく。",
       "answer": "飛ばす",
       "meaning": ""
     },
@@ -7517,7 +8300,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1611,
-      "text": "（ふうふ） で 店を きりもりする。",
+      "text": "なかよしの （ふうふ） が 店を きりもりする。",
       "answer": "夫婦",
       "meaning": ""
     },
@@ -7553,7 +8336,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1623,
-      "text": "つける ように かく。",
+      "text": "（つける） ように かく。",
       "answer": "付ける",
       "meaning": ""
     },
@@ -7598,7 +8381,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1651,
-      "text": "お祭りで （こなもの） を 食べる。",
+      "text": "（こなもの） の りょうりを みんなで 作る。",
       "answer": "粉物",
       "meaning": ""
     },
@@ -7616,7 +8399,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1653,
-      "text": "こな ように かく。",
+      "text": "（こな） ように かく。",
       "answer": "粉",
       "meaning": ""
     },
@@ -7625,7 +8408,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1661,
-      "text": "むかしの （へいたい） の くらしを 調べる。",
+      "text": "むかしの （へいたい） の くらしを 学ぶ。",
       "answer": "兵隊",
       "meaning": ""
     },
@@ -7643,7 +8426,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1671,
-      "text": "（べつべつ） の ばしょに しまう。",
+      "text": "色ごとに （べつべつ） に 分けて しまう。",
       "answer": "別々",
       "meaning": ""
     },
@@ -7661,7 +8444,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1673,
-      "text": "わかれる ように かく。",
+      "text": "（わかれる） ように かく。",
       "answer": "別れる",
       "meaning": ""
     },
@@ -7670,7 +8453,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1681,
-      "text": "（あたりいったい） が しずかになる。",
+      "text": "この （あたりいったい） に 雪が つもった。",
       "answer": "辺り一帯",
       "meaning": ""
     },
@@ -7688,7 +8471,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1683,
-      "text": "あたり ように かく。",
+      "text": "（あたり） ように かく。",
       "answer": "辺り",
       "meaning": ""
     },
@@ -7697,7 +8480,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1691,
-      "text": "しょくぶつの （へんか） を かんさつする。",
+      "text": "空の 色の （へんか） に 気づく。",
       "answer": "変化",
       "meaning": ""
     },
@@ -7715,7 +8498,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1693,
-      "text": "かわる ように かく。",
+      "text": "（かわる） ように かく。",
       "answer": "変わる",
       "meaning": ""
     },
@@ -7742,7 +8525,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1711,
-      "text": "（にもつ） を もって いどうする。",
+      "text": "重い （にもつ） を ふたりで はこぶ。",
       "answer": "荷物",
       "meaning": ""
     },
@@ -7760,7 +8543,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1713,
-      "text": "つつむ ように かく。",
+      "text": "（つつむ） ように かく。",
       "answer": "包む",
       "meaning": ""
     },
@@ -7805,7 +8588,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1733,
-      "text": "のぞむ ように かく。",
+      "text": "（のぞむ） ように かく。",
       "answer": "望む",
       "meaning": ""
     },
@@ -7850,7 +8633,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1761,
-      "text": "テストで （まんてん） を とる。",
+      "text": "テストで （まんてん） を 目ざす。",
       "answer": "満点",
       "meaning": "ぜんぶ できて もらう 点。"
     },
@@ -7868,7 +8651,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1763,
-      "text": "みちる ように かく。",
+      "text": "（みちる） ように かく。",
       "answer": "満ちる",
       "meaning": ""
     },
@@ -7931,7 +8714,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1801,
-      "text": "（むり） を しない。",
+      "text": "つかれた ときは （むり） を しない。",
       "answer": "無理",
       "meaning": ""
     },
@@ -8003,7 +8786,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1833,
-      "text": "いる ように かく。",
+      "text": "（いる） ように かく。",
       "answer": "要る",
       "meaning": ""
     },
@@ -8030,7 +8813,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1843,
-      "text": "やしなう ように かく。",
+      "text": "（やしなう） ように かく。",
       "answer": "養う",
       "meaning": ""
     },
@@ -8057,7 +8840,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1853,
-      "text": "あびる ように かく。",
+      "text": "（あびる） ように かく。",
       "answer": "浴びる",
       "meaning": ""
     },
@@ -8120,7 +8903,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1883,
-      "text": "よい ように かく。",
+      "text": "（よい） ように かく。",
       "answer": "良い",
       "meaning": ""
     },
@@ -8165,7 +8948,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1903,
-      "text": "はかる ように かく。",
+      "text": "（はかる） ように かく。",
       "answer": "量る",
       "meaning": ""
     },
@@ -8246,7 +9029,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1943,
-      "text": "さます ように かく。",
+      "text": "（さます） ように かく。",
       "answer": "冷ます",
       "meaning": ""
     },
@@ -8273,7 +9056,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1961,
-      "text": "まちの （れきし） を 学ぶ。",
+      "text": "（れきし） の 本を 読む。",
       "answer": "歴史",
       "meaning": "むかしからの できごとの ながれ。"
     },
@@ -8291,7 +9074,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1971,
-      "text": "（れんらく） を わすれずに する。",
+      "text": "先生に （れんらく） を 入れる。",
       "answer": "連絡",
       "meaning": "知らせを とどけあうこと。"
     },
@@ -8309,7 +9092,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1973,
-      "text": "つれる ように かく。",
+      "text": "（つれる） ように かく。",
       "answer": "連れる",
       "meaning": ""
     },
@@ -8318,7 +9101,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1981,
-      "text": "（ろうじん） を いたわる。",
+      "text": "（ろうじん） を いたわる 気もちを もつ。",
       "answer": "老人",
       "meaning": ""
     },
@@ -8336,7 +9119,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1983,
-      "text": "おいる ように かく。",
+      "text": "（おいる） ように かく。",
       "answer": "老いる",
       "meaning": ""
     },
@@ -8345,7 +9128,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1991,
-      "text": "（ろうどう） の たいせつさを 学ぶ。",
+      "text": "人びとの （ろうどう） で 社会が ささえられる。",
       "answer": "労働",
       "meaning": "はたらくこと。"
     },
@@ -8363,7 +9146,7 @@ window.GRADE_QUESTIONS = {
       "grade": 4,
       "term": 3,
       "order": 1993,
-      "text": "いたわる ように かく。",
+      "text": "（いたわる） ように かく。",
       "answer": "労る",
       "meaning": ""
     },
@@ -8392,7 +9175,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 11,
-      "text": "（きあつ） の へんかで 天気を 予想する。",
+      "text": "天気よほうで （きあつ） の 変化を 調べる。",
       "answer": "気圧",
       "meaning": ""
     },
@@ -8401,7 +9184,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 21,
-      "text": "バスで （いどう） する。",
+      "text": "見学では 列で （いどう） する。",
       "answer": "移動",
       "meaning": ""
     },
@@ -8410,8 +9193,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 31,
-      "text": "へんかの （よういん） を 考える。",
-      "answer": "要因",
+      "text": "じこが 起きた （げんいん） を 考える。",
+      "answer": "原因",
       "meaning": ""
     },
     {
@@ -8419,8 +9202,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 41,
-      "text": "（えいえん） の へいわを ねがう。",
-      "answer": "永遠",
+      "text": "平和が （えいきゅう） に 続くと よい。",
+      "answer": "永久",
       "meaning": ""
     },
     {
@@ -8428,7 +9211,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 51,
-      "text": "店の （えいぎょう） が はじまる。",
+      "text": "店の （えいぎょう） 時間を たしかめる。",
       "answer": "営業",
       "meaning": ""
     },
@@ -8437,7 +9220,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 61,
-      "text": "てせんいで （えいせい） に 気をつける。",
+      "text": "てせんいを して （えいせい） に 気をつける。",
       "answer": "衛生",
       "meaning": ""
     },
@@ -8446,7 +9229,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 71,
-      "text": "この もんだいは （やさしい）。",
+      "text": "この せつ明は （やさしい）。",
       "answer": "易しい",
       "meaning": ""
     },
@@ -8455,7 +9238,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 81,
-      "text": "この 本は くらしに とても （ゆうえき） だ。",
+      "text": "この 本は 学習に （ゆうえき） だ。",
       "answer": "有益",
       "meaning": ""
     },
@@ -8464,8 +9247,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 91,
-      "text": "（けつえき） の はたらきを 理科で 学ぶ。",
-      "answer": "血液",
+      "text": "この （えきたい） が こおる 温度を 調べる。",
+      "answer": "液体",
       "meaning": ""
     },
     {
@@ -8473,7 +9256,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 101,
-      "text": "学芸会で （えんぎ） する。",
+      "text": "学芸会で （えんぎ） を する。",
       "answer": "演技",
       "meaning": ""
     },
@@ -8482,7 +9265,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 111,
-      "text": "みんなで （おうえん） する。",
+      "text": "試合に 出る 友だちを （おうえん） する。",
       "answer": "応援",
       "meaning": ""
     },
@@ -8491,7 +9274,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 121,
-      "text": "学校を （おうふく） する。",
+      "text": "家と 学校を （おうふく） する。",
       "answer": "往復",
       "meaning": ""
     },
@@ -8509,7 +9292,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 141,
-      "text": "受けた やさしさに （おんがえし） を する。",
+      "text": "お世話に なった 人に （おんがえし） を したい。",
       "answer": "恩返し",
       "meaning": ""
     },
@@ -8527,7 +9310,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 161,
-      "text": "国語で （かな） を 学ぶ。",
+      "text": "国語で （かな） の 使い方を 学ぶ。",
       "answer": "仮名",
       "meaning": ""
     },
@@ -8536,7 +9319,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 171,
-      "text": "品物の （かかく） を くらべる。",
+      "text": "二つの 品物の （かかく） を くらべる。",
       "answer": "価格",
       "meaning": ""
     },
@@ -8545,7 +9328,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 181,
-      "text": "（かせん） の 水が 海へ そそぐ。",
+      "text": "地図で （かせん） の 流れを たどる。",
       "answer": "河川",
       "meaning": ""
     },
@@ -8554,7 +9337,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 191,
-      "text": "（かこ） の 出来事を 学ぶ。",
+      "text": "（かこ） を ふり返って 学ぶ。",
       "answer": "過去",
       "meaning": ""
     },
@@ -8572,7 +9355,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 211,
-      "text": "今日は （かいせい） で 気もちが よい。",
+      "text": "遠足の日は （かいせい） だった。",
       "answer": "快晴",
       "meaning": ""
     },
@@ -8581,8 +9364,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 221,
-      "text": "ことばの ちがいで （ごかい） が 生まれる。",
-      "answer": "誤解",
+      "text": "みんなで 話し合って 問題を （かいけつ） する。",
+      "answer": "解決",
       "meaning": ""
     },
     {
@@ -8599,7 +9382,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 241,
-      "text": "持ち物を （かくにん） する。",
+      "text": "出発の 前に 持ち物を （かくにん） する。",
       "answer": "確認",
       "meaning": ""
     },
@@ -8626,7 +9409,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 271,
-      "text": "（かんせんどうろ） の 位置を 地図で たしかめる。",
+      "text": "地図で （かんせんどうろ） を たどる。",
       "answer": "幹線道路",
       "meaning": ""
     },
@@ -8635,6 +9418,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 281,
+      "text": "早ね早起きの （しゅうかん） を つける。",
+      "answer": "習慣",
+      "meaning": ""
+    },
+    {
+      "id": "g5-慣-28-okuri",
+      "grade": 5,
+      "term": 1,
+      "order": 283,
       "text": "新しい せいかつに （なれる）。",
       "answer": "慣れる",
       "meaning": ""
@@ -8644,7 +9436,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 291,
-      "text": "（めがね） を かけると 黒板の 字が はっきりする。",
+      "text": "本を 読む ときは （めがね） を かける。",
       "answer": "眼鏡",
       "meaning": ""
     },
@@ -8653,7 +9445,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 292,
-      "text": "「眼鏡」 を かけると 黒板の 字が はっきりする。",
+      "text": "「眼鏡」 を かけて 本を 読む。",
       "answer": "めがね",
       "meaning": ""
     },
@@ -8662,8 +9454,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 301,
-      "text": "（き） を よく 見る。",
-      "answer": "基",
+      "text": "まず （きほん） を しっかり 覚える。",
+      "answer": "基本",
       "meaning": ""
     },
     {
@@ -8671,8 +9463,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 311,
-      "text": "学校は いえから （き）。",
-      "answer": "寄",
+      "text": "こまっている 人の ために （きふ） を する。",
+      "answer": "寄付",
       "meaning": ""
     },
     {
@@ -8689,8 +9481,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 331,
-      "text": "いろいろな （きょうぎ） に ちょうせんする。",
-      "answer": "競技",
+      "text": "くり返し 練習して （ぎじゅつ） を みがく。",
+      "answer": "技術",
       "meaning": ""
     },
     {
@@ -8698,6 +9490,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 341,
+      "text": "この 活動の （いぎ） を 考える。",
+      "answer": "意義",
+      "meaning": ""
+    },
+    {
+      "id": "g5-義-34-okuri",
+      "grade": 5,
+      "term": 1,
+      "order": 343,
       "text": "（せいぎ） を 大切に して 行動する。",
       "answer": "正義",
       "meaning": ""
@@ -8707,7 +9508,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 351,
-      "text": "てつぼうで （さかあがり） の れんしゅうを する。",
+      "text": "体育で （さかあがり） の 練習を する。",
       "answer": "逆上がり",
       "meaning": ""
     },
@@ -8716,7 +9517,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 361,
-      "text": "（ひさしぶり） に 友だちと 会う。",
+      "text": "（ひさしぶり） に 友だちと 会った。",
       "answer": "久しぶり",
       "meaning": ""
     },
@@ -8725,7 +9526,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 371,
-      "text": "（きゅうこうしゃ） の しゃしんを 見くらべる。",
+      "text": "学校の （きゅうこうしゃ） を 見学する。",
       "answer": "旧校舎",
       "meaning": ""
     },
@@ -8734,8 +9535,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 381,
-      "text": "（きょ） を よく 見る。",
-      "answer": "居",
+      "text": "家族が （いま） に 集まる。",
+      "answer": "居間",
       "meaning": ""
     },
     {
@@ -8743,7 +9544,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 391,
-      "text": "先生の （きょか） を もらって 入る。",
+      "text": "先生に （きょか） を もらって 入る。",
       "answer": "許可",
       "meaning": ""
     },
@@ -8752,8 +9553,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 401,
-      "text": "まいにち （きょう）。",
-      "answer": "境",
+      "text": "地図で （こっきょう） の 線を たどる。",
+      "answer": "国境",
       "meaning": ""
     },
     {
@@ -8761,7 +9562,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 411,
-      "text": "テストの （へいきん） を 計算する。",
+      "text": "テストの （へいきん） 点を 計算する。",
       "answer": "平均",
       "meaning": ""
     },
@@ -8770,7 +9571,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 421,
-      "text": "（きんし） の 場所では 入らない。",
+      "text": "この 場所は 立ち入り （きんし） だ。",
       "answer": "禁止",
       "meaning": ""
     },
@@ -8779,8 +9580,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 431,
-      "text": "（はいく） を 作って 発表する。",
-      "answer": "俳句",
+      "text": "文の 終わりに （くとうてん） を つける。",
+      "answer": "句読点",
       "meaning": ""
     },
     {
@@ -8788,7 +9589,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 441,
-      "text": "魚の （むれ） が いっせいに 動く。",
+      "text": "鳥の （むれ） が 空を 飛ぶ。",
       "answer": "群れ",
       "meaning": ""
     },
@@ -8797,7 +9598,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 451,
-      "text": "楽しかった （けいけん） を 作文に 書く。",
+      "text": "しっぱいも 大切な （けいけん） に なる。",
       "answer": "経験",
       "meaning": ""
     },
@@ -8806,7 +9607,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 461,
-      "text": "（せいけつ） な 教室を たもつ。",
+      "text": "教室を （せいけつ） に たもつ。",
       "answer": "清潔",
       "meaning": "きれいで よごれていないこと。"
     },
@@ -8815,7 +9616,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 471,
-      "text": "先生に （ようけん） を つたえる。",
+      "text": "先生に 話したい （ようけん） を 先に まとめる。",
       "answer": "用件",
       "meaning": ""
     },
@@ -8833,7 +9634,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 491,
-      "text": "（きけん） な 場所に 近づかない。",
+      "text": "（きけん） な 場所には 近づかない。",
       "answer": "危険",
       "meaning": ""
     },
@@ -8851,7 +9652,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 511,
-      "text": "時間の （せいげん） を 守って 発表する。",
+      "text": "時間に （せいげん） が あるので 急ぐ。",
       "answer": "制限",
       "meaning": ""
     },
@@ -8860,15 +9661,24 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 521,
-      "text": "ふしぎな （げんしょう） を しらべる。",
-      "answer": "現象",
-      "meaning": "見たり 気づいたり できる 出来事や ようす。"
+      "text": "月が 雲の 間から （あらわれる）。",
+      "answer": "現れる",
+      "meaning": ""
     },
     {
       "id": "g5-減-53-write",
       "grade": 5,
       "term": 1,
       "order": 531,
+      "text": "人数の （ぞうげん） を 記録する。",
+      "answer": "増減",
+      "meaning": ""
+    },
+    {
+      "id": "g5-減-53-okuri",
+      "grade": 5,
+      "term": 1,
+      "order": 533,
       "text": "人数が 少し （へる）。",
       "answer": "減る",
       "meaning": ""
@@ -8878,6 +9688,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 541,
+      "text": "夏休みに （こきょう） を たずねる。",
+      "answer": "故郷",
+      "meaning": ""
+    },
+    {
+      "id": "g5-故-54-okuri",
+      "grade": 5,
+      "term": 1,
+      "order": 543,
       "text": "（じこ） を ふせぐ くふうを 学ぶ。",
       "answer": "事故",
       "meaning": ""
@@ -8896,6 +9715,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 561,
+      "text": "病気の 人を （かんご） する 仕事も ある。",
+      "answer": "看護",
+      "meaning": ""
+    },
+    {
+      "id": "g5-護-56-okuri",
+      "grade": 5,
+      "term": 1,
+      "order": 563,
       "text": "ぜつめつが 心配な 生き物を （ほご） する。",
       "answer": "保護",
       "meaning": ""
@@ -8905,6 +9733,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 571,
+      "text": "作業の （こうりつ） を 上げる くふうを 考える。",
+      "answer": "効率",
+      "meaning": ""
+    },
+    {
+      "id": "g5-効-57-okuri",
+      "grade": 5,
+      "term": 1,
+      "order": 573,
       "text": "れんしゅうの （こうか） が あらわれる。",
       "answer": "効果",
       "meaning": ""
@@ -8914,7 +9751,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 581,
-      "text": "（あつい） 本を ひらく。",
+      "text": "（あつい） 本を 図書館で 借りる。",
       "answer": "厚い",
       "meaning": ""
     },
@@ -8923,7 +9760,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 591,
-      "text": "畑を （たがやす）。",
+      "text": "春に 畑を （たがやす）。",
       "answer": "耕す",
       "meaning": ""
     },
@@ -8932,8 +9769,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 601,
-      "text": "まいにち （こう）。",
-      "answer": "鉱",
+      "text": "理科で いろいろな （こうぶつ） の 色や 形を くらべる。",
+      "answer": "鉱物",
       "meaning": ""
     },
     {
@@ -8941,6 +9778,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 611,
+      "text": "文の （こうせい） を 考えて 作文を 書く。",
+      "answer": "構成",
+      "meaning": ""
+    },
+    {
+      "id": "g5-構-61-okuri",
+      "grade": 5,
+      "term": 1,
+      "order": 613,
       "text": "カメラを （かまえる） しゃしんを とる。",
       "answer": "構える",
       "meaning": ""
@@ -8950,7 +9796,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 1,
       "order": 621,
-      "text": "れきしに （きょうみ） を もつ。",
+      "text": "理科に （きょうみ） を もつ。",
       "answer": "興味",
       "meaning": ""
     },
@@ -8968,6 +9814,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 641,
+      "text": "朝の 電車は よく （こむ）。",
+      "answer": "混む",
+      "meaning": ""
+    },
+    {
+      "id": "g5-混-64-okuri",
+      "grade": 5,
+      "term": 2,
+      "order": 643,
       "text": "赤と 白が （まざる）。",
       "answer": "混ざる",
       "meaning": ""
@@ -8977,8 +9832,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 651,
-      "text": "（さ） を よく 見る。",
-      "answer": "査",
+      "text": "町の ようすを （ちょうさ） して まとめる。",
+      "answer": "調査",
       "meaning": ""
     },
     {
@@ -8986,8 +9841,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 661,
-      "text": "こわれた 橋の （さいけん） が はじまる。",
-      "answer": "再建",
+      "text": "古い 紙を （さいりよう） する。",
+      "answer": "再利用",
       "meaning": ""
     },
     {
@@ -8995,6 +9850,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 671,
+      "text": "地しんに そなえて （ぼうさい） について 学ぶ。",
+      "answer": "防災",
+      "meaning": ""
+    },
+    {
+      "id": "g5-災-67-okuri",
+      "grade": 5,
+      "term": 2,
+      "order": 673,
       "text": "（かさい） を ふせぐ くふうを 学ぶ。",
       "answer": "火災",
       "meaning": ""
@@ -9004,7 +9868,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 681,
-      "text": "その （ふさい） は 店を きりもりしている。",
+      "text": "会場に なかのよい （ふさい） が 来ていた。",
       "answer": "夫妻",
       "meaning": ""
     },
@@ -9013,8 +9877,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 691,
-      "text": "（さい） を よく 見る。",
-      "answer": "採",
+      "text": "話し合いで よい 意見を （さいよう） する。",
+      "answer": "採用",
       "meaning": ""
     },
     {
@@ -9022,6 +9886,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 701,
+      "text": "（じっさい） に やってみると むずかしい。",
+      "answer": "実際",
+      "meaning": ""
+    },
+    {
+      "id": "g5-際-70-okuri",
+      "grade": 5,
+      "term": 2,
+      "order": 703,
       "text": "（まどぎわ） に 花を かざる。",
       "answer": "窓際",
       "meaning": ""
@@ -9031,7 +9904,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 711,
-      "text": "（ざいこうせい） が 新入生を むかえる。",
+      "text": "式で （ざいこうせい） が 歌を うたう。",
       "answer": "在校生",
       "meaning": ""
     },
@@ -9049,7 +9922,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 731,
-      "text": "（つみ） を にくみ、人を きずつけない。",
+      "text": "（つみ） の ない 人を うたがっては いけない。",
       "answer": "罪",
       "meaning": ""
     },
@@ -9058,8 +9931,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 741,
-      "text": "まいにち （ざつ）。",
-      "answer": "雑",
+      "text": "しずかな 教室では （ざつおん） が 気に なる。",
+      "answer": "雑音",
       "meaning": ""
     },
     {
@@ -9067,6 +9940,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 751,
+      "text": "生きものは （さんそ） を 取り入れて 生きている。",
+      "answer": "酸素",
+      "meaning": ""
+    },
+    {
+      "id": "g5-酸-75-okuri",
+      "grade": 5,
+      "term": 2,
+      "order": 753,
       "text": "えきたいが （さんせい） か しらべる。",
       "answer": "酸性",
       "meaning": ""
@@ -9076,7 +9958,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 761,
-      "text": "友だちの いけんに （さんせい） する。",
+      "text": "わたしは この 意見に （さんせい） する。",
       "answer": "賛成",
       "meaning": ""
     },
@@ -9085,7 +9967,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 771,
-      "text": "みんなで くらしを （ささえる）。",
+      "text": "家族が くらしを （ささえる）。",
       "answer": "支える",
       "meaning": ""
     },
@@ -9094,8 +9976,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 781,
-      "text": "（し） を よく 見る。",
-      "answer": "志",
+      "text": "しょうくるは いしを （こころざす）。",
+      "answer": "志す",
       "meaning": ""
     },
     {
@@ -9112,7 +9994,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 801,
-      "text": "（いし） に みてもらう。",
+      "text": "けがを したので （いし） に みてもらう。",
       "answer": "医師",
       "meaning": ""
     },
@@ -9121,8 +10003,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 811,
-      "text": "地球の （しげん） を 大切に する。",
-      "answer": "資源",
+      "text": "発表の ために （しりょう） を 集める。",
+      "answer": "資料",
       "meaning": ""
     },
     {
@@ -9130,6 +10012,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 821,
+      "text": "学校で うさぎの （しいく） を する。",
+      "answer": "飼育",
+      "meaning": ""
+    },
+    {
+      "id": "g5-飼-82-okuri",
+      "grade": 5,
+      "term": 2,
+      "order": 823,
       "text": "小鳥を 大切に （かう）。",
       "answer": "飼う",
       "meaning": ""
@@ -9139,6 +10030,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 831,
+      "text": "先生の （しじ） を よく 聞く。",
+      "answer": "指示",
+      "meaning": ""
+    },
+    {
+      "id": "g5-示-83-okuri",
+      "grade": 5,
+      "term": 2,
+      "order": 833,
       "text": "地図で 方こうを （しめす）。",
       "answer": "示す",
       "meaning": ""
@@ -9148,6 +10048,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 841,
+      "text": "親子の 顔が よく （にる）。",
+      "answer": "似る",
+      "meaning": ""
+    },
+    {
+      "id": "g5-似-84-okuri",
+      "grade": 5,
+      "term": 2,
+      "order": 843,
       "text": "（にがおえ） を ていねいに かく。",
       "answer": "似顔絵",
       "meaning": ""
@@ -9157,7 +10066,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 851,
-      "text": "本を 読んで （ちしき） を ふやす。",
+      "text": "読書で （ちしき） を 広げる。",
       "answer": "知識",
       "meaning": ""
     },
@@ -9166,6 +10075,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 861,
+      "text": "金ぞくの （せいしつ） を 実験で 調べる。",
+      "answer": "性質",
+      "meaning": ""
+    },
+    {
+      "id": "g5-質-86-okuri",
+      "grade": 5,
+      "term": 2,
+      "order": 863,
       "text": "わからない ところを （しつもん） する。",
       "answer": "質問",
       "meaning": ""
@@ -9175,8 +10093,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 871,
-      "text": "（しゃ） を よく 見る。",
-      "answer": "舎",
+      "text": "雨の日に （こうしゃ） の 中で 待つ。",
+      "answer": "校舎",
       "meaning": ""
     },
     {
@@ -9184,7 +10102,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 881,
-      "text": "手伝って くれた 人に （かんしゃ） する。",
+      "text": "手つだってくれた 人に （かんしゃ） を 伝える。",
       "answer": "感謝",
       "meaning": ""
     },
@@ -9193,7 +10111,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 891,
-      "text": "算数の （じゅぎょう） で 面積を 学ぶ。",
+      "text": "次の （じゅぎょう） で 発表する。",
       "answer": "授業",
       "meaning": ""
     },
@@ -9202,6 +10120,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 901,
+      "text": "こわれた 自転車を （しゅうり） する。",
+      "answer": "修理",
+      "meaning": ""
+    },
+    {
+      "id": "g5-修-90-okuri",
+      "grade": 5,
+      "term": 2,
+      "order": 903,
       "text": "（しゅうがくりょこう） の じゅんびを する。",
       "answer": "修学旅行",
       "meaning": ""
@@ -9211,7 +10138,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 911,
-      "text": "じぶんの 考えを （のべる）。",
+      "text": "自分の 考えを （のべる）。",
       "answer": "述べる",
       "meaning": ""
     },
@@ -9220,6 +10147,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 921,
+      "text": "びじゅつかんで （びじゅつ） 作品を 見る。",
+      "answer": "美術",
+      "meaning": ""
+    },
+    {
+      "id": "g5-術-92-okuri",
+      "grade": 5,
+      "term": 2,
+      "order": 923,
       "text": "新しい （ぎじゅつ） を 学ぶ。",
       "answer": "技術",
       "meaning": ""
@@ -9229,7 +10165,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 931,
-      "text": "遠足の （じゅんび） を ととのえる。",
+      "text": "出発の 前に （じゅんび） を すませる。",
       "answer": "準備",
       "meaning": ""
     },
@@ -9238,7 +10174,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 941,
-      "text": "作業の （じゅんじょ） を 守る。",
+      "text": "作業の （じゅんじょ） を 考えて 進める。",
       "answer": "順序",
       "meaning": ""
     },
@@ -9247,7 +10183,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 951,
-      "text": "おきゃくさんを （しょうたい） する。",
+      "text": "友だちを 家に （しょうたい） する。",
       "answer": "招待",
       "meaning": ""
     },
@@ -9256,7 +10192,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 961,
-      "text": "ないようを （しょうち） して うなずく。",
+      "text": "先生の 話を よく （しょうち） しました。",
       "answer": "承知",
       "meaning": ""
     },
@@ -9265,6 +10201,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 971,
+      "text": "たしかな （しょうこ） を 集める。",
+      "answer": "証拠",
+      "meaning": ""
+    },
+    {
+      "id": "g5-証-97-okuri",
+      "grade": 5,
+      "term": 2,
+      "order": 973,
       "text": "自分の 考えを しりょうで （しょうめい） する。",
       "answer": "証明",
       "meaning": ""
@@ -9274,7 +10219,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 981,
-      "text": "二つの （じょうけん） を くらべる。",
+      "text": "試合に 出るには （じょうけん） が ある。",
       "answer": "条件",
       "meaning": ""
     },
@@ -9283,8 +10228,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 991,
-      "text": "花の （じょうたい） が 少しずつ かわる。",
-      "answer": "状態",
+      "text": "会の （あんないじょう） が 家に とどく。",
+      "answer": "案内状",
       "meaning": ""
     },
     {
@@ -9292,8 +10237,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 1001,
-      "text": "（ひじょう） 口の 場所を たしかめる。",
-      "answer": "非常",
+      "text": "（つねに） 安全に 気をつけて 行動する。",
+      "answer": "常に",
       "meaning": ""
     },
     {
@@ -9301,8 +10246,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 1011,
-      "text": "かぞくの （あいじょう） を かんじる。",
-      "answer": "愛情",
+      "text": "相手の （かんじょう） を おもうぞうする。",
+      "answer": "感情",
       "meaning": ""
     },
     {
@@ -9310,6 +10255,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 1021,
+      "text": "大きな （そしき） では 役目の ぶんたんが 大切だ。",
+      "answer": "組織",
+      "meaning": ""
+    },
+    {
+      "id": "g5-織-102-okuri",
+      "grade": 5,
+      "term": 2,
+      "order": 1023,
       "text": "（おりもの） の もようの ちがいを 楽しむ。",
       "answer": "織物",
       "meaning": ""
@@ -9328,6 +10282,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 1041,
+      "text": "社会で いろいろな （せいど） を 学ぶ。",
+      "answer": "制度",
+      "meaning": ""
+    },
+    {
+      "id": "g5-制-104-okuri",
+      "grade": 5,
+      "term": 2,
+      "order": 1043,
       "text": "学校の （せいふく） を きちんと 着る。",
       "answer": "制服",
       "meaning": ""
@@ -9337,6 +10300,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 1051,
+      "text": "友だちの （せいかく） を みとめ合う。",
+      "answer": "性格",
+      "meaning": ""
+    },
+    {
+      "id": "g5-性-105-okuri",
+      "grade": 5,
+      "term": 2,
+      "order": 1053,
       "text": "金ぞくの （せいしつ） を しらべる。",
       "answer": "性質",
       "meaning": ""
@@ -9346,7 +10318,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 1061,
-      "text": "（せいじ） の しごとを 学ぶ。",
+      "text": "社会で （せいじ） の しくみを 学ぶ。",
       "answer": "政治",
       "meaning": "国や まちを おさめること。"
     },
@@ -9355,7 +10327,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 1071,
-      "text": "水の （いきおい） が つよい。",
+      "text": "ボールの （いきおい） が 強すぎた。",
       "answer": "勢い",
       "meaning": ""
     },
@@ -9364,6 +10336,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 1081,
+      "text": "（せいいっぱい） がんばった。",
+      "answer": "精一杯",
+      "meaning": ""
+    },
+    {
+      "id": "g5-精-108-okuri",
+      "grade": 5,
+      "term": 2,
+      "order": 1083,
       "text": "（せいいっぱい） 走る。",
       "answer": "精いっぱい",
       "meaning": ""
@@ -9373,8 +10354,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 1091,
-      "text": "（せい） を よく 見る。",
-      "answer": "製",
+      "text": "図を 正しく かく （せいず） を 学ぶ。",
+      "answer": "製図",
       "meaning": ""
     },
     {
@@ -9382,8 +10363,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 1101,
-      "text": "（ぜい） を よく 見る。",
-      "answer": "税",
+      "text": "社会で （ぜいきん） の しくみを 学ぶ。",
+      "answer": "税金",
       "meaning": ""
     },
     {
@@ -9391,7 +10372,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 1111,
-      "text": "じぶんの 役目に （せきにん） を もつ。",
+      "text": "当番の 仕事に （せきにん） を もつ。",
       "answer": "責任",
       "meaning": ""
     },
@@ -9400,9 +10381,9 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 1121,
-      "text": "大きな （こうせき） を たたえる。",
-      "answer": "功績",
-      "meaning": "よい はたらきで のこした 手がら。"
+      "text": "テストの （せいせき） を ふり返る。",
+      "answer": "成績",
+      "meaning": ""
     },
     {
       "id": "g5-績-112-read",
@@ -9418,6 +10399,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 1131,
+      "text": "年下の 子にも やさしく （せっする）。",
+      "answer": "接する",
+      "meaning": ""
+    },
+    {
+      "id": "g5-接-113-okuri",
+      "grade": 5,
+      "term": 2,
+      "order": 1133,
       "text": "（めんせつ） の れんしゅうを する。",
       "answer": "面接",
       "meaning": ""
@@ -9427,6 +10417,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 1141,
+      "text": "新しい 橋を （けんせつ） する 工事が 進む。",
+      "answer": "建設",
+      "meaning": ""
+    },
+    {
+      "id": "g5-設-114-okuri",
+      "grade": 5,
+      "term": 2,
+      "order": 1143,
       "text": "家の もけいを （せっけい） する。",
       "answer": "設計",
       "meaning": ""
@@ -9436,7 +10435,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 1151,
-      "text": "まいにち （ぜつ）。",
+      "text": "熱い 物で （した） を やけどした。",
       "answer": "舌",
       "meaning": ""
     },
@@ -9454,7 +10453,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 1171,
-      "text": "（こぜに） を さいふに 入れる。",
+      "text": "さいふの 中の （こぜに） を 数える。",
       "answer": "小銭",
       "meaning": ""
     },
@@ -9463,7 +10462,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 1181,
-      "text": "（そふ） と いっしょに さんぽする。",
+      "text": "（そふ） から むかしの 話を 聞く。",
       "answer": "祖父",
       "meaning": ""
     },
@@ -9472,7 +10471,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 1191,
-      "text": "（すなお） に あやまる。",
+      "text": "先生の 助言を （すなお） に 聞く。",
       "answer": "素直",
       "meaning": ""
     },
@@ -9481,7 +10480,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 1201,
-      "text": "（そうごう） 学習で 調べたことを まとめる。",
+      "text": "学習した ことを （そうごう） して まとめる。",
       "answer": "総合",
       "meaning": ""
     },
@@ -9490,7 +10489,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 1211,
-      "text": "ねんどで 形を （つくる）。",
+      "text": "土で 皿を （つくる）。",
       "answer": "造る",
       "meaning": ""
     },
@@ -9499,7 +10498,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 1221,
-      "text": "（えいぞう） を 見て 気づいたことを 書く。",
+      "text": "きろくした （えいぞう） を 見返す。",
       "answer": "映像",
       "meaning": ""
     },
@@ -9508,7 +10507,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 1231,
-      "text": "友だちが （ふえる）。",
+      "text": "学校の 本が （ふえる） と うれしい。",
       "answer": "増える",
       "meaning": ""
     },
@@ -9517,8 +10516,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 2,
       "order": 1241,
-      "text": "学校の （きそく） を 守る。",
-      "answer": "規則",
+      "text": "話し合いの （げんそく） を 先に 決める。",
+      "answer": "原則",
       "meaning": ""
     },
     {
@@ -9526,7 +10525,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1251,
-      "text": "長さを （はかる）。",
+      "text": "長さを ものさしで （はかる）。",
       "answer": "測る",
       "meaning": ""
     },
@@ -9535,6 +10534,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1261,
+      "text": "理科で （きんぞく） の せいしつを 調べる。",
+      "answer": "金属",
+      "meaning": ""
+    },
+    {
+      "id": "g5-属-126-okuri",
+      "grade": 5,
+      "term": 3,
+      "order": 1263,
       "text": "（かぞく） みんなで 出かける。",
       "answer": "家族",
       "meaning": ""
@@ -9544,6 +10552,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1271,
+      "text": "さいころの （かくりつ） を 考える。",
+      "answer": "確率",
+      "meaning": ""
+    },
+    {
+      "id": "g5-率-127-okuri",
+      "grade": 5,
+      "term": 3,
+      "order": 1273,
       "text": "はんを （ひきいる） 人が 先頭に 立つ。",
       "answer": "率いる",
       "meaning": ""
@@ -9553,8 +10570,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1281,
-      "text": "（そん） を よく 見る。",
-      "answer": "損",
+      "text": "台風の （そんがい） が 広がった。",
+      "answer": "損害",
       "meaning": ""
     },
     {
@@ -9562,6 +10579,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1291,
+      "text": "きないので 一歩 （しりぞく）。",
+      "answer": "退く",
+      "meaning": ""
+    },
+    {
+      "id": "g5-退-129-okuri",
+      "grade": 5,
+      "term": 3,
+      "order": 1293,
       "text": "しずかに （たいじょう） する。",
       "answer": "退場",
       "meaning": ""
@@ -9571,8 +10597,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1301,
-      "text": "（たい） を よく 見る。",
-      "answer": "貸",
+      "text": "図書館で 本の （かしだし） を する。",
+      "answer": "貸し出し",
       "meaning": ""
     },
     {
@@ -9580,6 +10606,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1311,
+      "text": "相手に しつ礼のない （たいど） で 話す。",
+      "answer": "態度",
+      "meaning": ""
+    },
+    {
+      "id": "g5-態-131-okuri",
+      "grade": 5,
+      "term": 3,
+      "order": 1313,
       "text": "花の （じょうたい） が 少しずつ かわる。",
       "answer": "状態",
       "meaning": ""
@@ -9589,7 +10624,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1321,
-      "text": "（だんたい） 行動の きまりを 守る。",
+      "text": "ちいきの （だんたい） で 活動する。",
       "answer": "団体",
       "meaning": ""
     },
@@ -9598,7 +10633,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1331,
-      "text": "じょうほうを よく 見て （はんだん） する。",
+      "text": "話を よく 聞いて （はんだん） する。",
       "answer": "判断",
       "meaning": ""
     },
@@ -9607,6 +10642,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1341,
+      "text": "古い （けんちく） の くふうを 学ぶ。",
+      "answer": "建築",
+      "meaning": ""
+    },
+    {
+      "id": "g5-築-134-okuri",
+      "grade": 5,
+      "term": 3,
+      "order": 1343,
       "text": "友だちとの しんらいを （きずく）。",
       "answer": "築く",
       "meaning": ""
@@ -9616,6 +10660,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1351,
+      "text": "発表の 前で （きんちょう） する。",
+      "answer": "緊張",
+      "meaning": ""
+    },
+    {
+      "id": "g5-張-135-okuri",
+      "grade": 5,
+      "term": 3,
+      "order": 1353,
       "text": "テントを （はる）。",
       "answer": "張る",
       "meaning": ""
@@ -9625,8 +10678,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1361,
-      "text": "新しい かつどうを （ていしょう） する。",
-      "answer": "提唱",
+      "text": "よい 考えを （ていあん） する。",
+      "answer": "提案",
       "meaning": ""
     },
     {
@@ -9643,7 +10696,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1371,
-      "text": "遠足の （にってい） が 決まる。",
+      "text": "旅行の （にってい） が 決まる。",
       "answer": "日程",
       "meaning": ""
     },
@@ -9652,6 +10705,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1381,
+      "text": "この 道具は その 作業に （てきした）。",
+      "answer": "適した",
+      "meaning": ""
+    },
+    {
+      "id": "g5-適-138-okuri",
+      "grade": 5,
+      "term": 3,
+      "order": 1383,
       "text": "（てきせつ） な ことばを えらぶ。",
       "answer": "適切",
       "meaning": ""
@@ -9661,6 +10723,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1391,
+      "text": "物語の （てき） と 主人公が 戦う。",
+      "answer": "敵",
+      "meaning": ""
+    },
+    {
+      "id": "g5-敵-139-okuri",
+      "grade": 5,
+      "term": 3,
+      "order": 1393,
       "text": "（すてき） な けしきに 見とれる。",
       "answer": "素敵",
       "meaning": ""
@@ -9670,6 +10741,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1401,
+      "text": "集めた 数字を （とうけい） に まとめる。",
+      "answer": "統計",
+      "meaning": ""
+    },
+    {
+      "id": "g5-統-140-okuri",
+      "grade": 5,
+      "term": 3,
+      "order": 1403,
       "text": "いけんを （とういつ） する。",
       "answer": "統一",
       "meaning": ""
@@ -9679,7 +10759,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1411,
-      "text": "広場の （どうぞう） を 見上げる。",
+      "text": "駅前に （どうぞう） が 立っている。",
       "answer": "銅像",
       "meaning": ""
     },
@@ -9697,7 +10777,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1431,
-      "text": "（どうとく） で 命の 大切さを 学ぶ。",
+      "text": "（どうとく） の 時間に 命の 大切さを 学ぶ。",
       "answer": "道徳",
       "meaning": ""
     },
@@ -9706,6 +10786,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1441,
+      "text": "この クラブは （どくじ） の くふうを している。",
+      "answer": "独自",
+      "meaning": ""
+    },
+    {
+      "id": "g5-独-144-okuri",
+      "grade": 5,
+      "term": 3,
+      "order": 1443,
       "text": "国の （どくりつ） について 学ぶ。",
       "answer": "独立",
       "meaning": ""
@@ -9715,7 +10804,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1451,
-      "text": "しごとの 一部を 友だちに （まかせる）。",
+      "text": "当番の 仕事を 友だちに （まかせる）。",
       "answer": "任せる",
       "meaning": ""
     },
@@ -9724,8 +10813,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1461,
-      "text": "ものが （ねんしょう） すると 熱が 出る。",
-      "answer": "燃焼",
+      "text": "まきが よく （もえる）。",
+      "answer": "燃える",
       "meaning": ""
     },
     {
@@ -9742,8 +10831,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1471,
-      "text": "じっけんが （かのう） か たしかめる。",
-      "answer": "可能",
+      "text": "自分の （のうりょく） を のばす。",
+      "answer": "能力",
       "meaning": ""
     },
     {
@@ -9751,6 +10840,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1481,
+      "text": "古い ふくが （やぶれる）。",
+      "answer": "破れる",
+      "meaning": ""
+    },
+    {
+      "id": "g5-破-148-okuri",
+      "grade": 5,
+      "term": 3,
+      "order": 1483,
       "text": "紙を （やぶる）。",
       "answer": "破る",
       "meaning": ""
@@ -9760,8 +10858,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1491,
-      "text": "（はん） を よく 見る。",
-      "answer": "犯",
+      "text": "けいさつが じけんの （はんにん） を さがす。",
+      "answer": "犯人",
       "meaning": ""
     },
     {
@@ -9769,6 +10867,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1501,
+      "text": "しんはんが 勝ち負けを （はんてい） する。",
+      "answer": "判定",
+      "meaning": ""
+    },
+    {
+      "id": "g5-判-150-okuri",
+      "grade": 5,
+      "term": 3,
+      "order": 1503,
       "text": "じょうほうを よく 見て （はんだん） する。",
       "answer": "判断",
       "meaning": ""
@@ -9778,6 +10885,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1511,
+      "text": "図工で （はんが） を ほる。",
+      "answer": "版画",
+      "meaning": ""
+    },
+    {
+      "id": "g5-版-151-okuri",
+      "grade": 5,
+      "term": 3,
+      "order": 1513,
       "text": "本が （しゅっぱん） される。",
       "answer": "出版",
       "meaning": ""
@@ -9787,7 +10903,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1521,
-      "text": "二つの ちがいを （くらべる）。",
+      "text": "二つの 記録を （くらべる）。",
       "answer": "比べる",
       "meaning": ""
     },
@@ -9805,6 +10921,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1541,
+      "text": "（ひじょうに） 速い ボールだった。",
+      "answer": "非常に",
+      "meaning": ""
+    },
+    {
+      "id": "g5-非-154-okuri",
+      "grade": 5,
+      "term": 3,
+      "order": 1543,
       "text": "（ひじょう） 口の 場所を たしかめる。",
       "answer": "非常",
       "meaning": ""
@@ -9814,8 +10939,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1551,
-      "text": "遠足の （じゅんび） を ととのえる。",
-      "answer": "準備",
+      "text": "学校の （せつび） を てんけんする。",
+      "answer": "設備",
       "meaning": ""
     },
     {
@@ -9823,7 +10948,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1561,
-      "text": "（どひょう） の 上で 力を くらべる。",
+      "text": "力士が （どひょう） に 上がる。",
       "answer": "土俵",
       "meaning": ""
     },
@@ -9832,6 +10957,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1571,
+      "text": "その 店は （ひょうばん） が よい。",
+      "answer": "評判",
+      "meaning": ""
+    },
+    {
+      "id": "g5-評-157-okuri",
+      "grade": 5,
+      "term": 3,
+      "order": 1573,
       "text": "友だちの 発表を （ひょうか） する。",
       "answer": "評価",
       "meaning": ""
@@ -9841,7 +10975,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1581,
-      "text": "（まずしい） ちいきを ささえる 取組を 学ぶ。",
+      "text": "（まずしい） くらしの 国を 社会で 学ぶ。",
       "answer": "貧しい",
       "meaning": ""
     },
@@ -9850,7 +10984,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1591,
-      "text": "寒い 夜に （もうふ） を かける。",
+      "text": "ねる 前に （もうふ） を かける。",
       "answer": "毛布",
       "meaning": ""
     },
@@ -9859,7 +10993,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1601,
-      "text": "（ふうふ） で 店を きりもりする。",
+      "text": "その 店は （ふうふ） で きりもりしている。",
       "answer": "夫婦",
       "meaning": ""
     },
@@ -9868,7 +11002,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1611,
-      "text": "（ほうふ） な 水を 大切に 使う。",
+      "text": "川には 水が （ほうふ） に ある。",
       "answer": "豊富",
       "meaning": ""
     },
@@ -9877,6 +11011,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1621,
+      "text": "社会で むかしの （ぶし） の くらしを 学ぶ。",
+      "answer": "武士",
+      "meaning": ""
+    },
+    {
+      "id": "g5-武-162-okuri",
+      "grade": 5,
+      "term": 3,
+      "order": 1623,
       "text": "（ぶどう） の れいぎを 学ぶ。",
       "answer": "武道",
       "meaning": ""
@@ -9886,8 +11029,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1631,
-      "text": "学校を （おうふく） する。",
-      "answer": "往復",
+      "text": "家で 今日の （ふくしゅう） を する。",
+      "answer": "復習",
       "meaning": ""
     },
     {
@@ -9895,6 +11038,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1641,
+      "text": "この しくみは 少し （ふくざつ） だ。",
+      "answer": "複雑",
+      "meaning": ""
+    },
+    {
+      "id": "g5-複-164-okuri",
+      "grade": 5,
+      "term": 3,
+      "order": 1643,
       "text": "（ふくすう） の いけんを まとめる。",
       "answer": "複数",
       "meaning": ""
@@ -9922,7 +11074,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1671,
-      "text": "遠足の （べんとう） を 用意する。",
+      "text": "遠足の日は 早起きして （べんとう） を 作る。",
       "answer": "弁当",
       "meaning": ""
     },
@@ -9931,7 +11083,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1681,
-      "text": "だいじな 書類を 金庫で （ほかん） する。",
+      "text": "大切な 書類を 箱に 入れて （ほかん） する。",
       "answer": "保管",
       "meaning": "なくさないように たいせつに しまっておくこと。"
     },
@@ -9940,7 +11092,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1691,
-      "text": "（ぼち） では しずかに あるく。",
+      "text": "しずかな （ぼち） に 花を そなえる。",
       "answer": "墓地",
       "meaning": ""
     },
@@ -9949,7 +11101,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1701,
-      "text": "しらべた ことを （ほうこく） する。",
+      "text": "調べた ことを みんなに （ほうこく） する。",
       "answer": "報告",
       "meaning": "わかったことや したことを つたえること。"
     },
@@ -9958,6 +11110,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1711,
+      "text": "自然が （ゆたか） な 土地で 米を 作る。",
+      "answer": "豊か",
+      "meaning": ""
+    },
+    {
+      "id": "g5-豊-171-okuri",
+      "grade": 5,
+      "term": 3,
+      "order": 1713,
       "text": "ことしの 米は （ほうさく） だ。",
       "answer": "豊作",
       "meaning": ""
@@ -9967,8 +11128,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1721,
-      "text": "（しょうぼうたい） が 火事の げんじょうへ 向かう。",
-      "answer": "消防隊",
+      "text": "じこを （ふせぐ） ために ヘルメットを かぶる。",
+      "answer": "防ぐ",
       "meaning": ""
     },
     {
@@ -9976,8 +11137,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1731,
-      "text": "まいにち （ぼう）。",
-      "answer": "貿",
+      "text": "日本と 外国の （ぼうえき） は くらしと つながる。",
+      "answer": "貿易",
       "meaning": ""
     },
     {
@@ -9985,7 +11146,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1741,
-      "text": "きょう風で 木が （あばれる）。",
+      "text": "強い 風で 木が （あばれる）。",
       "answer": "暴れる",
       "meaning": ""
     },
@@ -9994,7 +11155,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1751,
-      "text": "きまりを 守るのは みんなの （ぎむ） だ。",
+      "text": "子どもにも 学ぶ （ぎむ） が ある。",
       "answer": "義務",
       "meaning": ""
     },
@@ -10003,7 +11164,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1761,
-      "text": "まいにち （む）。",
+      "text": "しょうくるの （ゆめ） を ノートに 書く。",
       "answer": "夢",
       "meaning": ""
     },
@@ -10012,6 +11173,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1771,
+      "text": "どの 本を 借りるか （まよう）。",
+      "answer": "迷う",
+      "meaning": ""
+    },
+    {
+      "id": "g5-迷-177-okuri",
+      "grade": 5,
+      "term": 3,
+      "order": 1773,
       "text": "（まいご） の ほうそうを 聞く。",
       "answer": "迷子",
       "meaning": ""
@@ -10021,7 +11191,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1781,
-      "text": "（もめん） の ふは 手ざわりが やさしい。",
+      "text": "（もめん） の シャツは やわらかい。",
       "answer": "木綿",
       "meaning": ""
     },
@@ -10030,7 +11200,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1782,
-      "text": "「木綿」 の ふは 手ざわりが やさしい。",
+      "text": "「木綿」 の シャツは やわらかい。",
       "answer": "もめん",
       "meaning": ""
     },
@@ -10039,6 +11209,15 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1791,
+      "text": "外国から 小麦を （ゆにゅう） する。",
+      "answer": "輸入",
+      "meaning": ""
+    },
+    {
+      "id": "g5-輸-179-okuri",
+      "grade": 5,
+      "term": 3,
+      "order": 1793,
       "text": "にもつを （ゆそう） する しくみを 学ぶ。",
       "answer": "輸送",
       "meaning": ""
@@ -10048,7 +11227,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1801,
-      "text": "じかんが 少し （あまる）。",
+      "text": "給食の パンが （あまる）。",
       "answer": "余る",
       "meaning": ""
     },
@@ -10057,7 +11236,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1811,
-      "text": "にもつを 受付に （あずける）。",
+      "text": "大切な 荷物を 先生に （あずける）。",
       "answer": "預ける",
       "meaning": ""
     },
@@ -10066,8 +11245,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1821,
-      "text": "まいにち （よう）。",
-      "answer": "容",
+      "text": "水を 入れる （ようき） を 用意する。",
+      "answer": "容器",
       "meaning": ""
     },
     {
@@ -10075,7 +11254,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1831,
-      "text": "同じ ところを （しょうりゃく） して 書く。",
+      "text": "長い あいさつを （しょうりゃく） する。",
       "answer": "省略",
       "meaning": ""
     },
@@ -10084,7 +11263,7 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1841,
-      "text": "（るす） ばん電話に ことづけを のこす。",
+      "text": "家が （るす） の あいだに 電話が あった。",
       "answer": "留守",
       "meaning": ""
     },
@@ -10093,8 +11272,8 @@ window.GRADE_QUESTIONS = {
       "grade": 5,
       "term": 3,
       "order": 1851,
-      "text": "（りょういき） を 広げる れんしゅうを する。",
-      "answer": "領域",
+      "text": "国の （りょうど） を 地図で たしかめる。",
+      "answer": "領土",
       "meaning": ""
     }
   ],
@@ -10131,7 +11310,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 41,
-      "text": "夜空を 見上げて （うちゅう） に 思いを はせる。",
+      "text": "（うちゅう） の ひみつを 理科で 学ぶ。",
       "answer": "宇宙",
       "meaning": ""
     },
@@ -10140,7 +11319,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 51,
-      "text": "みんなで （えいが） を 楽しむ。",
+      "text": "休日に （えいが） を 楽しむ。",
       "answer": "映画",
       "meaning": ""
     },
@@ -10158,7 +11337,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 71,
-      "text": "（えんどう） に ひとが ならぶ。",
+      "text": "（えんどう） に 人が ならぶ。",
       "answer": "沿道",
       "meaning": ""
     },
@@ -10194,7 +11373,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 111,
-      "text": "（かわ） の かばんは じょうぶだ。",
+      "text": "（かわ） の かばんを 大切に 使う。",
       "answer": "革",
       "meaning": ""
     },
@@ -10248,7 +11427,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 171,
-      "text": "店の （かんばん） で 名前を おぼえる。",
+      "text": "店の （かんばん） を 見上げる。",
       "answer": "看板",
       "meaning": ""
     },
@@ -10275,7 +11454,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 201,
-      "text": "（つくえ） を ふく。",
+      "text": "（つくえ） の 上を きれいに ふく。",
       "answer": "机",
       "meaning": ""
     },
@@ -10302,7 +11481,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 231,
-      "text": "学習して （ぎもん） を ノートに 書く。",
+      "text": "（ぎもん） を ノートに 書き出す。",
       "answer": "疑問",
       "meaning": ""
     },
@@ -10338,6 +11517,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 271,
+      "text": "（こきょう） の よさを しょうかいする。",
+      "answer": "故郷",
+      "meaning": ""
+    },
+    {
+      "id": "g6-郷-27-okuri",
+      "grade": 6,
+      "term": 1,
+      "order": 273,
       "text": "夏休みに ふるさとへ （ききょう） する。",
       "answer": "帰郷",
       "meaning": ""
@@ -10347,6 +11535,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 281,
+      "text": "（きんろう） の 大切さを 社会で 学ぶ。",
+      "answer": "勤労",
+      "meaning": ""
+    },
+    {
+      "id": "g6-勤-28-okuri",
+      "grade": 6,
+      "term": 1,
+      "order": 283,
       "text": "父は 朝から （きんむ） している。",
       "answer": "勤務",
       "meaning": ""
@@ -10356,8 +11553,8 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 291,
-      "text": "（きん） を よく 見る。",
-      "answer": "筋",
+      "text": "（すじみち） を 立てて 説明する。",
+      "answer": "筋道",
       "meaning": ""
     },
     {
@@ -10365,6 +11562,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 301,
+      "text": "（たいようけい） の せいの ならびを 学ぶ。",
+      "answer": "太陽系",
+      "meaning": ""
+    },
+    {
+      "id": "g6-系-30-okuri",
+      "grade": 6,
+      "term": 1,
+      "order": 303,
       "text": "学んだことを （たいけい） だてて まとめる。",
       "answer": "体系",
       "meaning": ""
@@ -10374,6 +11580,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 311,
+      "text": "（そんけい） する 人を しょうかいする。",
+      "answer": "尊敬",
+      "meaning": ""
+    },
+    {
+      "id": "g6-敬-31-okuri",
+      "grade": 6,
+      "term": 1,
+      "order": 313,
       "text": "年上の 人を （うやまう）。",
       "answer": "敬う",
       "meaning": ""
@@ -10383,7 +11598,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 321,
-      "text": "町を 守る （けいさつ） の しごとを 学ぶ。",
+      "text": "（けいさつ） の 人に 道を たずねる。",
       "answer": "警察",
       "meaning": ""
     },
@@ -10392,8 +11607,8 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 331,
-      "text": "みんなで （きげき） を 見て わらう。",
-      "answer": "喜劇",
+      "text": "（げきじょう） で しばいを 見る。",
+      "answer": "劇場",
       "meaning": ""
     },
     {
@@ -10410,8 +11625,8 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 351,
-      "text": "きつねが （すあな） から 出てきた。",
-      "answer": "巣穴",
+      "text": "地面の （あな） に 気をつける。",
+      "answer": "穴",
       "meaning": ""
     },
     {
@@ -10419,8 +11634,8 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 361,
-      "text": "（きぬ） の 布は なめらかだ。",
-      "answer": "絹",
+      "text": "（きぬいと） の 手ざわりを たしかめる。",
+      "answer": "絹糸",
       "meaning": ""
     },
     {
@@ -10428,7 +11643,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 371,
-      "text": "子どもの （けんり） について 考える。",
+      "text": "子どもの （けんり） について 学ぶ。",
       "answer": "権利",
       "meaning": ""
     },
@@ -10437,7 +11652,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 381,
-      "text": "社会で （けんぽう） の 大切さを 学ぶ。",
+      "text": "社会で （けんぽう） の はたらきを 学ぶ。",
       "answer": "憲法",
       "meaning": ""
     },
@@ -10455,7 +11670,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 401,
-      "text": "（きびしい） 寒さに ふるえる。",
+      "text": "（きびしい） ルールを 守る。",
       "answer": "厳しい",
       "meaning": ""
     },
@@ -10464,7 +11679,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 411,
-      "text": "（じこ） しょうかいで 名前を つたえる。",
+      "text": "（じこ） しょうかいの 文を 書く。",
       "answer": "自己",
       "meaning": ""
     },
@@ -10473,8 +11688,8 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 421,
-      "text": "深く （こきゅう） する。",
-      "answer": "呼吸",
+      "text": "名前を （よぶ）。",
+      "answer": "呼ぶ",
       "meaning": ""
     },
     {
@@ -10482,7 +11697,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 431,
-      "text": "ことばの ちがいで （ごかい） が 生まれる。",
+      "text": "（ごかい） が ないように 話す。",
       "answer": "誤解",
       "meaning": ""
     },
@@ -10491,7 +11706,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 441,
-      "text": "れきしの 本で （こうごう） の 役わりを 学ぶ。",
+      "text": "（こうごう） の お仕事を 社会で 学ぶ。",
       "answer": "皇后",
       "meaning": ""
     },
@@ -10509,6 +11724,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 461,
+      "text": "（てんのう） の 役わりを 学ぶ。",
+      "answer": "天皇",
+      "meaning": ""
+    },
+    {
+      "id": "g6-皇-46-okuri",
+      "grade": 6,
+      "term": 1,
+      "order": 463,
       "text": "ニュースで （こうしつ） の 行事を 知る。",
       "answer": "皇室",
       "meaning": ""
@@ -10518,8 +11742,8 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 471,
-      "text": "あたたかい （こうちゃ） を のむ。",
-      "answer": "紅茶",
+      "text": "山の （こうよう） を 見に 行く。",
+      "answer": "紅葉",
       "meaning": ""
     },
     {
@@ -10527,6 +11751,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 481,
+      "text": "（こうすい） の りょうを くらべる。",
+      "answer": "降水",
+      "meaning": ""
+    },
+    {
+      "id": "g6-降-48-okuri",
+      "grade": 6,
+      "term": 1,
+      "order": 483,
       "text": "（こうすいりょう） の へんかを くらべる。",
       "answer": "降水量",
       "meaning": ""
@@ -10536,7 +11769,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 491,
-      "text": "（こうてつ） の 橋は とても じょうぶだ。",
+      "text": "（こうてつ） で できた 橋を 見上げる。",
       "answer": "鋼鉄",
       "meaning": ""
     },
@@ -10545,7 +11778,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 501,
-      "text": "出発の （じこく） が 近づく。",
+      "text": "しゅっぱつの （じこく） が 近づく。",
       "answer": "時刻",
       "meaning": ""
     },
@@ -10554,7 +11787,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 511,
-      "text": "（こくもつ） を 大切に たくわえる。",
+      "text": "（こくもつ） を むだに しない。",
       "answer": "穀物",
       "meaning": ""
     },
@@ -10563,8 +11796,8 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 521,
-      "text": "ころんで 足を （こっせつ） した。",
-      "answer": "骨折",
+      "text": "魚の （ほね） に 気をつける。",
+      "answer": "骨",
       "meaning": ""
     },
     {
@@ -10581,6 +11814,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 531,
+      "text": "一人で かかえこむと （こまる）。",
+      "answer": "困る",
+      "meaning": ""
+    },
+    {
+      "id": "g6-困-53-okuri",
+      "grade": 6,
+      "term": 1,
+      "order": 533,
       "text": "（こんなん） を 乗りこえて 目標に 近づく。",
       "answer": "困難",
       "meaning": ""
@@ -10590,7 +11832,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 541,
-      "text": "（すなはま） を はだしで あるく。",
+      "text": "（すなはま） を はだしで 歩く。",
       "answer": "砂浜",
       "meaning": ""
     },
@@ -10599,7 +11841,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 551,
-      "text": "会場の （ざせき） に すわる。",
+      "text": "自分の （ざせき） に すわる。",
       "answer": "座席",
       "meaning": ""
     },
@@ -10608,7 +11850,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 561,
-      "text": "かりた 本の 代金を （へんさい） する。",
+      "text": "かりた 本を きげんまでに （へんさい） する。",
       "answer": "返済",
       "meaning": ""
     },
@@ -10617,6 +11859,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 571,
+      "text": "（さいばん） の しくみを 社会で 学ぶ。",
+      "answer": "裁判",
+      "meaning": ""
+    },
+    {
+      "id": "g6-裁-57-okuri",
+      "grade": 6,
+      "term": 1,
+      "order": 573,
       "text": "布を まっすぐ （たつ）。",
       "answer": "裁つ",
       "meaning": ""
@@ -10626,7 +11877,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 581,
-      "text": "台風への （たいさく） を 話し合う。",
+      "text": "暑さへの （たいさく） を 立てる。",
       "answer": "対策",
       "meaning": ""
     },
@@ -10635,7 +11886,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 591,
-      "text": "本を （いっさつ） 読み終える。",
+      "text": "本を （いっさつ） えらんで 読む。",
       "answer": "一冊",
       "meaning": ""
     },
@@ -10653,6 +11904,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 1,
       "order": 611,
+      "text": "（とうじ） の 日は 夜が 長い。",
+      "answer": "冬至",
+      "meaning": ""
+    },
+    {
+      "id": "g6-至-61-okuri",
+      "grade": 6,
+      "term": 1,
+      "order": 613,
       "text": "（しきゅう） で れんらくする。",
       "answer": "至急",
       "meaning": ""
@@ -10662,6 +11922,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 621,
+      "text": "（わたし） は 図書いいんです。",
+      "answer": "私",
+      "meaning": ""
+    },
+    {
+      "id": "g6-私-62-okuri",
+      "grade": 6,
+      "term": 2,
+      "order": 623,
       "text": "（しりつ） 学校の せつめいを 聞く。",
       "answer": "私立",
       "meaning": ""
@@ -10671,7 +11940,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 631,
-      "text": "よい （しせい） で すわる。",
+      "text": "（しせい） を 正して すわる。",
       "answer": "姿勢",
       "meaning": ""
     },
@@ -10680,6 +11949,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 641,
+      "text": "ちがう （してん） で 考える。",
+      "answer": "視点",
+      "meaning": ""
+    },
+    {
+      "id": "g6-視-64-okuri",
+      "grade": 6,
+      "term": 2,
+      "order": 643,
       "text": "大事な へんかを （ちゅうし） する。",
       "answer": "注視",
       "meaning": ""
@@ -10689,6 +11967,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 651,
+      "text": "（かし） を たしかめて 歌う。",
+      "answer": "歌詞",
+      "meaning": ""
+    },
+    {
+      "id": "g6-詞-65-okuri",
+      "grade": 6,
+      "term": 2,
+      "order": 653,
       "text": "国語で （めいし） を 学ぶ。",
       "answer": "名詞",
       "meaning": ""
@@ -10698,6 +11985,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 661,
+      "text": "（ざっし） の 特集を 読む。",
+      "answer": "雑誌",
+      "meaning": ""
+    },
+    {
+      "id": "g6-誌-66-okuri",
+      "grade": 6,
+      "term": 2,
+      "order": 663,
       "text": "観察の きろくを （にっし） に 書く。",
       "answer": "日誌",
       "meaning": ""
@@ -10707,7 +12003,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 671,
-      "text": "（じしゃく） が くぎを 引きつける。",
+      "text": "（じしゃく） が くっつく ようすを 見る。",
       "answer": "磁石",
       "meaning": ""
     },
@@ -10716,7 +12012,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 681,
-      "text": "ロケットの （はっしゃ） を 見守る。",
+      "text": "ロケットの （はっしゃ） の えいぞうを 見る。",
       "answer": "発射",
       "meaning": ""
     },
@@ -10725,7 +12021,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 691,
-      "text": "ごみを 決められた 場所に （すてる）。",
+      "text": "ごみを 分けて （すてる）。",
       "answer": "捨てる",
       "meaning": ""
     },
@@ -10743,7 +12039,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 711,
-      "text": "（わかもの） の 意見にも 耳を かたむける。",
+      "text": "（わかもの） の いけんに 耳を かたむける。",
       "answer": "若者",
       "meaning": ""
     },
@@ -10752,7 +12048,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 721,
-      "text": "公園の （じゅもく） が 青々と しげる。",
+      "text": "（じゅもく） の 名前を 調べる。",
       "answer": "樹木",
       "meaning": ""
     },
@@ -10761,6 +12057,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 731,
+      "text": "古紙を （かいしゅう） する 日を たしかめる。",
+      "answer": "回収",
+      "meaning": ""
+    },
+    {
+      "id": "g6-収-73-okuri",
+      "grade": 6,
+      "term": 2,
+      "order": 733,
       "text": "学級会の お金の （しゅうし） を 表に まとめる。",
       "answer": "収支",
       "meaning": ""
@@ -10770,7 +12075,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 741,
-      "text": "世界の （しゅうきょう） の ちがいを 学ぶ。",
+      "text": "（しゅうきょう） の ちがいを 学ぶ。",
       "answer": "宗教",
       "meaning": ""
     },
@@ -10779,6 +12084,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 751,
+      "text": "しょうらいの （しゅうしょく） について 話し合う。",
+      "answer": "就職",
+      "meaning": ""
+    },
+    {
+      "id": "g6-就-75-okuri",
+      "grade": 6,
+      "term": 2,
+      "order": 753,
       "text": "新しい 代表の （しゅうにん） が 決まる。",
       "answer": "就任",
       "meaning": ""
@@ -10788,6 +12102,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 761,
+      "text": "（かんしゅう） から 大きな はくしゅが おこる。",
+      "answer": "観衆",
+      "meaning": ""
+    },
+    {
+      "id": "g6-衆-76-okuri",
+      "grade": 6,
+      "term": 2,
+      "order": 763,
       "text": "（ちょうしゅう） が 発表に みみを かたむける。",
       "answer": "聴衆",
       "meaning": ""
@@ -10797,7 +12120,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 771,
-      "text": "きまりに （したがう）。",
+      "text": "先生の しじに （したがう）。",
       "answer": "従う",
       "meaning": ""
     },
@@ -10806,7 +12129,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 781,
-      "text": "（たてがき） で 手紙を 書く。",
+      "text": "この 本は （たてがき） で 書かれている。",
       "answer": "縦書き",
       "meaning": ""
     },
@@ -10815,6 +12138,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 791,
+      "text": "町の （しゅくず） を 見ながら 歩く。",
+      "answer": "縮図",
+      "meaning": ""
+    },
+    {
+      "id": "g6-縮-79-okuri",
+      "grade": 6,
+      "term": 2,
+      "order": 793,
       "text": "会ぎの 時間を （たんしゅく） する。",
       "answer": "短縮",
       "meaning": ""
@@ -10824,7 +12156,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 801,
-      "text": "国語で 新しい （じゅくご） を おぼえる。",
+      "text": "新しい （じゅくご） の 意味を 調べる。",
       "answer": "熟語",
       "meaning": ""
     },
@@ -10833,8 +12165,8 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 811,
-      "text": "（じゅん） を よく 見る。",
-      "answer": "純",
+      "text": "（じゅんぱく） の 紙に 絵を えがく。",
+      "answer": "純白",
       "meaning": ""
     },
     {
@@ -10842,6 +12174,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 821,
+      "text": "集めた ごみを 正しく （しょり） する。",
+      "answer": "処理",
+      "meaning": ""
+    },
+    {
+      "id": "g6-処-82-okuri",
+      "grade": 6,
+      "term": 2,
+      "order": 823,
       "text": "とつぜんの 雨への （たいしょ） を 考える。",
       "answer": "対処",
       "meaning": ""
@@ -10851,8 +12192,8 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 831,
-      "text": "（かんこうしょ） に 書類を 出す。",
-      "answer": "官公署",
+      "text": "（しょうぼうしょ） の しくみを 見学する。",
+      "answer": "消防署",
       "meaning": ""
     },
     {
@@ -10869,7 +12210,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 841,
-      "text": "（しょこく） の くらしを 比べる。",
+      "text": "（しょこく） の くらしを 調べる。",
       "answer": "諸国",
       "meaning": ""
     },
@@ -10878,6 +12219,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 851,
+      "text": "いらない ぶぶんを （のぞく）。",
+      "answer": "除く",
+      "meaning": ""
+    },
+    {
+      "id": "g6-除-85-okuri",
+      "grade": 6,
+      "term": 2,
+      "order": 853,
       "text": "きまりに 合わない ものを （じょがい） する。",
       "answer": "除外",
       "meaning": ""
@@ -10887,6 +12237,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 861,
+      "text": "（しょうらい） の ゆめを 発表する。",
+      "answer": "将来",
+      "meaning": ""
+    },
+    {
+      "id": "g6-将-86-okuri",
+      "grade": 6,
+      "term": 2,
+      "order": 863,
       "text": "（しょうぎ） の こまで 勝負する。",
       "answer": "将棋",
       "meaning": ""
@@ -10896,6 +12255,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 871,
+      "text": "（きず） を きれいに あらう。",
+      "answer": "傷",
+      "meaning": ""
+    },
+    {
+      "id": "g6-傷-87-okuri",
+      "grade": 6,
+      "term": 2,
+      "order": 873,
       "text": "ころんだが （けいしょう） ですんだ。",
       "answer": "軽傷",
       "meaning": ""
@@ -10905,6 +12273,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 881,
+      "text": "和室の （しょうじ） を そっと 開ける。",
+      "answer": "障子",
+      "meaning": ""
+    },
+    {
+      "id": "g6-障-88-okuri",
+      "grade": 6,
+      "term": 2,
+      "order": 883,
       "text": "きかいの （こしょう） を なおす。",
       "answer": "故障",
       "meaning": ""
@@ -10914,6 +12291,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 891,
+      "text": "（しろ） の 天守を 見上げる。",
+      "answer": "城",
+      "meaning": ""
+    },
+    {
+      "id": "g6-城-89-okuri",
+      "grade": 6,
+      "term": 2,
+      "order": 893,
       "text": "（じょうない） を 見学して れきしを 学ぶ。",
       "answer": "城内",
       "meaning": ""
@@ -10923,7 +12309,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 901,
-      "text": "水が （じょうはつ） して 少しずつ へる。",
+      "text": "水が （じょうはつ） する ようすを 観察する。",
       "answer": "蒸発",
       "meaning": ""
     },
@@ -10932,6 +12318,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 911,
+      "text": "（はりがね） を 曲げて 形を 作る。",
+      "answer": "針金",
+      "meaning": ""
+    },
+    {
+      "id": "g6-針-91-okuri",
+      "grade": 6,
+      "term": 2,
+      "order": 913,
       "text": "学級の （ほうしん） を 話し合って 決める。",
       "answer": "方針",
       "meaning": ""
@@ -10941,7 +12336,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 921,
-      "text": "人を 思いやる （じんあい） の 心を 学ぶ。",
+      "text": "（じんあい） の 心を 大切に する。",
       "answer": "仁愛",
       "meaning": ""
     },
@@ -10950,6 +12345,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 931,
+      "text": "（すいちょく） に 線を 引く。",
+      "answer": "垂直",
+      "meaning": ""
+    },
+    {
+      "id": "g6-垂-93-okuri",
+      "grade": 6,
+      "term": 2,
+      "order": 933,
       "text": "（あまだれ） が ぽつぽつと 落ちる。",
       "answer": "雨垂れ",
       "meaning": ""
@@ -10959,6 +12363,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 941,
+      "text": "手がかりから （すいり） する。",
+      "answer": "推理",
+      "meaning": ""
+    },
+    {
+      "id": "g6-推-94-okuri",
+      "grade": 6,
+      "term": 2,
+      "order": 943,
       "text": "委員長に ふさわしい 人を （すいせん） する。",
       "answer": "推薦",
       "meaning": ""
@@ -10968,7 +12381,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 951,
-      "text": "工作の 材料の （すんぽう） を はかる。",
+      "text": "たなの （すんぽう） を はかる。",
       "answer": "寸法",
       "meaning": ""
     },
@@ -10977,7 +12390,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 961,
-      "text": "（せいだい） な 会が 開かれる。",
+      "text": "（せいだい） な 式が 行われる。",
       "answer": "盛大",
       "meaning": ""
     },
@@ -10986,7 +12399,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 971,
-      "text": "（せいか） が 競技場に 入る。",
+      "text": "（せいか） リレーの ニュースを 見る。",
       "answer": "聖火",
       "meaning": ""
     },
@@ -10995,6 +12408,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 981,
+      "text": "（せいい） を もって あやまる。",
+      "answer": "誠意",
+      "meaning": ""
+    },
+    {
+      "id": "g6-誠-98-okuri",
+      "grade": 6,
+      "term": 2,
+      "order": 983,
       "text": "（せいじつ） な たいどで 話す。",
       "answer": "誠実",
       "meaning": ""
@@ -11013,6 +12435,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 1001,
+      "text": "（せんよう） の どうぐを 使う。",
+      "answer": "専用",
+      "meaning": ""
+    },
+    {
+      "id": "g6-専-100-okuri",
+      "grade": 6,
+      "term": 2,
+      "order": 1003,
       "text": "れんしゅうに （せんねん） する。",
       "answer": "専念",
       "meaning": ""
@@ -11022,7 +12453,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 1011,
-      "text": "旅行で （おんせん） に 入る。",
+      "text": "（おんせん） の まちを 調べる。",
       "answer": "温泉",
       "meaning": ""
     },
@@ -11031,6 +12462,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 1021,
+      "text": "朝の （せんめん） を すませる。",
+      "answer": "洗面",
+      "meaning": ""
+    },
+    {
+      "id": "g6-洗-102-okuri",
+      "grade": 6,
+      "term": 2,
+      "order": 1023,
       "text": "ことばづかいを （せんれん） する。",
       "answer": "洗練",
       "meaning": ""
@@ -11040,6 +12480,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 1031,
+      "text": "夕やけで 空が （そまる）。",
+      "answer": "染まる",
+      "meaning": ""
+    },
+    {
+      "id": "g6-染-103-okuri",
+      "grade": 6,
+      "term": 2,
+      "order": 1033,
       "text": "川の （おせん） を ふせぐ 努力を 学ぶ。",
       "answer": "汚染",
       "meaning": ""
@@ -11049,17 +12498,17 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 1041,
-      "text": "生活の しかたを （かいぜん） する。",
-      "answer": "改善",
-      "meaning": "前より よくすること。"
+      "text": "（ぜんい） に ささえられて 活動する。",
+      "answer": "善意",
+      "meaning": ""
     },
     {
       "id": "g6-奏-105-write",
       "grade": 6,
       "term": 2,
       "order": 1051,
-      "text": "まいにち （そう）。",
-      "answer": "奏",
+      "text": "（えんそう） を 聞いて かんそうを 書く。",
+      "answer": "演奏",
       "meaning": ""
     },
     {
@@ -11067,6 +12516,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 1061,
+      "text": "（まどべ） に 花を かざる。",
+      "answer": "窓辺",
+      "meaning": ""
+    },
+    {
+      "id": "g6-窓-106-okuri",
+      "grade": 6,
+      "term": 2,
+      "order": 1063,
       "text": "（まどぎわ） に 花を かざる。",
       "answer": "窓際",
       "meaning": ""
@@ -11076,6 +12534,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 1071,
+      "text": "（そうさく） した 物語を 読み合う。",
+      "answer": "創作",
+      "meaning": ""
+    },
+    {
+      "id": "g6-創-107-okuri",
+      "grade": 6,
+      "term": 2,
+      "order": 1073,
       "text": "新しい 作品を （そうぞう） する。",
       "answer": "創造",
       "meaning": ""
@@ -11085,16 +12552,16 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 1081,
-      "text": "品物を ていねいに （ほうそう） する。",
-      "answer": "包装",
-      "meaning": "つつんで かたちを ととのえること。"
+      "text": "場に 合う （ふくそう） を 考える。",
+      "answer": "服装",
+      "meaning": ""
     },
     {
       "id": "g6-層-109-write",
       "grade": 6,
       "term": 2,
       "order": 1091,
-      "text": "（ちそう） を 調べて 土地の ようすを 知る。",
+      "text": "（ちそう） の かさなりを 理科で 学ぶ。",
       "answer": "地層",
       "meaning": ""
     },
@@ -11112,6 +12579,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 1111,
+      "text": "（れいぞうこ） に うしにゅうを 入れる。",
+      "answer": "冷蔵庫",
+      "meaning": ""
+    },
+    {
+      "id": "g6-蔵-111-okuri",
+      "grade": 6,
+      "term": 2,
+      "order": 1113,
       "text": "図書館が 本を （しょぞう） している。",
       "answer": "所蔵",
       "meaning": ""
@@ -11130,7 +12606,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 1131,
-      "text": "空気の （そんざい） は 目に 見えない。",
+      "text": "（そんざい） の 大きさを かんじる。",
       "answer": "存在",
       "meaning": ""
     },
@@ -11139,6 +12615,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 1141,
+      "text": "友だちの いけんを （そんちょう） する。",
+      "answer": "尊重",
+      "meaning": ""
+    },
+    {
+      "id": "g6-尊-114-okuri",
+      "grade": 6,
+      "term": 2,
+      "order": 1143,
       "text": "先生を （そんけい） する 気持ちを もつ。",
       "answer": "尊敬",
       "meaning": ""
@@ -11157,7 +12642,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 1161,
-      "text": "わたしの （たんとう） を はっきり させる。",
+      "text": "わたしは そうじの （たんとう） だ。",
       "answer": "担当",
       "meaning": ""
     },
@@ -11166,7 +12651,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 1171,
-      "text": "森を （たんけん） する。",
+      "text": "町（たんけん） で 商店街を 歩く。",
       "answer": "探検",
       "meaning": ""
     },
@@ -11175,8 +12660,8 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 1181,
-      "text": "（たん） を よく 見る。",
-      "answer": "誕",
+      "text": "弟の （たんじょう） を 家ぞくで よろこぶ。",
+      "answer": "誕生",
       "meaning": ""
     },
     {
@@ -11184,8 +12669,8 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 1191,
-      "text": "（だん） を よく 見る。",
-      "answer": "段",
+      "text": "文の （だんらく） を 分けて 書く。",
+      "answer": "段落",
       "meaning": ""
     },
     {
@@ -11193,7 +12678,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 1201,
-      "text": "冬は （だんぼう） を 入れて 部屋を あたためる。",
+      "text": "（だんぼう） の つけすぎに 気をつける。",
       "answer": "暖房",
       "meaning": ""
     },
@@ -11202,8 +12687,8 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 2,
       "order": 1211,
-      "text": "（ち） を よく 見る。",
-      "answer": "値",
+      "text": "この 品物の （ねだん） は 高い。",
+      "answer": "値段",
       "meaning": ""
     },
     {
@@ -11211,7 +12696,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1221,
-      "text": "夜空を 見上げて （うちゅう） に 思いを はせる。",
+      "text": "（うちゅう） の 写真を 見る。",
       "answer": "宇宙",
       "meaning": ""
     },
@@ -11220,6 +12705,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1231,
+      "text": "友だちの （ちゅうこく） を しっかり 聞く。",
+      "answer": "忠告",
+      "meaning": ""
+    },
+    {
+      "id": "g6-忠-123-okuri",
+      "grade": 6,
+      "term": 3,
+      "order": 1233,
       "text": "（ちゅうじつ） に 見たままを えがく。",
       "answer": "忠実",
       "meaning": ""
@@ -11238,8 +12732,8 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1251,
-      "text": "市役所の 本（ちょう） へ 行く。",
-      "answer": "庁",
+      "text": "（けんちょう） の 役わりを 社会で 学ぶ。",
+      "answer": "県庁",
       "meaning": ""
     },
     {
@@ -11247,6 +12741,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1261,
+      "text": "（さんちょう） から けしきを 見わたす。",
+      "answer": "山頂",
+      "meaning": ""
+    },
+    {
+      "id": "g6-頂-126-okuri",
+      "grade": 6,
+      "term": 3,
+      "order": 1263,
       "text": "山の （ちょうじょう） を めざす。",
       "answer": "頂上",
       "meaning": ""
@@ -11256,7 +12759,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1271,
-      "text": "（くろしお） の 流れを 地図で 学ぶ。",
+      "text": "（くろしお） の 流れを 地図で 見る。",
       "answer": "黒潮",
       "meaning": ""
     },
@@ -11265,7 +12768,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1281,
-      "text": "（やちん） の しくみを 社会で 知る。",
+      "text": "（やちん） の しくみを 社会で 学ぶ。",
       "answer": "家賃",
       "meaning": ""
     },
@@ -11274,6 +12777,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1291,
+      "text": "（ずつう） が するときは 早めに 休む。",
+      "answer": "頭痛",
+      "meaning": ""
+    },
+    {
+      "id": "g6-痛-129-okuri",
+      "grade": 6,
+      "term": 3,
+      "order": 1293,
       "text": "（つうれつ） な いけんに おどろく。",
       "answer": "痛烈",
       "meaning": ""
@@ -11283,6 +12795,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1301,
+      "text": "（てんじ） の くふうを 見学する。",
+      "answer": "展示",
+      "meaning": ""
+    },
+    {
+      "id": "g6-展-130-okuri",
+      "grade": 6,
+      "term": 3,
+      "order": 1303,
       "text": "（てんぼう） 台から 町を 見わたす。",
       "answer": "展望",
       "meaning": ""
@@ -11292,6 +12813,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1311,
+      "text": "テーマを 決めて （とうろん） する。",
+      "answer": "討論",
+      "meaning": ""
+    },
+    {
+      "id": "g6-討-131-okuri",
+      "grade": 6,
+      "term": 3,
+      "order": 1313,
       "text": "学級会で もんだいを （とうぎ） する。",
       "answer": "討議",
       "meaning": ""
@@ -11301,7 +12831,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1321,
-      "text": "社会で （せいとう） の はたらきを 学ぶ。",
+      "text": "（せいとう） の 役わりを 社会で 学ぶ。",
       "answer": "政党",
       "meaning": ""
     },
@@ -11310,7 +12840,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1331,
-      "text": "（さとう） を 入れて あまく する。",
+      "text": "（さとう） の 量を はかる。",
       "answer": "砂糖",
       "meaning": ""
     },
@@ -11319,8 +12849,8 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1341,
-      "text": "（かい） を よく 見る。",
-      "answer": "届",
+      "text": "わすれ物を 先生に （とどける）。",
+      "answer": "届ける",
       "meaning": ""
     },
     {
@@ -11328,6 +12858,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1351,
+      "text": "（むずかしい） 問題にも いどむ。",
+      "answer": "難しい",
+      "meaning": ""
+    },
+    {
+      "id": "g6-難-135-okuri",
+      "grade": 6,
+      "term": 3,
+      "order": 1353,
       "text": "もんだいの （なんい） を くらべる。",
       "answer": "難易",
       "meaning": ""
@@ -11337,8 +12876,8 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1361,
-      "text": "まいにち （にゅう）。",
-      "answer": "乳",
+      "text": "（ぎゅうにゅう） を コップに つぐ。",
+      "answer": "牛乳",
       "meaning": ""
     },
     {
@@ -11355,7 +12894,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1381,
-      "text": "せつめいを 聞いて （なっとく） する。",
+      "text": "理由を 聞いて （なっとく） する。",
       "answer": "納得",
       "meaning": ""
     },
@@ -11364,7 +12903,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1391,
-      "text": "（のう） の はたらきを しらべる。",
+      "text": "（のう） の はたらきを 理科で 学ぶ。",
       "answer": "脳",
       "meaning": ""
     },
@@ -11373,6 +12912,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1401,
+      "text": "（はんたいは） の いけんも 聞く。",
+      "answer": "反対派",
+      "meaning": ""
+    },
+    {
+      "id": "g6-派-140-okuri",
+      "grade": 6,
+      "term": 3,
+      "order": 1403,
       "text": "（はで） な 色の 服を えらぶ。",
       "answer": "派手",
       "meaning": ""
@@ -11382,6 +12930,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1411,
+      "text": "お寺で 手を 合わせて （おがむ）。",
+      "answer": "拝む",
+      "meaning": ""
+    },
+    {
+      "id": "g6-拝-141-okuri",
+      "grade": 6,
+      "term": 3,
+      "order": 1413,
       "text": "しりょうを （はいけん） して 学ぶ。",
       "answer": "拝見",
       "meaning": ""
@@ -11391,6 +12948,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1421,
+      "text": "（せなか） を まっすぐ のばす。",
+      "answer": "背中",
+      "meaning": ""
+    },
+    {
+      "id": "g6-背-142-okuri",
+      "grade": 6,
+      "term": 3,
+      "order": 1423,
       "text": "父が （せびろ） を 着る。",
       "answer": "背広",
       "meaning": ""
@@ -11400,7 +12966,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1431,
-      "text": "（はい） の はたらきと こきゅうの 関係を 学ぶ。",
+      "text": "（はい） の はたらきを 理科で 学ぶ。",
       "answer": "肺",
       "meaning": ""
     },
@@ -11418,8 +12984,8 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1451,
-      "text": "（はん） の 友だちと 話し合う。",
-      "answer": "班",
+      "text": "（はんちょう） を 中心に 話し合う。",
+      "answer": "班長",
       "meaning": ""
     },
     {
@@ -11427,8 +12993,8 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1461,
-      "text": "きょうは （ばん） だ。",
-      "answer": "晩",
+      "text": "（こんばん） は 早く ねる。",
+      "answer": "今晩",
       "meaning": ""
     },
     {
@@ -11436,6 +13002,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1471,
+      "text": "すぐに （ひてい） せず 理由を 聞く。",
+      "answer": "否定",
+      "meaning": ""
+    },
+    {
+      "id": "g6-否-147-okuri",
+      "grade": 6,
+      "term": 3,
+      "order": 1473,
       "text": "その いけんへの （さんぴ） が 分かれる。",
       "answer": "賛否",
       "meaning": ""
@@ -11445,7 +13020,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1481,
-      "text": "ただ せめるのでなく、理由を そえて （ひはん） する。",
+      "text": "ただ （ひはん） するのではなく 理由を そえる。",
       "answer": "批判",
       "meaning": ""
     },
@@ -11454,7 +13029,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1491,
-      "text": "（ひみつ） を 守る。",
+      "text": "（ひみつ） を うっかり 話さない。",
       "answer": "秘密",
       "meaning": ""
     },
@@ -11463,6 +13038,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1501,
+      "text": "（はら） が いたい ときは むりを しない。",
+      "answer": "腹",
+      "meaning": ""
+    },
+    {
+      "id": "g6-腹-150-okuri",
+      "grade": 6,
+      "term": 3,
+      "order": 1503,
       "text": "（くうふく） の ときは 集中しにくい。",
       "answer": "空腹",
       "meaning": ""
@@ -11472,7 +13056,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1511,
-      "text": "試合の 前で （こうふん） する。",
+      "text": "（こうふん） して ねむれない 夜も ある。",
       "answer": "興奮",
       "meaning": ""
     },
@@ -11481,7 +13065,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1521,
-      "text": "（なみき） の 下を 歩く。",
+      "text": "（なみき） の ある 道を 歩く。",
       "answer": "並木",
       "meaning": ""
     },
@@ -11490,8 +13074,8 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1531,
-      "text": "（へい） を よく 見る。",
-      "answer": "陛",
+      "text": "（へいか） という ことばを 社会で 学ぶ。",
+      "answer": "陛下",
       "meaning": ""
     },
     {
@@ -11499,8 +13083,8 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1541,
-      "text": "（へい） を よく 見る。",
-      "answer": "閉",
+      "text": "本を 読み終えたら （とじる）。",
+      "answer": "閉じる",
       "meaning": ""
     },
     {
@@ -11508,6 +13092,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1551,
+      "text": "（かたほう） だけ くつひもが ほどけた。",
+      "answer": "片方",
+      "meaning": ""
+    },
+    {
+      "id": "g6-片-155-okuri",
+      "grade": 6,
+      "term": 3,
+      "order": 1553,
       "text": "（かたて） で もてる か 試す。",
       "answer": "片手",
       "meaning": ""
@@ -11517,6 +13110,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1561,
+      "text": "たりない ぶんを （おぎなう）。",
+      "answer": "補う",
+      "meaning": ""
+    },
+    {
+      "id": "g6-補-156-okuri",
+      "grade": 6,
+      "term": 3,
+      "order": 1563,
       "text": "弱い ところを （ほきょう） する。",
       "answer": "補強",
       "meaning": ""
@@ -11526,8 +13128,8 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1571,
-      "text": "（ぼ） を よく 見る。",
-      "answer": "暮",
+      "text": "家ぞくと なかよく （くらす）。",
+      "answer": "暮らす",
       "meaning": ""
     },
     {
@@ -11535,6 +13137,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1581,
+      "text": "大切な （たからもの） を しまっておく。",
+      "answer": "宝物",
+      "meaning": ""
+    },
+    {
+      "id": "g6-宝-158-okuri",
+      "grade": 6,
+      "term": 3,
+      "order": 1583,
       "text": "（ほうせき） が 光る。",
       "answer": "宝石",
       "meaning": ""
@@ -11553,8 +13164,8 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1601,
-      "text": "まいにち （ぼう）。",
-      "answer": "亡",
+      "text": "たいせつな 人が （なくなる）。",
+      "answer": "亡くなる",
       "meaning": ""
     },
     {
@@ -11562,8 +13173,8 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1611,
-      "text": "まいにち （ぼう）。",
-      "answer": "忘",
+      "text": "（わすれもの） が ないか たしかめる。",
+      "answer": "忘れ物",
       "meaning": ""
     },
     {
@@ -11571,7 +13182,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1621,
-      "text": "体育で （てつぼう） の れんしゅうを する。",
+      "text": "（てつぼう） で 前回りを れんしゅうする。",
       "answer": "鉄棒",
       "meaning": ""
     },
@@ -11580,6 +13191,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1631,
+      "text": "紙を （いちまい） えらんで 使う。",
+      "answer": "一枚",
+      "meaning": ""
+    },
+    {
+      "id": "g6-枚-163-okuri",
+      "grade": 6,
+      "term": 3,
+      "order": 1633,
       "text": "使った 紙の （まいすう） を 数える。",
       "answer": "枚数",
       "meaning": ""
@@ -11589,7 +13209,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1641,
-      "text": "大会が いよいよ （かいまく） する。",
+      "text": "大会が （かいまく） する。",
       "answer": "開幕",
       "meaning": ""
     },
@@ -11598,6 +13218,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1651,
+      "text": "人が （みっしゅう） しないように ならぶ。",
+      "answer": "密集",
+      "meaning": ""
+    },
+    {
+      "id": "g6-密-165-okuri",
+      "grade": 6,
+      "term": 3,
+      "order": 1653,
       "text": "（しんみつ） な なかまが 集まる。",
       "answer": "親密",
       "meaning": ""
@@ -11607,7 +13236,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1661,
-      "text": "れきしの 授業で （どうめい） について 学ぶ。",
+      "text": "（どうめい） という ことばを れきしで 学ぶ。",
       "answer": "同盟",
       "meaning": ""
     },
@@ -11616,7 +13245,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1671,
-      "text": "建物の （もけい） を 作る。",
+      "text": "（もけい） を 作って しくみを 学ぶ。",
       "answer": "模型",
       "meaning": "ほんものに にせて 作った もの。"
     },
@@ -11625,6 +13254,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1681,
+      "text": "この 文を 日本語に （やくす）。",
+      "answer": "訳す",
+      "meaning": ""
+    },
+    {
+      "id": "g6-訳-168-okuri",
+      "grade": 6,
+      "term": 3,
+      "order": 1683,
       "text": "外国の 人の ことばを （つうやく） する。",
       "answer": "通訳",
       "meaning": ""
@@ -11634,7 +13272,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1691,
-      "text": "（ゆうびん） を ポストに 入れる。",
+      "text": "（ゆうびん） で 手紙を 送る。",
       "answer": "郵便",
       "meaning": ""
     },
@@ -11643,6 +13281,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1701,
+      "text": "大会で （ゆうしょう） を めざす。",
+      "answer": "優勝",
+      "meaning": ""
+    },
+    {
+      "id": "g6-優-170-okuri",
+      "grade": 6,
+      "term": 3,
+      "order": 1703,
       "text": "（ゆうしゅう） な 作文が えらばれる。",
       "answer": "優秀",
       "meaning": ""
@@ -11652,17 +13299,17 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1711,
-      "text": "（ようじ） が 公園で あそぶ。",
-      "answer": "幼児",
-      "meaning": "小さい 子ども。"
+      "text": "（ようちゅう） が さなぎに かわる。",
+      "answer": "幼虫",
+      "meaning": ""
     },
     {
       "id": "g6-欲-172-write",
       "grade": 6,
       "term": 3,
       "order": 1721,
-      "text": "まいにち （よく）。",
-      "answer": "欲",
+      "text": "夏ばてで （しょくよく） が なくなる。",
+      "answer": "食欲",
       "meaning": ""
     },
     {
@@ -11670,8 +13317,8 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1731,
-      "text": "まいにち （よく）。",
-      "answer": "翌",
+      "text": "（よくじつ） に へんじを 出す。",
+      "answer": "翌日",
       "meaning": ""
     },
     {
@@ -11679,6 +13326,15 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1741,
+      "text": "風で かみが （みだれる）。",
+      "answer": "乱れる",
+      "meaning": ""
+    },
+    {
+      "id": "g6-乱-174-okuri",
+      "grade": 6,
+      "term": 3,
+      "order": 1743,
       "text": "教室が （こんらん） しないように 行動する。",
       "answer": "混乱",
       "meaning": ""
@@ -11688,7 +13344,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1751,
-      "text": "（らん） を よく 見る。",
+      "text": "（たまご） を わって 料理する。",
       "answer": "卵",
       "meaning": ""
     },
@@ -11697,8 +13353,8 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1761,
-      "text": "（はくらんかい） で 新しい ぎじゅつに ふれる。",
-      "answer": "博覧会",
+      "text": "（いちらん） を 見て 予定を たしかめる。",
+      "answer": "一覧",
       "meaning": ""
     },
     {
@@ -11706,8 +13362,8 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1771,
-      "text": "（り） を よく 見る。",
-      "answer": "裏",
+      "text": "（うらぐち） から しずかに 入る。",
+      "answer": "裏口",
       "meaning": ""
     },
     {
@@ -11715,7 +13371,7 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1781,
-      "text": "（ほうりつ） を 守って くらす。",
+      "text": "（ほうりつ） の きほんを 社会で 学ぶ。",
       "answer": "法律",
       "meaning": "社会の きまり。"
     },
@@ -11724,8 +13380,8 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1791,
-      "text": "（りん） を よく 見る。",
-      "answer": "臨",
+      "text": "（りんじ） の お知らせを 読む。",
+      "answer": "臨時",
       "meaning": ""
     },
     {
@@ -11733,8 +13389,8 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1801,
-      "text": "まいにち （ろう）。",
-      "answer": "朗",
+      "text": "物語を （ろうどく） して 聞かせる。",
+      "answer": "朗読",
       "meaning": ""
     },
     {
@@ -11742,8 +13398,8 @@ window.GRADE_QUESTIONS = {
       "grade": 6,
       "term": 3,
       "order": 1811,
-      "text": "（ろん） を よく 見る。",
-      "answer": "論",
+      "text": "テーマを 決めて （ぎろん） する。",
+      "answer": "議論",
       "meaning": ""
     }
   ]
